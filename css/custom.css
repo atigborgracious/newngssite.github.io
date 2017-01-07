@@ -1,6 +1,7 @@
 body, html {
   /* prevent horizontal scrolling */
   overflow-x: hidden;
+	font-family: 'Didact Gothic', sans-serif;
 }
 
 @font-face {
@@ -25,7 +26,7 @@ margin:0;
 /*-- /reset code --*/
 body {
 	background-color: #f2f2f2;
-    font-family:    Century Gothic, sans-serif;
+   font-family: 'Didact Gothic', sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: #dfdfdf;
@@ -34,7 +35,7 @@ body {
 }
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Helvetica Neue', Helvetica,"Raleway";
+    font-family: 'Didact Gothic', sans-serif;
     font-weight: 300;
     color: #dfdfdf;
 }
@@ -54,10 +55,10 @@ p{
 	text-align:justify;	
     text-justify:kashida;
     font-size: 18px;
-    font-family: Century Gothic;
+    font-family: 'Didact Gothic', sans-serif;
 }
 .intro-info p {
-    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+ font-family: 'Didact Gothic', sans-serif;
     color:#dfdfdf;
 	font-size: 22px;
     font-weight: 400;
@@ -66,7 +67,7 @@ p{
 #intro h4 {
 	font-size: 30px;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     padding: 20px 0;
 }
 /* Required */
@@ -257,7 +258,7 @@ p.your-para {
 #footerwrap label {
 	font-size: 18px;
     font-weight: 100;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
 	padding:10px 0;
 }
 
