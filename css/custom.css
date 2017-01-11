@@ -170,7 +170,7 @@ section.our-gallery  h3.text-center{
 	padding:0px 0 20px;
 }
 section.our-gallery img.img-responsive {
-	width: 100px;
+	width: 280px;
     border-radius: 0px;
     margin-bottom: 5px;
 	opacity:0.89;
@@ -375,3 +375,13 @@ border-width:100%;
 
 #socialicon{float:right;}
 
+
+@media screen and (max-width: 440px) {
+   section.our-gallery img.img-responsive {
+	width: 155px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+	opacity:0.89;
+	display: inline;
+}
+}
