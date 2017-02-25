@@ -7,7 +7,7 @@ background-color: #363636;
 /*****Transparent*****/
 section
 {
-  background:yellow;
+
 }
 .banner
 {
@@ -54,7 +54,7 @@ ul li .dropdown-menu {
  
   .opaque-navbar ul li{
     background-color: black;
-    height: 40px;
+    height: auto;
     transition: background-color .5s ease 0s;
 }
 
@@ -413,3 +413,140 @@ ul li .dropdown-menu {
     }
 
 }
+
+/******CONTACT FORM*******/
+.contact-info [type="text"],.contact-info textarea {
+    width: 100%;
+    padding:15px 15px;
+    color: #737171;
+    background: #fff;
+    outline: none;
+    border: 1px solid #DADADA;
+    -webkit-appearance: none;
+	outline:none;
+}
+.contact-info textarea {
+	min-height: 150px;
+    resize: none;
+}
+p.your-para {
+    color: #fff;
+    font-size: 0.9em;
+    margin: 5px 0 8px 0;
+    font-weight: 600;
+}
+.send input[type="submit"] {
+    background: #3a79d7;
+	font-weight:600;
+    outline: none;
+    font-size: 1em;
+    margin: 16px 0px;
+    border: none;
+    padding: 0.6em 2em;
+    color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+}
+.send input[type="submit"]:hover {
+	background:#DC965A;
+}
+
+
+
+.carousel-inner > .items img {
+    left : 0;
+    min-width: 100%;
+    height: auto;
+    
+}  
+
+.carousel-inner > .items{
+    height: 560px;
+}
+
+
+/*-- Gallery --*/
+section.our-gallery {
+	text-align: center;
+	padding:50px 0;
+}
+section.our-gallery  h3.text-center{
+	padding:0px 0 20px;
+}
+section.our-gallery img.img-responsive {
+	width: 280px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+	opacity:0.89;
+	display: inline;
+}
+section.our-gallery img.img-responsive:hover {
+	opacity:1;
+}
+section.our-gallery p {
+	font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+	padding:0 0 50px;	
+}
+/*-- /Gallery --*/
+#panel,#panel2,#panel3 , 
+#panel4,
+#panel5,
+#panel6 ,
+#flip,#flip2,#flip3 ,
+#flip4,
+#flip5,
+#flip6
+{
+    padding: 5px;
+    text-align: center;
+    background-color: #3a79d7;
+	color:white;
+	margin-top:5px;
+}
+
+#panel,#panel2,#panel3,#panel4,#panel5,#panel6 {
+    padding: 5px;
+    display: none;
+}
+@media screen and (max-width: 440px) {
+   section.our-gallery img.img-responsive {
+	width: 155px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+	opacity:0.89;
+	display: inline;
+}
+}
+
+@media screen and (max-width: 600px){
+    .carousel-inner > .items{
+    height: 509px;
+     margin-top:50px;        
+}
+
+    
+}
+
+#copyright {
+	background: #222222;
+	
+	margin-top:-20px;
+	text-align: center;
+}
+#copyright p , #copyright p a {
+  text-align: center;
+	color:#fff;	
+	font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+}
+#copyright p a:hover {
+	color:#CCB76C;
+} 
