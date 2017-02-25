@@ -527,7 +527,7 @@ section.our-gallery p {
 
 @media screen and (max-width: 600px){
     .carousel-inner > .items{
-    height: 509px;
+    height: 209px;
      margin-top:50px;        
 }
 
