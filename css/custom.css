@@ -2,8 +2,14 @@ body{
 background-color: #363636;
 
 }
+address {
+    font-size: 140%;
+}
+.aboutus {
 
-
+    padding: 10% 0;
+    font-size: 140%;
+}
 /*****Transparent*****/
 section
 {
@@ -32,26 +38,27 @@ section
 .opaque-navbar {
     background-color: rgba(255,222,173,0.1);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
-    height: 60px;
+    height: 55px;
     border-bottom: 0px;
     transition: background-color .5s ease 0s;
-    margin-bottom: 2px;
+   
 }
 
 .opaque-navbar.opaque {
     background-color: black;
-    height: 60px;
-      margin-bottom: 2px;
+    height: 55px;
+  
     transition: background-color .5s ease 0s;
 }
 
 ul li .dropdown-menu {
     background-color: black;
+   
 }
 
 
 @media (max-width: 992px) {
- 
+
   .opaque-navbar ul li{
     background-color: black;
     height: auto;
@@ -129,6 +136,12 @@ ul li .dropdown-menu {
 
 
 
+.log {
+    display:block;
+}
+.log2 {
+    display:none;
+}
 
 
 /*---------- LEFT/RIGHT ROUND CONTROL ----------*/
@@ -384,6 +397,12 @@ ul li .dropdown-menu {
     .control-round .carousel-control{
         display: none;
     }
+    .log{
+        display: none;
+    }
+     .log2{
+        display: block;
+    }
 
 }
 @media  (max-width: 480px) {
@@ -515,7 +534,7 @@ section.our-gallery p {
     padding: 5px;
     display: none;
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 400px) {
    section.our-gallery img.img-responsive {
 	width: 155px;
     border-radius: 0px;
