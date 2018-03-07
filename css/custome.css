@@ -57,7 +57,7 @@ font-size: 1rem;
     left : 0;
     background: #000;
     z-index: 1;
-    opacity: 0.95;
+    opacity: 0.65;
 }
 
 .header-content {
@@ -70,6 +70,7 @@ font-size: 1rem;
   
     color: #c9c9c9;
 }
+
 
 .process{
     align-content: center;
@@ -250,7 +251,7 @@ footer span {
 }
 
 #sf .col-md-6 {
-    margin: 0;
+  
     padding: 5px;
 }
 
@@ -328,9 +329,39 @@ footer span {
     text-decoration: underline; 
     
 }
-.web_design .border2{
-    
+
+
+#sf .contact_left {
+    background: url("../img/serv8.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+    text-align: center;
 }
+
+#sf .contact_right {
+       background: url("../img/contact_right.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    padding : 4%;
+}
+
+.right_content, .contact_title {
+   
+    margin-top : 30%;
+    width:100%;
+     height: auto;
+    text-align: center;
+}
+
+
+
 
 .strategy {
     background-color: #17b7c1;
@@ -356,6 +387,7 @@ footer span {
 .mycard {
     width: 75%; 
     margin: auto;
+    
 }
 
 .card-block2 {
@@ -363,13 +395,14 @@ footer span {
     margin : 2% auto;
     border-bottom: solid 3px #22e1ec ;
      border-top: solid 3px #22e1ec;
+    height : 400px;
 }
 
 .card-block2 img {
     margin-top: 10%;
 }
 
-.card-block2 h3 {
+.card-block2 h4 {
     padding-top: 5%;
     text-align: left;
     padding-left: 5%;
@@ -395,9 +428,9 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
     margin: 1% 3px;
-    height: 300px;
+    height: 365px;
     color: #fff;
-    padding: 1%;
+    padding: 4%;
 }
 
 .service2 {
@@ -407,9 +440,9 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
    margin: 1% 3px;
-    height: 300px;
+    height: 365px;
     color: #fff;
-    padding: 1%;
+    padding: 4%;
 }
 
 .service3 {
@@ -419,9 +452,9 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
    margin: 1% 3px;
-    height: 300px;
+    height: 365px;
     color: #fff;
-    padding: 1%;
+    padding: 4%;
 }
 
 .service4 {
@@ -431,9 +464,9 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
    margin: 1% 3px;
-    height: 300px;
+    height: 365px;
     color: #fff;
-    padding: 1%;
+    padding: 4%;
 }
 
 .service5 {
@@ -443,9 +476,9 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
     margin: 1% 3px;
-    height: 300px;
+    height: 365px;
     color: #fff;
-    padding: 1%;
+    padding: 4%;
 }
 
 .service6 {
@@ -455,9 +488,9 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
    margin: 1% 3px;
-    height: 300px;
+    height: 365px;
     color: #fff;
-    padding: 1%;
+    padding: 4%;
 }
 
 .service7 {
@@ -467,9 +500,9 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
    margin: 1% 3px;
-    height: 300px;
+    height: 365px;
     color: #fff;
-    padding: 1%;
+    padding: 4%;
 }
 
 .service8 {
@@ -479,9 +512,9 @@ footer span {
   -o-background-size: cover;
   background-size: cover;
    margin: 1% 3px;
-    height: 300px;
+    height: 365px;
     color: #fff;
-    padding: 1%;
+    padding: 4%;
 }
 
 .service1 span img{
@@ -578,6 +611,27 @@ footer span {
     width:100%; 
     margin: auto;
 }
+    
+  /*  #sf .contact_left {
+    background: url("../img/serv8.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 60vh;
+    text-align: center;
+}
+
+#sf .contact_right {
+       background: url("../img/contact_right.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+    text-align: center;
+    padding : 4%;
+} */
     
 }
 
@@ -728,5 +782,210 @@ a {
     width: -webkit-calc(100% - 0.5rem);
     width: calc(100% - 0.5rem);
   }
+    
+    .portvideo {
+margin : 1%;
+}
+
  
+}
+
+
+@media screen and (max-width: 414px) { 
+    .process p {
+    margin : 0 25%;
+}
+    
+#sf .web_design h1 { 
+    width : 100%;
+   position: absolute;
+     text-decoration: none;
+}  
+    #sf .video_editing h1 { 
+        
+    width : 100%;
+   position: absolute;
+     text-decoration: none;
+}
+    #sf .graphic_design h1 { 
+    width : 100%;
+   position: absolute;
+     text-decoration: none;
+}
+    
+    #sf .web_design  { 
+    margin-top: 5px;
+}
+      #sf .video_editing  { 
+        margin-top: 5px;
+}
+    
+    #sf .graphic_design {
+        margin-top: 5px;
+    }
+    
+    .title span {
+    font-weight: 100;
+   border-bottom: none;
+    opacity: 0.6;
+}
+    
+    .title4  h5 {
+     opacity: 0.7;   
+    }
+    
+    
+    .service1 {
+    background: url("../img/serv1.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 5%;
+}
+
+.service2 {
+    background: url("../img/serv2.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 5%;
+}
+
+.service3 {
+    background: url("../img/serv3.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 5%;
+}
+
+.service4 {
+    background: url("../img/serv4.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 5%;
+}
+
+.service5 {
+    background: url("../img/serv5.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 5%;
+}
+
+.service6 {
+    background: url("../img/serv6.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 5%;
+}
+
+.service7 {
+    background: url("../img/serv7.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 5%;
+}
+
+.service8 {
+    background: url("../img/serv8.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   margin: 1% 3px;
+    height: auto;
+    color: #fff;
+    padding: 5%;
+}
+
+    
+    #sf .contact_left {
+    background: url("../img/serv8.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 50vh;
+    text-align: center;
+}
+
+#sf .contact_right {
+       background: url("../img/contact_right.jpg") no-repeat center top; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    padding : 4%;
+}
+    
+}
+
+.view_site {
+    color : #000;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.view_site .viewsite_border {
+    background-color: #404040;
+    border-radius: 5px;
+    color: #fff;
+    padding : 10px;
+}
+
+/*******TAB******/
+.footer_link {
+    text-align: center;
+    color: #fff !important;
+    text-decoration: none;
+    margin-bottom: 0px !important;
+}
+.footer_link ul >li {
+    display: inline-block;
+        list-style:none;
+    color: #fff !important;
+    text-decoration: none;
+    padding:5px;
+}
+
+.footer_link ul >li a {
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
 }
