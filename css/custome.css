@@ -145,10 +145,15 @@ svg text {
     
 }
 
+.enroll_container ul {
+    margin-left: -5%;
+}
+
 .enroll_container ul >li {
     padding : 5px 10px;
     display: inline-block;
     text-decoration: none;
+   
 }
 
 .enroll_container ul a {
@@ -179,8 +184,24 @@ svg text {
     color: #120842;
     font-size: 4em;
     font-weight: 900; 
-    padding-top: 15px;
+    padding-top: 7px;
     letter-spacing: 5px;
+    text-align: center;
+}
+.founder_container h4 {
+    color: #120842;
+    font-size: 1.6rem;
+    font-weight: 900; 
+    padding-top: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.founder_container h5 {
+    color: #120842;
+    font-size: 1.4rem;
+    font-weight: 900; 
+    padding-top: 15px;
+    letter-spacing: 2px;
     text-align: center;
 }
 .founder_container p {
@@ -564,6 +585,9 @@ body, html {
     align-content: center;
     padding : 5% 2%;  
     
+}
+    .enroll_container ul {
+    margin-left: -10%;
 }
     
      .navbar-toggle {
