@@ -187,9 +187,8 @@ We also offer other foreign language classes online like Korean and french etc. 
          <section class="row">
              <section class="col-sm-12 mx-auto  text-center">
                  <h1>Connect Now!</h1><br/>
-                 <p class="enroll"><span><a href="#">Join As A Student</a></span>
-                     <span><a href="#">Join As A Tutor </a></span></p>
-                
+                 <p  class="enroll"><span ><a href="#" data-toggle="modal" data-target="#student">Join As A Student</a></span>
+                     <span><a href="#" data-toggle="modal" data-target="#tutor">Join As A Tutor </a></span></p>
                  <ul>
                       <li><a href="index.html">home</a></li>
                      <li><a href="company.html">about us</a></li>
@@ -200,6 +199,71 @@ We also offer other foreign language classes online like Korean and french etc. 
           </section>
            </div>
       </div>
+      
+      
+       <div class="modal fade" id="student" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h3 class="modal-title" style="color:#120842; text-align: center;">STUDENT</h3></div>
+                                    <div class="modal-body">
+                                   <form class="contact-grids"   name="contactform" method="post" action="student.php">
+                                       
+                                        <input type="text" name="first_name" maxlength="50" size="30" placeholder="enter your full name">
+                                       
+                                         <input type="text" name="phone" maxlength="50" size="30" placeholder="enter your phone number"> 
+                                       
+                                         <input type="text" name="email" maxlength="50" size="30" placeholder="enter your email id"> 
+                                       
+                                         <input type="text" name="address" maxlength="50" size="30" placeholder="enter your address"> 
+                                       
+                                       <input type="submit" value="Submit" style="margin-right:25px;margin-bottom:5%;">
+                                    
+                   </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+          
+          
+           <div class="modal fade" id="tutor" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h3 class="modal-title" style="color:#120842;">TUTOR</h3></div>
+                                    <div class="modal-body">
+                                   <form class="contact-grids"   name="contactform" method="post" action="tutor.php">
+                                       
+                                        <input type="text" name="first_name" maxlength="50" size="30" placeholder="enter your full name">
+                                       
+                                         <input type="text" name="phone" maxlength="50" size="30" placeholder="enter your phone number"> 
+                                       
+                                         <input type="text" name="email" maxlength="50" size="30" placeholder="enter your email id"> 
+                                       
+                                         <input type="text" name="address" maxlength="50" size="30" placeholder="enter your address"> 
+                                       
+                                       <input type="submit" value="Submit" style="margin-right:25px;margin-bottom:5%;">
+                                    
+                   </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+          
+          
+          
+      
+      
       <footer >
             <div class="container " >
          
