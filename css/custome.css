@@ -85,26 +85,26 @@ font-size: 1rem;
 .board {
     color:#fed52b;
     letter-spacing: 15px;
-    font-size: 6em;
+    font-size: 4.5em;
     font-weight: bolder;
 }
 .board2 {
     color:#ff6682;
     letter-spacing: 15px;
-    font-size: 6em;
+    font-size: 4.5em;
     font-weight: bolder;
 }
 
 .board3 {
     color:#ec8b32;
     letter-spacing: 15px;
-    font-size: 6em;
+    font-size: 4.5em;
     font-weight: bolder;
 }
 .board4 {
     color:#57cdd7;
     letter-spacing: 15px;
-    font-size: 6em;
+    font-size: 4.5em;
     font-weight: bolder;
 }
 
@@ -191,7 +191,7 @@ background-size: cover;
 .sells .img-fluid {
 width: auto;
     height:100% ;
-    opacity: 0.9;
+    opacity: 0.7;
 }
 
 .sells2 { background: url(../img/rev_home.jpg)no-repeat 0px 0px;
@@ -210,6 +210,25 @@ width:auto ;
     opacity: 0.9;
 }
 
+.sells3 { background: url(../img/sponkeyz.jpg)no-repeat 0px 0px;
+    margin: 0;
+	padding: 0;
+    display: block;
+background-size: cover;
+     width: 100%;
+	height:auto;
+    padding: 1% 0;
+   }
+.sells3 .img-fluid {
+width:auto ;
+    height: 100%;
+   
+}
+.sells3 img {
+     opacity: 0.5!important;
+}
+
+
 .main_container {
     background-color:#2a3a53 ;
     width: 100%;
@@ -227,38 +246,8 @@ width:auto ;
     height: auto;
 }
 
-.home_rev {
-    background: url(../img/rev_home2.jpg) no-repeat center top ;
-    height: auto;
-     padding-bottom: 2%;
-     margin-top: -5%;
-    margin-bottom: 3%;
-    z-index: 9999;
-}
 
 
-.home_rev span {
-    background-color: #fff ;
-    padding: 5px 15px;
-    margin-bottom: 4%;
-    border-radius: 3px;
-}
-.home_spon {
-    background: url(../img/home_spon2.jpg) no-repeat center top ;
-    width:100%;
-    height:auto;
-     padding-bottom: 2%;
-    margin-bottom: 3%;
-   margin-top: -5%;
-    z-index: 9999;
-}
-
-.home_spon span {
-    background-color: #fff ;
-    padding: 5px 15px;
-    margin-bottom: 4%;
-    border-radius: 3px;
-}
 
 .home_what {
     max-width:20%;
@@ -281,14 +270,14 @@ width:auto ;
 }
 .home_service {
 float: left;
-    padding: 5% 0;
+    padding: 2% 0;
 }
 
-.home_service h5 {
+.home_service p {
      font-family: 'gothic','Open Sans',sans-serif;
     color:#fff;
     font-weight: lighter;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     
 }
 
@@ -429,26 +418,26 @@ width:100% ;
   .board {
     color:#fed52b;
     letter-spacing: 3px;
-    font-size:2.6em;
+    font-size:2em;
     font-weight: lighter;
 }  
 .board2 {
     color:#ff6682;
     letter-spacing: 3px;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: lighter;
 }
  .board3 {
     color:#ec8b32;
     letter-spacing: 3px;
-    font-size:2.6em;
+    font-size:2em;
     font-weight: lighter;
 }  
 
     .board4 {
     color:#57cdd7;
     letter-spacing: 3px;
-    font-size: 2.4em;
+    font-size: 2em;
     font-weight: lighter;
 }
     
@@ -588,28 +577,6 @@ a {
   margin: auto;
 }
 
-@media screen and (max-width: 850px) {
-    .home_rev {
-    background: url(../img/rev_home2.jpg) no-repeat center top ;
-    height: auto;
-     padding-bottom: 2%;
-     margin-top: 5%;
-    margin-bottom: 3%;
-    z-index: 9999;
-}
-
-
-.home_spon {
-    background: url(../img/home_spon2.jpg) no-repeat center top ;
-    width:100%;
-    height:auto;
-     padding-bottom: 2%;
-    margin-bottom: 3%;
-   margin-top: 5%;
-    z-index: 9999;
-} 
-   
-}
 
 @media screen and (max-width: 768px) {
   .menu {
