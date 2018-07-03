@@ -1,384 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>DevFocus</title>
-
-	
-	
-    <!-- Bootstrap -->
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/animate.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	
-	<!--EaseIn-->
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-	
-
-<!-- js -->
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<!-- //js -->
-<!-- animation-effect -->
-<link href="css/animate.min.css" rel="stylesheet"> 
-<script src="js/wow.min.js"></script>
-<script>
- new WOW().init();
-</script>
-<!-- //animation-effect -->
-<!--FlexSlider-->
-		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-		<script defer src="js/jquery.flexslider.js"></script>
-		<script type="text/javascript">
-		$(window).load(function(){
-		  $('.flexslider').flexslider({
-			animation: "slide",
-			start: function(slider){
-			  $('body').removeClass('loading');
-			}
-		  });
-		});
-	  </script>
-<!--End-slider-script-->
-<link href='//fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DREAM AFRICA</title>
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.css" >
+       <link rel="stylesheet" href="css/fonts.css" >
+	  <link  rel="stylesheet"  href="css/custome.css">
+      <link  rel="stylesheet"  href="css/aos.css">
+      
+      
+      <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+       <script type="text/javascript" src="js/bootstrap.js"></script>
+       <script type="text/javascript" src="js/popper.js"></script>
+   
+      <link href='//fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
-	<!--EndOfEase-->
-	
-<script type="text/javascript">
-$(document).ready(function() {
-    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
-        e.preventDefault();
-        $(this).siblings('a.active').removeClass("active");
-        $(this).addClass("active");
-        var index = $(this).index();
-        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
-        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
-    });
-});
-</script>	
+      
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class = "container">
-	  <button type="button" class="navbar-toggle"
-	    data-toggle="collapse"
-		data-target=".navbar-collapse">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		</button>
-		
-		 <div class="navbar-collapse collapse">
-		 <ul class="nav navbar-nav navbar-right" style="text-color:white;">
-		 <li class="hm"><a href="index.html">Home</a>
-		 </li>
-		 <li class="mi dropdown" >
-		 <a  href="#mission" class="dropdowm-toggle "
-		 data-toggle ="dropdown" >
-		 About Us <b class="caret"></a></b>
-		 <ul class="dropdown-menu">
-		 <li><a href="#">Board Of Trustees</a></li>
-		 <li><a href="#">Team</a></li>
-		 <li><a href="#">Networks & Alliances</a></li>
-		 <li><a href="#">Annual Reports </a></li>
-		 <li><a href="#">Registration & Compliances</a></li>
-		 </ul>
-		 </li>
-		 <li class="sr dropdown"> <a  href="#mission" class="dropdowm-toggle "
-		 data-toggle ="dropdown" >
-		 Our Work
-		 <b class="caret"></a></b>
-		 <ul class="dropdown-menu">
-		 <li><a href="#">Thematic Focus</a></li>
-		 <li><a href="#">Geographical Focus</a></li>
-		 <li><a href="#">Programmatic Approach</a></li>
-		 <li><a href="#">Programs & Projects </a></li>
-		 <li><a href="#">Partners In Field</a></li>
-		 </ul>
-		 </li>
-		 <li class="Pt"><a href="#port">Resources</a>
-		 </li>
-		 <li class="abt"><a href="#about">Join Hands</a>
-		 </li>
-		 <li class="cnt"><a href="#contact">Gallery</a>
-		 </li>
-		 <li class="blg"><a href="#contact">Blog</a>
-		 </li>
-		 
-		 </ul>
-		 </div>
-	</div>
-	</nav>
-	
-	
-	 
-	<div class="container "  > 
-	
-	<p style="text-align:center; padding-top:40px;">
-	 <button type=button class ="btn btn-lg btn-primary" style="font-size:170%; ">
-	 OUR TEAM
-	 </button>
-	 </p> 
-	 <div class="col-md-4 animated wow slideInRight" data-wow-delay=".9s">
-	 <div class= "thumbnail" style="border:4px;">
-	    <img src ="img/sam.png">
-		</div>
-		<p style="font-size:140%;">
-		A just and humane society that ensures equal opportunities for
-		quality of life to every citizen of India through relevant and 
-		quality education to the most marginalized. <br/>
-		 <button type=button class ="btn btn-sm btn-info"  >
-	 read more..
-	 </button>
-		</p>
-	</div>
-	<div class="col-md-4 animated wow zoomIn" data-wow-delay=".9s">
-	 <div class= "thumbnail" style="border:4px;">
-	    <img src ="img/sam.png">
-		</div>
-		<p style="font-size:140%;">
-		A just and humane society that ensures equal opportunities for
-		quality of life to every citizen of India through relevant and 
-		quality education to the most marginalized. <br/>
-		 <button type=button class ="btn btn-sm btn-info"  >
-	 read more..
-	 </button>
-		</p>
-	</div>
-	<div class="col-md-4 animated wow slideInLeft" data-wow-delay=".9s">
-	 <div class= "thumbnail" style="border:4px;">
-	    <img src ="img/sam.png">
-		</div>
-		<p style="font-size:140%;">
-		A just and humane society that ensures equal opportunities for
-		quality of life to every citizen of India through relevant and 
-		quality education to the most marginalized. <br/>
-		 <button type=button class ="btn btn-sm btn-info"  >
-	 read more..
-	 </button>
-		</p>
-	</div>
-	
-	</div>
-	</div><br/><br/>
-	<div class="container "  >  
-	 <div class="col-md-4 animated wow slideInRight" data-wow-delay=".9s">
-	 <div class= "thumbnail" style="border:4px;">
-	    <img src ="img/sam.png">
-		</div>
-		<p style="font-size:140%;">
-		A just and humane society that ensures equal opportunities for
-		quality of life to every citizen of India through relevant and 
-		quality education to the most marginalized. <br/>
-		 <button type=button class ="btn btn-sm btn-info"  >
-	 read more..
-	 </button>
-		</p>
-	</div>
-	<div class="col-md-4 animated wow zoomIn" data-wow-delay=".9s">
-	 <div class= "thumbnail" style="border:4px;">
-	    <img src ="img/sam.png">
-		</div>
-		<p style="font-size:140%;">
-		A just and humane society that ensures equal opportunities for
-		quality of life to every citizen of India through relevant and 
-		quality education to the most marginalized. <br/>
-		 <button type=button class ="btn btn-sm btn-info"  >
-	 read more..
-	 </button>
-		</p>
-	</div>
-	<div class="col-md-4 animated wow slideInLeft" data-wow-delay=".9s">
-	 <div class= "thumbnail" style="border:4px;">
-	    <img src ="img/sam.png">
-		</div>
-		<p style="font-size:140%;">
-		A just and humane society that ensures equal opportunities for
-		quality of life to every citizen of India through relevant and 
-		quality education to the most marginalized. <br/>
-		 <button type=button class ="btn btn-sm btn-info"  >
-	 read more..
-	 </button>
-		</p>
-	</div>
-	
-	</div>
-	</div>
-	
-	
-	<div class="container">
-	<div class="row">
-        <div class=" col-md-12  bhoechie-tab-container">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu" >
-              <div class="list-group" style="height:100%;">
-                <a href="#" class="list-group-item active text-center" style="height:33.33%;">
-                  <h4 class="glyphicon glyphicon-globe"></h4><br/>WEB DESIGN
-                </a>
-                <a href="#" class="list-group-item text-center" style="height:33.33%;">
-                  <h4 class="glyphicon glyphicon-phone"></h4><br/>RESPONSIVE DESIGN 
-                </a>
-                <a href="#" class="list-group-item text-center" style="height:33.33%;">
-                  <h4 class="glyphicon glyphicon-user"></h4><br/>UI DESIGN
-                </a>
-				
-				<a href="#" class="list-group-item text-center" style="height:33.33%;">
-                  <h4 class="glyphicon glyphicon-wrench"></h4><br/>WEB MAINTENANCE  
-                </a>
-                <a href="#" class="list-group-item text-center" style="height:33.33%;">
-                  <h4 class="glyphicon glyphicon-print"></h4><br/>GRAPHIC DESIGN 
-                </a>
-                <!--
-                <a href="#" class="list-group-item text-center">
-                  <h4 class="glyphicon glyphicon-cutlery"></h4><br/>Restaurant
-                </a>
-                <a href="#" class="list-group-item text-center">
-                  <h4 class="glyphicon glyphicon-credit-card"></h4><br/>Credit Card
-                </a>
-                -->
-              </div>
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
-                <!-- flight section -->
-                <div class="bhoechie-tab-content active">
-                    <center>
-                     
-                      <p style="font-size:1.5em; margin-top: 35px;color:#55518a; line-height: 40px;">
-					  A website is a necessary tool for nearly every 
-					  business and organization. <br/>An effective, beautiful
-					  website is a game changer. We design top-notch 
-					  websites with care given to everything from 
-					  information architecture to content. 
-From there we work with you to map out a strategy, which will 
-result in a draft for your site encompassing everything from 
-content to work flow. 
-					  </p>
-                    </center>
-                </div>
-                <!-- train section -->
-                <div class="bhoechie-tab-content">
-                    <center>
-    <p style="font-size:1.5em; margin-top: 35px;color:#55518a; line-height: 40px;">
-	The increase in mobile web access demands
- that every business has a website that 
- enables visitors to view and interact with
-it—regardless of what device they may be  using.                  
-We make sure everything we design will scale down well to
- smaller screens like your tablet and phone.We make a plan about how your design 
- responds to different screen sizes. 
-					  </p>
-                    </center>
-                </div>
+     <div id="team_container">
+      
+    <nav class="navbar navbar-expand-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">DREAMS AFRICA </a>
+          
+          <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+             <span class="navbar-toggler-icon"></span>
+          </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                 </li>
+                 <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     ABOUT
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="about.html">About Dreams Africa</a> 
+                       <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item" href="story.html">Our Story & Founder</a>   
+                    <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item" href="why.html"> Why We Do What We Do </a> 
+                       <div class="dropdown-divider"></div> 
+                    <a class="dropdown-item active" href="team.html"> Our Team </a> 
+                  </div>
+                 </li>      
+                
+              </ul>
+          </div>
+          
+      </nav>
+         
     
-                <!-- hotel search -->
-                <div class="bhoechie-tab-content">
-                    <center>
-                <p style="font-size:1.5em; margin-top: 35px;color:#55518a; line-height: 40px;">
-	Driven by our passion, we specialize in user interfaces for
-	desktop, mobile and tablets across a wide range of markets.
-	We are able to meet your User Interface needs throughout 
-	the production process. Our services incorporate all phases 
-	of User Interface Research, User Interface Design, 
-	Usability & Development to help guarantee your product’s 
-	success.
-               </p>      
-                    </center>
-                </div>
-                <div class="bhoechie-tab-content">
-                    <center>
-            <p style="font-size:1.5em; margin-top: 35px;color:#55518a; line-height: 40px;">          
-     Some businesses have neither the time nor the skills set
-	 to maintain and update their websites. Our Company can
-	 offer a maintenance contract to upload new products, 
-	 highlight special offers, add banners on festive seasons,
-	 add sale details etc. We can provide all of your website 
-	 maintenance needs at highly competitive rates.         
-			 </p>       
-					</center>
-                </div>
-                <div class="bhoechie-tab-content">
-                    <center>
-<p style="font-size:1.5em; margin-top: 35px;color:#55518a; line-height: 40px;"> 
-                It is always important to hand over the whole 
-				of graphic designing services to the most
-				trusted and reliable advertising agency like us.
-				You can absolutely be worry free once you have 
-				given the work to us because we guarantees a 
-				certain amount of work within a recommended 
-				period of time with all the efforts and 
-				originality in creativity congregated.
-
-</p>       
-                    </center>
-                </div>
-				
-            </div>
+        <div class="container">
+          <section class="row">  
+               <section class="col-md-12 text-center ">
+                   <img src="img/logo2.png" class="img-fluid " data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1700"/>
+                   <h1 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1700"><span>OUR TEAM</span></h1>
+              </section>
+            </section>
         </div>
-  </div>
-</div>
-	
-	
-	
-	<br/><br/>
-	<div class="container-fluid" style="background-color:#dfaa4d; ">
-	<h2 style="text-align:center;">ENABLING LEARNING THAT PREPARES A CHILD FOR LIFE</h2>
-	</div>
-	<div class="bg-image">
-  <div class="container">
-    <div class="row-fluid">
-      <div class="span12">
-        <h2 style="color:white; text-align:center;">Contact Us</h2>
-		<div class="col-md-1" style="color:white;"> </div>
-		<div class="col-md-5" style="color:white; "><br/>
-		<p style="line-height: 200%; font-size:135%;"># 917, 3rd C Cross, 9th B Main,<br/> Kalyan Nagar, 1st Block,<br/>
-		Bangalore: 560043, Karnataka , INDIA <br/>
-EMAIL: df@devfocus.in <br/> PHONE: +91 80 2545 1823 / 4123 1813</p>
-		</div>
-		
-		<div class="col-md-4" style="color:white; "><br/>
-		<ul id="foot" ><br/><br/>
-		<li style="padding-right:10px; margin-right:10px;"><img src= "img/fb.png"></li>
-		<li style="padding-right:10px; margin-right:10px;"><img src= "img/google.png"></li>
-		<li style="padding-right:10px; margin-right:10px;"><img src= "img/tweet.png"></li>
-		<li style="padding-right:10px; margin-right:10px;"><img src= "img/youtube.png"></li>
-		</ul>
-		</div>
-		<div class="col-md-2" style="color:white;"> </div>
-		
+      </div>  
+    <div class="container-fluid">
+         <section class="row team_content">
+          <section class="col-md-12" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+              <h2>DREAMSAFRICA LEADERSHIP TEAM </h2>
+             </section></section>
+       <section class="row team_content">
+          <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+              <h4>PRESIDENT</h4>
+              <p>  General Oversight of the Vision, Mission, principles and Values, and their strategic implementation. Recruitment and alignment of the right talents and teams for effective realization of determined goals and objectives. </p>
+           </section>
+           <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1100">
+              <h4>LEAD MENTOR SCOUT </h4>
+              <p> Responsible for scouting for Mentors across industries and institutions. Roll out applications and sign up mentors who will willingly commit their resources to the DreamsAfrica mentoring Program yearly.  </p>
+           </section>
+           <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1200">
+              <h4>LEADERSHIP AND MENTORING PROGRAMS STRATEGIST</h4>
+              <p> Have oversight over special projects and execution. Lead and strategize for the successful implementation of all Mentoring Programs across the regions </p>
+           </section>
+        </section>
+        
+         <section class="row team_content">
+          <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+              <h4>DIRECTOR, FUNDING & INVESTMENT</h4>
+              <p>  Responsible for building partnerships, raising funds, seeking scholarship opportunities for mentees/protégés and networking with investors across the regions. 
+  </p>
+           </section>
+           <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1100">
+              <h4>LEAD TALENT SCOUT </h4>
+              <p>Responsible for signing up mentees/ protégés through guided application procedures. Scouting for high potential leaders and talents to be sponsored and registered on the DreamsAfrica Mentoring Program. Arrange internship opportunities and programs for mentees/ protégés across difference spheres of influence or institutions.   </p>
+           </section>
+           <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1200">
+              <h4>PARENTS-MENTEES LIAISON</h4>
+              <p> Liaise with parents and guardians that signed up their children or wards. Organize quarterly dinner and programs where parents meet with their wards and the mentors of their wards. Strategize to ensure integrity and continuity. Ensure effective monitoring for accountability and sustainability.  </p>
+           </section>
+        </section>
+        
+        
+          <section class="row team_content">
+          <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+              <h4>MENTORS- MENTEES LIAISON </h4>
+              <p> Liaise between mentees/protégés and mentors that are assigned to them. Monitor and supervise impact of the mentoring relationship. Develop guidelines and assessment criteria. Assess Mentees on progress of development and growth. 
+  
+  </p>
+           </section>
+           <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1100">
+              <h4>LEAD CAMPUS COORDINATOR </h4>
+              <p> Coordinate and recruit volunteers from corporate and educational institutions. Initiate and lead successful clubs in educational institutions, communities and other institutions. Help institutions and communities to select/appoint leaders for the clubs. Facilitate weekly meetings, schedule development programs including interviews with industry leaders for students and mentors who signed up on DreamsAfrica mentoring programs. Rally students and 
+mentors for DreamsAfrica National Mentoring Summits, Leaders & Mentors Summit, and, Retreats and Camps. 
+   </p>
+           </section>
+           <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1200">
+              <h4>CAMPS & RETREATS COORDINATOR </h4>
+              <p> Strategize, Lead and Innovate for sustainability of leadership development and mentoring relationships. Organize camps and retreats. 
+  </p>
+           </section>
+        </section>
+        
+        
+        <section class="row team_content">
+          <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+              <h4>PROGRAMMES, BRANDS & CONTENT DEVELOPMENT LEAD</h4>
+              <p> Project the DreamsAfrica brand.  i.e. Tshirts, Souvenirs, Videos and Audio sales. Coordinate and drive Social Media presence. Create Blogs and ensure publication of articles, creative writing, Movie production. Lead National mentoring campaigns and National Mentoring Day. 
+ 
+  </p>
+           </section>
+           <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1100">
+              <h4>MEDIA & TECHNOLOGY TEAM LEAD  </h4>
+              <p>  Lead and coordinate Video and Audio production team. liaise with Programmes, brand and content development team. Responsible for youthful innovations to engage the youth. Ensure development of interactive apps. Responsible for Theatre.  
+   </p>
+           </section>
+           <section class="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1200">
+              <h4>VOLUNTEERS & INTERNS </h4>
+              <p> Vision bearers, Helpers of destiny, change agents and community organizers who facilitate events, organize and champions leadership campaigns and, lead the publicity of programs and projects. Organize database and help with research works.   
+  </p>
+           </section>
+        </section>
+        
+      </div> 
+      
+    <div class="home_mentor">
+        <div class="container">
+            <section class="row" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1700">
+              <section class="col-md-12 text-center">
+                  <h2>BE A MENTOR?</h2>
+                  <p class="my_button2"><span><a href="#">know more</a></span></p>
+            </section>
+            </section>
+          </div>
       </div>
-    </div>
-  </div>
-</div>
-	
-	
-	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+      
+      <script src='js/aos.js'></script>
+        <script src="js/lazyload.js"></script>     
+ </body>
 </html>
-	
-	
