@@ -13,138 +13,208 @@ font-size: 1rem;
     word-wrap: break-word;
 }
 
-.navbar {
-    padding: 1.5%;
+html,body {
+  height:100%;
+  margin:0;
+  padding:0;
 }
 
-/******VID BACKGROUND********/
+.navbar {
+    padding: ;
+   text-align: right;
+    color: aliceblue;
+}
+    
+
+/******HOMEPAGE********/
 
 #home_container {
-    background: url("../images/homebanner.png") repeat center top;
+    background: url("../img/homebanner2.jpg") repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     height : 100vh;
      width: 100%;
-    display: flex;
+   background-attachment: fixed; 
+     /*display: flex; */
     align-items: center;
     color: #fff;
+ 
 }
 
-.home_container h1{
+#home_container h1{
     text-align: center!important;
+ 
     
 }
 
-/*.header-content h1 {
+
+#home_container img {
+    text-align: center!important;
     font-size: 440%;
     letter-spacing: 0.1em;
     font-weight :lighter;
-    padding-bottom:0.1rem;
-    color: #fff;
+    padding-top: 15%;
     float: center !important;
-    text-align: center!important;
+    color: #fff;
 }
-*/
 
 #home_container h1 {
     text-align: center!important;
-    font-size: 440%;
-    letter-spacing: 0.1em;
-    font-weight :lighter;
-    margin-top:-10%!important;
+    font-size: 180%;
+    letter-spacing: 0.2em;
+    font-weight :bolder;
+    margin-top:0%!important;
     padding:0.1rem;
     float: center !important;
     color: #fff;
 }
 
- .mission_statement2 {
-        margin-top: 0%;
-    }
-
-.mission_statement {
-    background-color: #dbdbdb;
-    padding: 5%;
-    margin-top: -45%;
+#home_container p {
+    text-align: center!important;
+    font-size: 110%;
+    letter-spacing: 0.2em;
+    font-weight :normal;
+    padding-top: 10px;
+    float: center !important;
+    color: #fff;   
 }
 
-.mission_statement h3 {
-    text-align: center;
-     font-size : 310%;
-    font-weight: bolder;
-    letter-spacing: 3px;
-    color: #1b96c2;
+#home_container h1 span {
+    border-bottom: #1ba4ce 4px solid;
+}
+.home_content {
+     padding : 2% 17%;
 }
 
-.mission_statement p{
+.home_content h2 {
     text-align: center;
+    font-size: 300%;
+    letter-spacing: 0.1em;
+    font-weight :lighter;
+    margin-top:0%!important;
+    padding-top:2rem;
+    color: #4a4f50;
+} 
+
+.home_content h2 span {
+     font-weight :bold;
+    color : #1ba4ce;
+}
+
+.home_content p{
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    color: #5c5d5d;
+}
+
+
+.mission_scope {
+    background-color: #1ba4ce;
+    padding: 4% 15%;
+}
+
+.mission_scope h2 {
+    color:#fff;
+    font-size: 210%;
     letter-spacing: 2px;
-    font-size: 105%;
+    text-align: center;
 }
 
-.mission_container {
-     background: url("../images/work2.jpg") repeat center top;
+.mission_scope p{
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    color: #efefef;
+}
+
+.value {
+    padding : 4% 3%;
+}
+
+.value h2 {
+    text-align: center;
+    font-size: 260%;
+    letter-spacing: 2%;
+    margin-bottom: 4%;
+    color :#494949;
+    font-weight: bolder;
+}
+
+.value h2 span {
+    font-weight:200;
+    border-bottom: #1bacd9 2px solid;
+} 
+
+.value h4 span{
+    background-color: #1bacd9;
+    text-align: center;
+    font-size: 100%;
+    padding : 3px 10px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color :#fff;
+}
+
+.bottom_gap {
+    margin-bottom: 2%;
+}
+
+.bottom_gap h4 {
+    margin-top: 1%;
+}
+
+.home_mentor {
+    background: url("../img/mentor_back.jpg") repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    padding : 6% 2%;
-    margin-top:2%;
+    height : auto;
+     width: 100%;
+    padding: 7% 2%;
 }
-
-/*#mission span{
-    background: rgba (255, 255, 255, 0.5);
-     padding : 1% 2%;
-    color : #fff!important;
-    text-decoration: none;
-} */
-
-.mission  {
-    padding : 10% 10%;
-    background-color: #000;
-    text-align: justify;
-    color : #fff!important;
-    text-decoration: none;
-    filter: alpha(opacity=90);
-    -moz-opacity: .90;
-    opacity: .90;
-}
-
-.mission img {
-    padding-bottom: 5%;
-}
-
-.mission h3 {
-    font-size : 310%;
+ 
+.home_mentor h2 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 200%;
     font-weight: bolder;
-    color: #1b96c2;
+    padding-bottom: 15px;
 }
 
-.mission  p{
-    font-size: 110%;
-    letter-spacing: 1px;
+.my_button2 span  {
+    padding: 5px 10px;
+    border: #fff 3px solid;
 }
 
-.fullscreen-video-wrap {
-    position :absolute;
-   
-   
+.my_button2 span a  {
+    color: #fff;
+}
+.my_button2 span a:hover {
+        color:#1ba4ce;
+}
+.my_button2 span:hover {
+    padding: 5px 10px;
+background-color: #fff;
+
 }
 
-.header-content {
-    z-index: 2;
+.my_button span {
+    padding: 5px 10px;
+    border: #1ba4ce 3px solid;
 }
-
-
-
-.header-content p{
-    font-size: 1.5rem;
-     letter-spacing: 0.1em;
-    display : block;
-    padding-bottom:0.1rem;
+.my_button span a:hover {
+        color:aliceblue;
 }
+.my_button span:hover {
+    padding: 5px 10px;
+background-color: #1ba4ce;
 
+}
 
 .clients {
     background-color: #464646;
@@ -178,425 +248,371 @@ font-size: 1rem;
 /******ABOUT US PAGE********/
 
 #about_container {
-    background: url("../images/aboutbanner.jpg") repeat center top;
+    background: url("../img/aboutbanner.jpg") repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    background-attachment: fixed;
-    height : 65vh;
+    height : 90vh;
      width: 100%;
-    display: flex;
-    align-items: center;  
+   background-attachment: fixed; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+ 
 }
 
-#about_container h2 {
-    text-align: center;
-    font-size: 350%;
+
+#story_container {
+    background: url("../img/ourstory_banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : 90vh;
+     width: 100%;
+   background-attachment: fixed; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+ 
+}
+
+#why_container {
+    background: url("../img/why_banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : 90vh;
+     width: 100%;
+   background-attachment: fixed; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+ 
+}
+
+#team_container {
+    background: url("../img/team_banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : 90vh;
+     width: 100%;
+   background-attachment: fixed; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+ 
+}
+
+#about_container img {
+    text-align: center!important;
+    font-size: 440%;
     letter-spacing: 0.1em;
     font-weight :lighter;
-    padding:0.1rem;
+    padding-top: 15%;
+    float: center !important;
     color: #fff;
 }
 
-.about_content  h3{
-   color:#1b96c2;
-    letter-spacing: 0.19rem;
-    font-size: 300%;
+#about_container h1 {
+    text-align: center!important;
+    font-size: 250%;
+    letter-spacing: 0.2em;
+    font-weight :bolder;
+    margin-top:0%!important;
+    float: center !important;
+    color: #fff;
 }
 
-.about_content {
-    padding:2%;
+#about_container h1 span {
+    border : #fff 2px solid;
+    padding: 1% 2%;
 }
 
-span img {
-    width: 60%;
-    padding-top : 3%;
-    padding-bottom : 3%;
+#about_container p {
+    text-align: center!important;
+    font-size: 110%;
+    letter-spacing: 0.2em;
+    font-weight :normal;
+    padding-top: 10px;
+    float: center !important;
+    color: #fff;   
 }
 
-.team_container {
-  background-color: #4b4b4b;
-  padding: 15% auto;   
-  color: #fff; 
-  letter-spacing: 0.2rem;
+#story_container img {
+    text-align: center!important;
+    font-size: 440%;
+    letter-spacing: 0.1em;
+    font-weight :lighter;
+    padding-top: 15%;
+    float: center !important;
+    color: #fff;
 }
 
-.team_container h3 {
-  color: #fff;  
+#story_container h1 {
+    text-align: center!important;
+    font-size: 250%;
+    letter-spacing: 0.2em;
+    font-weight :bolder;
+    margin-top:0%!important;
+    float: center !important;
+    color: #fff;
 }
 
-.name {
-    font-size: 1.2em;
-    padding-top:3%;
+#story_container h1 span {
+    border : #fff 2px solid;
+    padding: 1% 2%;
 }
 
-.position {
-    margin-top: -5%;
-  font-size: 1.1em;  
-    font-style: italic;
+#story_container p {
+    text-align: center!important;
+    font-size: 110%;
+    letter-spacing: 0.2em;
+    font-weight :normal;
+    padding-top: 10px;
+    float: center !important;
+    color: #fff;   
 }
 
-.team {
-    padding:3%;
+.about_us h2 {
+    text-align: center!important;
+    font-size: 250%;
+     padding: 5% 5% 0% 5%;
+    letter-spacing: 0.2em;
+    font-weight :bolder;
+    margin-top:0%!important;
+    float: center !important;
+    color: #40beeb;  
 }
 
-.team img {
-    padding: 1% ;  
-    border: #fff solid 1px;
+.about_us p{
+    text-align: center;
+    padding: 0% 5%;
+    font-size: 120%;
+    letter-spacing: 1px;
+    color :#5a5a5a;
+} 
+
+
+#why_container img {
+    text-align: center!important;
+    font-size: 440%;
+    letter-spacing: 0.1em;
+    font-weight :lighter;
+    padding-top: 15%;
+    float: center !important;
+    color: #fff;
 }
 
-/******END US PAGE********/
+#why_container h1 {
+    text-align: center!important;
+    font-size: 250%;
+    letter-spacing: 0.2em;
+    font-weight :bolder;
+    margin-top:0%!important;
+    float: center !important;
+    color: #fff;
+}
+
+#why_container h1 span {
+    border : #fff 2px solid;
+    padding: 1% 2%;
+}
+
+#why_container p {
+    text-align: center!important;
+    font-size: 110%;
+    letter-spacing: 0.2em;
+    font-weight :normal;
+    padding-top: 10px;
+    float: center !important;
+    color: #fff;   
+}
+
+#team_container img {
+    text-align: center!important;
+    font-size: 440%;
+    letter-spacing: 0.1em;
+    font-weight :lighter;
+    padding-top: 15%;
+    float: center !important;
+    color: #fff;
+}
+
+#team_container h1 {
+    text-align: center!important;
+    font-size: 250%;
+    letter-spacing: 0.2em;
+    font-weight :bolder;
+    margin-top:0%!important;
+    float: center !important;
+    color: #fff;
+}
+
+#team_container h1 span {
+    border : #fff 2px solid;
+    padding: 1% 2%;
+}
+
+#team_container p {
+    text-align: center!important;
+    font-size: 110%;
+    letter-spacing: 0.2em;
+    font-weight :normal;
+    padding-top: 10px;
+    float: center !important;
+    color: #fff;   
+}
+
+.team_content h2 {
+    font-size: 200%;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: #40beeb;
+    padding:5% 1% 3% 1%;
+}
+.team_content h4 {
+    font-size: 160%;
+    text-align: center;
+    letter-spacing: 1px;
+     color: #40beeb; 
+}
+.team_content p{
+    text-align: center;
+    padding: 1%;
+    color: #4b4b4b;
+}
+
+/******END ABOUT US PAGE********/
 
 
 /******SERVICES PAGE********/
 
-#service_container {
-    background: url("../images/servicebanner.jpg") repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    background-attachment: fixed;
-    height : 65vh;
-     width: 100%;
-    display: flex;
-    align-items: center;  
-}
-
-#service_container h2 {
-    text-align: center;
-    font-size: 350%;
-    letter-spacing: 0.1em;
-    font-weight :lighter;
-    padding:0.1rem;
-    color: #fff;
-}
-
-.service_content h2 {
-     color:#1b96c2;
-    margin-top: 3%;
-    padding-bottom: 2%;
-    text-align: center;
-    letter-spacing: 0.19rem;
-    font-size: 250%;
-}
-
-.service_content p {
-    padding: 5% 20% 1% 20%;
-    text-align: center;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-    font-weight: 400;
-    color: #676666!important;
-}
-
-.card-title {
-    color:#1b96c2;
-}
-
-.card-body h3 {
-    padding-top: 3%;
-}
-
-.work_container {
-     background: url("../images/work.jpg") repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    padding : 12% 5%;
-    margin-top:2%;
-}
-
-.work_container h3 {
-    color : #40beeb;
-    font-size: 300%;
-    letter-spacing: 4px!important;
-    font-weight : bolder!important;
-}
-.work_container  p{
-    color:#fff;
-    font-size:150%;
-    text-align: center;
-    font-weight: 300;
-}
-
-.my_button {
-    margin-top :7px;
-}
-
-.my_button span a{
-    padding : 1% 2%;
-    background-color :#40beeb;  
-    color : #fff!important;
-    text-decoration: none;
-}
-
-.my_button span a:hover {
-     background-color :#1b96c2; 
-    
-}
-
-/******END OF SERVICES PAGE********/
-
-
-/******CONTACT US PAGE********/
-#contact_container {
-    background: url("../images/contactbanner.jpg") repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    background-attachment: fixed;
-    height : 65vh;
-     width: 100%;
-    display: flex;
-    align-items: center;  
-}
-
-#contact_container h2 {
-    text-align: center;
-    font-size: 350%;
-    letter-spacing: 0.1em;
-    font-weight :lighter;
-    padding:0.1rem;
-    color: #fff;
-}
-
-.contact_details  {
-    padding: 5% 1% 5% 1%;
-}
-
-.contact_details h3 {
-     color : #40beeb;
-    font-size: 230%;
-    letter-spacing: 4px;
-    font-weight : bolder;  
-    text-align: center;
-}
-
-.contact_details p {
-     color : #322d2d;
-    font-size: 120%;
-    letter-spacing: 2px;
-    font-weight : 400;  
-    text-align: center;
-}
-
-.left_border {
-    border-right: #909090 1px solid;
-}
-.write_to h4 {
-    text-align: center;
-    font-size: 250%;
-    letter-spacing: 4px;
-    font-weight: 400;
-    color: #40beeb;
-    padding : 2% 0%;
-    
-}
-
-.text-line {
-    background-color: transparent;
-    color: #eeeeee;
-    outline: none;
-    outline-style: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: solid #ababab 1px;
-    padding: 3px 10px;
-}
-
-.send input[type="submit"] {
-    border: 1px solid #327b91;
-	border-radius: 3px;
-    text-align: center;
-    padding: .3em ;
-    width: 30%;
-    margin-top: 0.6em;
-    font-size: 1em;
-     font-family: 'Open Sans', sans-serif;  
-    color: #fff;
-    letter-spacing: 1px;
-    outline: none;
-    background-color: #40beeb  ;
-    transition: 0.5s all ease;
-    -webkit-transition: 0.5s all ease;
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    -ms-transition: 0.5s all ease;
-    -webkit-appearance: none;
-}
-.send input[type="submit"]:hover {
-    background-color: #120842;
-}
-
-
-/******END OF CONTACT PAGE********/
-
-footer {
-    background-color:  #333333;
-    color:  #fff;
-    border-top: #fff 1px solid;
-    text-align: center!important;  
-}
-
-footer p{
-  
-padding-top: 1%;    
-letter-spacing: 0.2rem;
-}
-
-@media(max-width:850px){
-    
-    #about_container
-    {
-        background-attachment: scroll;
-    }
-    
-     #service_container
-    {
-        background-attachment: scroll;
-    }
-    
-     #gallery_container
-    {
-        background-attachment: scroll;
-    }
-    
-     #contact_container
-    {
-        background-attachment: scroll;
-    }
-    
-    #home_container h1 {
-        margin-top:-10%!important;}
-    
-    .mission_statement2 {
-        margin-top: -10%;
-    }
-    
-    .mission_statement {
-        margin-top: 1%;
-        padding:2%;
-    }
-    
-}
-
-
-@media(max-width:768px){
-    #about_container
-    {
-        background-attachment: scroll;
-    }
-    
-     #service_container
-    {
-        background-attachment: scroll;
-    }
-    
-     #gallery_container
-    {
-        background-attachment: scroll;
-    }
-    
-     #contact_container
-    {
-        background-attachment: scroll;
-    }
-    
-    #home_container h1 {
-        margin-top:-20%!important;}
-    
-    .mission_statement2 {
-        margin-top: -20%;
-    }
-    
-    .mission_statement {
-        margin-top: 1%;
-        padding:2%;
-    }
-    
-     .mission  {
-    padding : 5% 5%;
-    background-color: #000;
-    text-align:left;
-    color : #fff!important;
-    text-decoration: none;
-    filter: alpha(opacity=90);
-    -moz-opacity: .90;
-    opacity: .90;
-}
-    
-    .client_gap {
-    padding-top : 1%;
-}
-    
-    .left_border {
-        border : none;
-    }
-    
-    
-    
-    .service_content p {
-    padding: 5% 5% 1% 5%;
-    text-align: center;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-    font-weight: 400;
-    color: #676666!important;
-}
-
-}
-
-@media(max-width:500px) {
-    
-    #home_container h1 {
+@media(max-width:1024px) {
+    #about_container img {
     text-align: center!important;
-    font-size: 200%;
-    letter-spacing: 6px;
-    font-weight :bold;
-    margin-top:-10%!important;
-    padding:0.1rem;
+    font-size: 440%;
+    letter-spacing: 0.1em;
+    font-weight :lighter;  
+    padding-top: 15%;
+    margin-top:25%;    
     float: center !important;
     color: #fff;
 }
-    
-     #home_container h1 {
-        margin-top:-30%!important;
-    }
-    
-    .mission_statement2 {
-        margin-top: -35%;
-    }
-    
-    .mission_container {
-     background: url("../images/work2.jpg") repeat center top;
+}
+
+
+@media(max-width:850px) {
+    #home_container {
+    background: url("../img/homebanner2.jpg") repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    padding : 2% 0%;
-    margin-top:2%;
+    height : auto;
+     width: 100%;
+   background-attachment: scroll; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20%;
 }
     
-    .mission  {
-    padding : 5% 5%;
-    background-color: #000;
-    text-align:left;
-    color : #fff!important;
-    text-decoration: none;
-    filter: alpha(opacity=90);
-    -moz-opacity: .90;
-    opacity: .90;
+#about_container {
+    background: url("../img/aboutbanner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : auto;
+     width: 100%;
+   background-attachment: scroll; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+     padding-bottom: 40%;
+ 
+}  
+    
+#story_container {
+    background: url("../img/ourstory_banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : auto;
+     width: 100%;
+   background-attachment: scroll; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+     padding-bottom: 40%;
+ 
+}    
+ 
+    
+#why_container {
+    background: url("../img/why_banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : auto;
+     width: 100%;
+   background-attachment: scroll; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+     padding-bottom: 40%;
+ 
+} 
+    
+#team_container {
+    background: url("../img/team_banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : auto;
+     width: 100%;
+   background-attachment: scroll; 
+     /*display: flex; */
+    align-items: center;
+    color: #fff;
+     padding-bottom: 40%;
+ 
+}
+    
+     
+ #why_container h1 span {
+    border :none;
+    padding: 1% 2%;
+}   
+    
+    .home_content {
+     padding : 2%;
+}
+    
+    .mission_scope {
+    background-color: #1ba4ce;
+    padding: 2%;
 }
 
-    .service_content {
-        margin-top: 1%;
-    }
+    
+.home_content h2 {
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 0.1em;
+    font-weight :lighter;
+    margin-top:0%!important;
+    padding-top:2rem;
+    color: #4a4f50;
+} 
+
     
 }
-
-
