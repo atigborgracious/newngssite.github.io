@@ -1,360 +1,349 @@
-/* -------------------------------- 
+/* Styles go here */
+body {
 
-Primary style
-
--------------------------------- */
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-      font-family: Century Gothic;
-}
-
-*::after, *::before {
-  content: '';
-}
-
-
-
-a {
-  color: #1e6074;
-  text-decoration: none;
-}
-
-/* -------------------------------- 
-
-Main components 
-
--------------------------------- */
-
-header {
-  z-index: 3;
-}
-
-.cd-logo, .cd-nav-trigger {
-  position: fixed;
-  display: inline-block;
-}
-
-.cd-logo {
-  top: 28px;
-  left: 5%;
-}
-.cd-logo img {
-  display: block;
-}
-
-.cd-nav-trigger {
-  top: 18px;
-  right: 5%;
-  height: 64px;
-  width: 64px;
-  z-index: 5;
-  /* image replacement */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-}
-.cd-nav-trigger .cd-icon {
-  /* icon created in CSS */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -o-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  display: inline-block;
-  width: 18px;
-  height: 3px;
-  background-color: #ffffff;
-  z-index: 10;
-}
-.cd-nav-trigger .cd-icon::before, .cd-nav-trigger .cd-icon:after {
-  /* upper and lower lines of the menu icon */
-  position: absolute;
   top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  /* Force Hardware Acceleration in WebKit */
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  /* apply transition to transform property */
-  -webkit-transition: -webkit-transform .3s;
-  -moz-transition: -moz-transform .3s;
-  transition: transform .3s;
-}
-.cd-nav-trigger .cd-icon::before {
-  -webkit-transform: translateY(-6px) rotate(0deg);
-  -moz-transform: translateY(-6px) rotate(0deg);
-  -ms-transform: translateY(-6px) rotate(0deg);
-  -o-transform: translateY(-6px) rotate(0deg);
-  transform: translateY(-6px) rotate(0deg);
-}
-.cd-nav-trigger .cd-icon::after {
-  -webkit-transform: translateY(6px) rotate(0deg);
-  -moz-transform: translateY(6px) rotate(0deg);
-  -ms-transform: translateY(6px) rotate(0deg);
-  -o-transform: translateY(6px) rotate(0deg);
-  transform: translateY(6px) rotate(0deg);
-}
-.cd-nav-trigger::before, .cd-nav-trigger::after {
-  /* 2 rounded colored backgrounds for the menu icon */
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 50%;
-  height: 100%;
-  width: 100%;
-  /* Force Hardware Acceleration in WebKit */
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  transition-property: transform;
-}
-.cd-nav-trigger::before {
-  background-color: #ffb441;
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-delay: 0.4s;
-  -moz-transition-delay: 0.4s;
-  transition-delay: 0.4s;
-}
-.cd-nav-trigger::after {
-  background-color: #ffb441;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition-duration: 0s;
-  -moz-transition-duration: 0s;
-  transition-duration: 0s;
-  -webkit-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  transition-delay: 0s;
-}
-.cd-nav-trigger.close-nav::before {
-  /* user clicks on the .cd-nav-trigger element - 1st rounded background disappears */
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-}
-.cd-nav-trigger.close-nav::after {
-  /* user clicks on the .cd-nav-trigger element - 2nd rounded background appears */
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition-duration: 0.3s;
-  -moz-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-delay: 0.4s;
-  -moz-transition-delay: 0.4s;
-  transition-delay: 0.4s;
-}
-.cd-nav-trigger.close-nav .cd-icon {
-  /* user clicks on the .cd-nav-trigger element - transform the icon */
-  background-color: rgba(255, 255, 255, 0);
-}
-.cd-nav-trigger.close-nav .cd-icon::before, .cd-nav-trigger.close-nav .cd-icon::after {
-  background-color: white;
-}
-.cd-nav-trigger.close-nav .cd-icon::before {
-  -webkit-transform: translateY(0) rotate(45deg);
-  -moz-transform: translateY(0) rotate(45deg);
-  -ms-transform: translateY(0) rotate(45deg);
-  -o-transform: translateY(0) rotate(45deg);
-  transform: translateY(0) rotate(45deg);
-}
-.cd-nav-trigger.close-nav .cd-icon::after {
-  -webkit-transform: translateY(0) rotate(-45deg);
-  -moz-transform: translateY(0) rotate(-45deg);
-  -ms-transform: translateY(0) rotate(-45deg);
-  -o-transform: translateY(0) rotate(-45deg);
-  transform: translateY(0) rotate(-45deg);
+  color:#fff;
 }
 
-.cd-primary-nav {
-  /* by default it's hidden */
-  position: fixed;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  padding: 80px 5%;
-  z-index: 3;
-  background-color: #091d23;
-  overflow: auto;
-  /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
-  -webkit-overflow-scrolling: touch;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: visibility 0s, opacity 0.3s;
-  -moz-transition: visibility 0s, opacity 0.3s;
-  transition: visibility 0s, opacity 0.3s;
+/* this is only to style the sidebar - you can make the sidebar look any way you want */
+.sidebar {
+  padding: 10px;
+  background-color: #fafafa;
+  border-right: 1px solid #eee;
 }
-.cd-primary-nav li {
-  margin: 1.6em 0;
-  text-align: center;
-  text-transform: capitalize;
+
+/*******CAROUSEL******/
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+	top:0;
+    position: relative;
+    height: 100vh;
 }
-.cd-primary-nav a {
-  font-size: 20px;
-  font-size: 1.25rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition: color 0.2s;
-  -moz-transition: color 0.2s;
-  transition: color 0.2s;
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
 }
-.no-touch .cd-primary-nav a:hover {
-  color: #ffffff;
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+	width: 15px;
+  height: 15px;
+    background-color: red;
+    border-color: red;
+    opacity: .7;
 }
-.cd-primary-nav.fade-in {
-  /* navigation visible at the end of the circle animation */
-  visibility: visible;
+.fade-carousel .carousel-indicators > li.active {
+  width: 15px;
+  height: 15px;
   opacity: 1;
 }
-@media only screen and (min-width: 768px) {
-  .cd-primary-nav li {
-    margin: 2em 0;
-  }
-  .cd-primary-nav a {
-    font-size: 28px;
-    font-size: 1.75rem;
-  }
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+	opacity:1;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
 }
-@media only screen and (min-width: 1170px) {
-  .cd-primary-nav li {
-    margin: 2.6em 0;
-  }
-  .cd-primary-nav a {
-    font-size: 32px;
-    font-size: 2rem;
-  }
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+	letter-spacing:2px;
+    margin-top: 10%;
+    padding: 0;
+	opacity: 1;
+}
+.hero h2 {
+    font-size: 3em;    
+    font-weight: bold;
+	letter-spacing:2px;
+    margin: 0;
+    padding: 0;
+	opacity: 1;
+}
+.hero h3{
+	letter-spacing:3px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1!important;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
 }
 
-.cd-overlay-nav, .cd-overlay-content {
-  /* containers of the 2 main rounded backgrounds - these containers are used to position the rounded bgs behind the menu icon */
-  position: fixed;
-  top: 18px;
-  right: 5%;
-  height: 4px;
-  width: 4px;
-  -webkit-transform: translateX(-20px) translateY(20px);
-  -moz-transform: translateX(-20px) translateY(20px);
-  -ms-transform: translateX(-20px) translateY(20px);
-  -o-transform: translateX(-20px) translateY(20px);
-  transform: translateX(-20px) translateY(20px);
-}
-.cd-overlay-nav span, .cd-overlay-content span {
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  /* Force Hardware Acceleration in WebKit */
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  will-change: transform;
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-}
-.cd-overlay-nav.is-hidden, .cd-overlay-content.is-hidden {
-  /* background fades out at the end of the animation */
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .7;
 }
 
-.cd-overlay-nav {
-  /* main rounded colored bg 1 */
-  z-index: 2;
-}
-.cd-overlay-nav span {
-  background-color: #091d23;
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 30px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #17175d;
+    border-color: #fff;
+    outline: none;
+    margin: 20px auto;
+	letter-spacing: 3px;
 }
 
-.cd-overlay-content {
-  /* main rounded colored bg 2 */
-  z-index: 4;
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-.cd-overlay-content span {
-  background-color: #ffb441;
+.fade-carousel .slides .slide-1 {
+  background-image: url("../img/slide1.jpg"); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url("../img/slide2.jpg"); 
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url("../img/slide3.jpg"); 
 }
 
-.cd-content {
-  /* just some dummy content */
-  padding: 80px 0;
-  width: 90%;
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }   
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; } 
+
+.fade-carousel .slides .slide-1 {
+  background-image: url("../img/slide11.jpg"); 
+}	
+.fade-carousel .slides .slide-2 {
+  background-image: url("../img/slide22.jpg"); 
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url("../img/slide33.jpg"); 
+}
+
+.hero h1 {
+    font-size: 2.5em;    
+    font-weight: bold;
+	letter-spacing:2px;
+    margin-top: 10%;
+    padding: 0;
+	opacity: 1;
+	
+}
+.hero h2 {
+    font-size: 2em;    
+    font-weight: bold;
+	letter-spacing:2px;
+    margin: 0;
+    padding: 0;
+	opacity: 1;
+}
+.hero h3{
+	letter-spacing:3px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	
+}
+}
+/*******END OF CAROUSEL******/
+#vision_container {
+  background-color : #e2e2e2;
+}
+.vision_container2 {
+  background-color : #fff;
+  margin: 5% 0;
+  padding: 4% 0;
+}
+.vision_container2 h3 {
+  text-align:center;
+  font-size: 2.3em;
+  font-weight: bold;
+  margin:7% 0 5% 0;
+  letter-spacing:3px;
+
+}
+
+.vision_container2 p {
+  text-align:center;
+  font-size: 1.8em;
+  font-weight:normal;
+  letter-spacing:1px;
+  color: #ada8a8;
+  padding: 1%;
+}
+
+.right_border {border-right : #e2e2e2 solid 2px; padding-right:5%;  }
+
+.vision_container3 {
+	padding:7% 1% 5% 1%;
+}
+
+.vision_container3 span {
+	
+	text-align: center;
+	color: #ada8a8;
+	padding: 10px 20px;
+	border : #e2e2e2 solid 2px; 
+}
+#scope_of_mission {
+     background: url("../img/scope.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     width: 100%;
+   background-attachment: fixed; 
+    color: #e2e2e2;
+	padding: 5% 1%;
+}
+
+#scope_of_mission h3 {font-size:3em; letter-spacing:2px;}
+#scope_of_mission p{font-size:1.3em; letter-spacing:1px;}
+.quote{
+	margin-left: 25px;
+	padding-left: 10px;
+	font-style: italic;
+	border-left: #e2e2e2 solid 2px;
+}
+.ps h1 {
+	font-weight: bold;
+	line-height:1.3em;
+}
+.ps {
+	margin-top: 5%;
+	color:#ada8a8;
+	text-align: center;
+	letter-spacing:1px;
+}
+
+.ps p {
+	font-size:1.1em;
+	padding: 0 3%;
+	text-align: justify;
+}
+
+.pss :hover {
+	background-color:#d1d1d1;
+	padding:1%;
+}
+
+.home_mentor {
+    background: url("../img/mentor_back.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : auto;
+     width: 100%;
+    padding: 7% 2%;
+	text-align: center;
+}
+ 
+.home_mentor h2 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 250%;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.home_mentor p{font-size:1.5em;}
+
+.my_button2 span  {
+	text-align:center;
+    padding: 5px 10px;
+    border: #fff 3px solid;
+}
+
+.my_button2 span a  {
+    color: #fff;
+}
+.my_button2 span a:hover {
+        color:#1ba4ce;
+}
+.my_button2 span:hover {
+    padding: 5px 10px;
+background-color: #fff;
+
+}
+
+@media screen and (max-width: 980px){
+	.right_border {border-right : none; padding-right:5%;  }
+	
+	.quote{
+	margin-left: 0px;
+	padding-left: 0px;
+	font-style: italic;
+	border-left: none;
+}
+
+#scope_of_mission {
+     background: url("../img/scope.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     width: 100%;
+   background-attachment:scroll; 
+    color: #e2e2e2;
+	padding: 5% 1%;
+}
+
+
+}
+
+
+footer {
+    background-color:  #333333;
+    color:  #fff;
+    border-top: #fff 1px solid;
+    text-align: center!important;  
+}
+
+footer p{
   
-  margin: 0 auto;
-  z-index: 1;
-}
-.cd-content .cd-intro {
-  height: 200px;
-  padding-top: 4.6em;
-}
-.cd-content h1 {
-  text-align: center;
-  font-size: 20px;
-  font-size: 1.25rem;
-}
-.cd-content p {
-  line-height: 1.5;
-  color: #a76500;
-}
-@media only screen and (min-width: 768px) {
-  .cd-content .cd-intro {
-    height: 250px;
-    padding-top: 6em;
-  }
-  .cd-content h1 {
-    font-size: 28px;
-    font-size: 1.75rem;
-  }
-  .cd-content p {
-    font-size: 18px;
-    font-size: 1.125rem;
-    line-height: 1.8;
-  }
+padding-top: 1%;    
+letter-spacing: 0.2rem;
 }
