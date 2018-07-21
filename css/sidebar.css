@@ -31,12 +31,6 @@
 	
 }
 
-
-ul .nav, .nav-inverse, .navbar-stacked li {
-	display:inline;
-	width:100%;
-}
-
 .navbar .navbar-toggle.toggle-right {
     float: right;
     margin-right: 15px;
@@ -47,24 +41,33 @@ ul .nav, .nav-inverse, .navbar-stacked li {
     display: block;
 }
 
-/* sidebar settings */
-.sidebar {
-    position: fixed;
-    top: 52px;
-    bottom: 0;
-    z-index: 1000;
-	
-   /* min-height: 100%;
-    max-height: none;
-    overflow: auto;*/
-	font-size:1.5em;
-	
+
+
+ul .nav, .nav-inverse, .navbar-stacked li {
+	font-size: 88%;
+	float: left;
+	text-align: center;
 }
 
+/* sidebar settings */
+.sidebar {
+	background-color : #000!important;
+	display : inline;
+    position: fixed;
+    top: 62px;
+    bottom: 0;
+    z-index: 1000;
+    height: 60px;
+    max-height: none;
+    overflow: none;
+	font-size:1.5em;
+	opacity: .7;
+}
 
 
 .sidebar a{
 	color:#ada8a8;
+	display : inline;
 }
 
 .sidebar-left {
@@ -73,6 +76,11 @@ ul .nav, .nav-inverse, .navbar-stacked li {
 
 .sidebar-right {
     right: 0;
+}
+
+.sidebar-right ul li{
+    right: 0;
+	display : inline;
 }
 
 /* css to override hiding the sidebar according to different screen sizes */
@@ -94,6 +102,34 @@ ul .nav, .nav-inverse, .navbar-stacked li {
     -moz-transform: translate(0,0);
     transform: translate(0,0);
 }
+
+@media (max-width: 1024px) { 
+
+ul .nav, .nav-inverse, .navbar-stacked li {
+	font-size: 88%;
+	float: none;
+	text-align:left;
+}
+
+/* sidebar settings */
+.sidebar {
+	background-color : #fff!important;
+	display : inline;
+    position: fixed;
+    top: 62px;
+    bottom: 0;
+    z-index: 1000;
+    height: 100vh;
+    max-height: none;
+    overflow: none;
+	font-size:1.5em;
+	opacity: 1;
+}
+
+}
+
+
+
 
 @media (min-width: 768px) {
     .row .sidebar.sidebar-left.sidebar-sm-show {

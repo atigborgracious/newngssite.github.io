@@ -142,7 +142,7 @@ body {
 /********************************/
 /*          Custom Buttons      */
 /********************************/
-.btn.btn-lg {padding: 10px 30px;}
+.btn.btn-lg {padding: 7px 20px;}
 .btn.btn-hero,
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
@@ -150,8 +150,13 @@ body {
     background-color: #17175d;
     border-color: #fff;
     outline: none;
+	font-size:23px;
     margin: 20px auto;
 	letter-spacing: 3px;
+}
+
+.btn.btn-lg a {
+	color:#fff;
 }
 
 /********************************/
@@ -315,6 +320,7 @@ font-family: 'mrseaves','Open Sans',sans-serif!important;
 .ps h1 {
 	font-weight: bold;
 	line-height:1.3em;
+	 font-family: 'mrseaves','Open Sans',sans-serif!important;
 }
 .ps {
 	margin-top: 5%;
@@ -345,6 +351,8 @@ font-family: 'mrseaves','Open Sans',sans-serif!important;
     padding: 7% 2%;
 	text-align: center;
 }
+
+.home_mentor img {opacity: .7;}
  
 .home_mentor h2 {
     color: #fff;
