@@ -428,17 +428,17 @@ body {
   margin:7% 0 5% 0;
   letter-spacing:3px;
   color:#2d3347;
-font-family:'MrsEavesRomanRegular',sans-serif!important;
+font-family:'Helvetica',sans-serif!important;
 }
 
 .vision_container2 p {
   text-align:center;
-  font-size: 160%;
+  font-size: 180%;
   font-weight:normal;
   letter-spacing:1px;
   font-style:italic;
   color: #2d3347;
-   font-family: 'Helvetica','Open Sans',sans-serif!important;
+   font-family: 'MrsEavesRomanRegular','Open Sans',sans-serif!important;
   padding: 1%;
 }
 
