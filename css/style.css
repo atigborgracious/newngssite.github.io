@@ -8,6 +8,10 @@
     font-family:Helvetica;
     src: url(../fonts/Helvetica.ttf);
 }
+@font-face {
+    font-family:MrsEavesRomanRegular;
+    src: url(../fonts/MrsEavesRomanRegular.ttf);
+}
 
 
 /* Styles go here */
@@ -82,6 +86,7 @@ body {
 	letter-spacing:5px;
     margin-top: 10%;
     padding: 0;
+	font-style:italic;
 	opacity: 1;
     font-family: 'mrseaves','Open Sans',sans-serif!important;
 }
@@ -92,13 +97,14 @@ body {
     margin: 10% 0 0 0;
 	padding: 0;
 	opacity: 1;
-	font-family: 'Helvetica', sans-serif;
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
 }
 
  .hero ul li {
 	 padding:1% 1%;
 	display: inline;
 	font-size:2em;
+	font-weight:bold;
 	letter-spacing:3px;
 	list-style-type:none;
 	font-family: 'Helvetica', sans-serif!important;
@@ -111,20 +117,32 @@ body {
 	
 }
 
-
+.cul h4 {
+	font-size:1.8em;
+	font-family: 'Pacifico', cursive!important;
+	letter-spacing:4px;
+}
 .my_bold {
 	font-family: 'Helvetica', sans-serif!important;
-	font-size: 1.6em!important;
-	line-height: 1.3em;
-	
+	font-size: 1.7em!important;
+	line-height: 1.5em;
+	font-weight: bold;
 }
 
 .my_bold  span{
-	font-family: 'Helvetica', sans-serif!important;
-	font-size: 1.5em!important;
-	font-weight:bolder!important;
+	font-family: 'Pacifico', cursive!important;
+	font-size: 1em!important;
+	font-weight:200!important;
 	font-style:italic;
+	letter-spacing:5px;
+	padding-bottom:5%!important;
 }
+
+.begin h3  {
+	font-family: 'Pacifico', cursive!important;
+	font-size: 2em;
+}
+
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
     -webkit-transition: 2s all ease-in-out .1s;
@@ -162,7 +180,7 @@ body {
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
     color: #f5f5f5;
-    background-color: #11ae0a;
+    background-color: #d8020a;
     border-color: #fff;
     outline: none;
 	font-size:23px;
@@ -212,6 +230,7 @@ body {
     font-weight: 600;
 	letter-spacing:2px;
     margin-top: 10%;
+	font-style:italic;
     padding: 0;
 	opacity: 1;
 	font-family: 'mrseaves','Open Sans',sans-serif!important;
@@ -220,7 +239,7 @@ body {
     font-size: 1.6em;    
     font-weight: bold;
 	letter-spacing:2px;
-	font-family: 'Helvetica','Open Sans',sans-serif!important;
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
     margin:10% 0 0 0;
      padding: 0;
 	opacity: 1;
@@ -234,10 +253,17 @@ body {
 	
 }
 
+.cul h4 {
+	font-size:.9em;
+	font-family: 'Pacifico', cursive!important;
+	letter-spacing:4px;
+	line-height:1.8em;
+}
+
 .hero ul li {
 	 padding:1% 2%;
 	display: block;
-	font-size:1.4em;
+	font-size:1.2em;
 	list-style-type:none;
 	letter-spacing:3px;
 	font-family: 'Helvetica', sans-serif!important;
@@ -245,15 +271,22 @@ body {
 
 .my_bold {
 	font-family: 'Helvetica', sans-serif!important;
-	font-size: 1.5em!important;
-	line-height: 1.3em;
+	font-size: 1.6em!important;
+	line-height: 1.4em;
+	font-weight : bold!important;
 	padding:3%;
 }
 
 .my_bold  span{
-	font-family: 'Helvetica', sans-serif;
-	font-weight:bolder!important;
+	font-family: 'Pacifico', cursive!important;
+	font-weight:200!important;
 	font-style:italic;
+    padding-bottom: 5%;
+}
+
+.begin h3  {
+	font-family: 'Pacifico', cursive!important;
+	  font-size: 1em; 
 }
 
 .fade-carousel .slides .slide-1 {
@@ -320,7 +353,7 @@ body {
   background-size: cover;
      width: 100%;
    background-attachment: fixed; 
-    color: #e2e2e2;
+    color: #f0f0f0;
 	padding: 5% 1%;
 }
 
@@ -328,9 +361,9 @@ body {
 font-family: 'mrseaves','Open Sans',sans-serif!important;
 }
 #scope_of_mission p{
-	font-size:1.2em;
+	font-size:1.5em;
 	letter-spacing:1px;
-	font-family:'Open Sans',sans-serif!important;
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
 	}
 .quote{
 	margin-left: 25px;
@@ -343,17 +376,25 @@ font-family: 'mrseaves','Open Sans',sans-serif!important;
 	line-height:1.3em;
 	 font-family: 'mrseaves','Open Sans',sans-serif!important;
 }
+
+.ps h3 {
+	font-weight: bold;
+	line-height:1em;
+	letter-spacing:1px;
+	font-family: 'Helvetica','Open Sans',sans-serif!important;
+}
+
 .ps {
 	margin-top: 5%;
    color: #2d3347;
 	text-align: center;
-	letter-spacing:1px;
 }
 
 .ps p {
-	font-size:1.1em;
+	font-size:1.4em;
 	padding: 0 3%;
-	text-align: justify;
+	text-align: left;
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
 }
 
 .pss :hover {
