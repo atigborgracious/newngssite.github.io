@@ -12,6 +12,10 @@
     font-family:MrsEavesRomanRegular;
     src: url(../fonts/MrsEavesRomanRegular.ttf);
 }
+@font-face {
+    font-family:Goudy Old Style Regular;
+    src: url(../fonts/Goudy Old Style Regular.ttf);
+}
 
 
 /* Styles go here */
@@ -80,7 +84,7 @@ body {
               transform: translate3d(-50%,-50%,0);
 			  font-family: 'mrseaves','Open Sans',sans-serif!important;
 }
-.hero h1 {
+/*.hero h1 {
 	font-weight: 400;
     font-size: 6em;    
 	letter-spacing:5px;
@@ -89,8 +93,66 @@ body {
 	font-style:italic;
 	opacity: 1;
     font-family: 'mrseaves','Open Sans',sans-serif!important;
+}*/
+
+.slide1_font h1 {
+	font-family: 'Helvetica', sans-serif!important;
+	font-size:470%;
+	font-weight:600;
+	letter-spacing:1px;
 }
-.hero h2 {
+
+.slide1_font h3 {
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
+	font-size:380%;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+.slide1_font h3 span{
+	font-family:'Goudy Old Style Regular',sans-serif!important;
+	font-size:70%;
+	font-weight:600;
+	font-style: italic;
+	letter-spacing:1px;
+}
+
+.slide2_font h2 {
+	font-family: 'Helvetica', sans-serif!important;
+	font-size:380%;
+	font-weight:600;
+	letter-spacing:1px;
+}
+.slide2_font h3 {
+	font-family: 'Goudy Old Style Regular', sans-serif!important;
+	font-size:340%;
+	font-weight:normal;
+	letter-spacing:1px;
+	font-style: italic;
+}
+
+.slide3_font h2 {
+	font-family: 'Helvetica', sans-serif!important;
+	font-size:360%;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+.slide4_font h3 {
+	font-family: 'Helvetica', sans-serif!important;
+	font-size:340%;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+.slide4_font h4 {
+	font-size:240%;
+	font-family: 'Goudy Old Style Regular', sans-serif!important;
+	letter-spacing:2px;
+	font-style: italic;
+}
+
+/*.hero h2 {
     font-size: 2.5em;    
     font-weight:700;
 	letter-spacing:3px;
@@ -98,30 +160,26 @@ body {
 	padding: 0;
 	opacity: 1;
 	font-family:'MrsEavesRomanRegular',sans-serif!important;
-}
+}*/
 
  .hero ul li {
-	 padding:1% 1%;
+	 padding:;
 	display: inline;
-	font-size:2em;
+	font-size:240%;
 	font-weight:bold;
-	letter-spacing:3px;
+	letter-spacing:1px;
 	list-style-type:none;
-	font-family: 'Helvetica', sans-serif!important;
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
 }
 
-.hero h3{
+/*.hero h3{
 	font-size: 2.1em; 
 	letter-spacing:3px;
 	font-family: 'Helvetica','Open Sans',sans-serif;
 	
-}
+}*/
 
-.cul h4 {
-	font-size:1.8em;
-	font-family: 'Pacifico', cursive!important;
-	letter-spacing:4px;
-}
+
 .my_bold {
 	font-family: 'Helvetica', sans-serif!important;
 	font-size: 1.7em!important;
@@ -180,7 +238,7 @@ body {
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
     color: #f5f5f5;
-    background-color: #d8020a;
+    background-color: #2d3347;
     border-color: #fff;
     outline: none;
 	font-size:23px;
@@ -225,7 +283,7 @@ body {
 }
 @media screen and (max-width: 640px){
    
-   .hero h1 {
+  /* .hero h1 {
     font-size: 2.9em;    
     font-weight: 600;
 	letter-spacing:2px;
@@ -234,8 +292,66 @@ body {
     padding: 0;
 	opacity: 1;
 	font-family: 'mrseaves','Open Sans',sans-serif!important;
+}*/
+.slide1_font h1 {
+	font-family: 'Helvetica', sans-serif!important;
+	font-size:260%;
+	font-weight:700;
+	letter-spacing:1px;
 }
-.hero h2 {
+
+.slide1_font h3 {
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
+	font-size:240%;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+.slide1_font h3 span{
+	font-family:'Goudy Old Style Regular',sans-serif!important;
+	font-size:65%;
+	font-weight:600;
+	font-style: italic;
+	letter-spacing:1px;
+}
+
+.slide2_font h2 {
+	font-family: 'Helvetica', sans-serif!important;
+	font-size:205%;
+	font-weight:600;
+	letter-spacing:1px;
+}
+.slide2_font h3 {
+	font-family: 'Goudy Old Style Regular', sans-serif!important;
+	font-size:180%;
+	font-weight:normal;
+	letter-spacing:1px;
+	font-style: italic;
+}
+
+.slide3_font h2 {
+	font-family: 'Helvetica', sans-serif!important;
+	font-size:200%;
+	font-weight:600;
+	letter-spacing:1px;
+}
+
+.slide4_font h3 {
+	font-family: 'Helvetica', sans-serif!important;
+	font-size:190%;
+	font-weight:600;
+	letter-spacing:1px;
+     word-wrap: break-word; 
+}
+
+.slide4_font h4 {
+	font-size:190%;
+	font-family: 'Goudy Old Style Regular', sans-serif!important;
+	letter-spacing:2px;
+	font-style: italic;
+}
+
+/*.hero h2 {
     font-size: 1.6em;    
     font-weight: bold;
 	letter-spacing:2px;
@@ -251,22 +367,16 @@ body {
 	font-family: 'Helvetica','Open Sans',sans-serif!important;
 	text-align: center;
 	
-}
-
-.cul h4 {
-	font-size:.9em;
-	font-family: 'Pacifico', cursive!important;
-	letter-spacing:4px;
-	line-height:1.8em;
-}
+}*/
 
 .hero ul li {
-	 padding:1% 2%;
+	 padding:;
 	display: block;
-	font-size:1.2em;
+	font-size:160%;
+	font-weight:bold;
+	letter-spacing:1px;
 	list-style-type:none;
-	letter-spacing:3px;
-	font-family: 'Helvetica', sans-serif!important;
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
 }
 
 .my_bold {
@@ -318,7 +428,7 @@ body {
   margin:7% 0 5% 0;
   letter-spacing:3px;
   color:#2d3347;
-
+font-family:'MrsEavesRomanRegular',sans-serif!important;
 }
 
 .vision_container2 p {
