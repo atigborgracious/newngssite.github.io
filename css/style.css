@@ -311,7 +311,7 @@ body {
 
 .slide1_font h3 span{
 	font-family:'DancingScript-Regular',sans-serif!important;
-	font-size:65%;
+	font-size:75%;
 	font-weight:600;
 	font-style: italic;
 	letter-spacing:1px;
@@ -325,7 +325,7 @@ body {
 }
 .slide2_font h3 {
 	font-family: 'DancingScript-Regular', sans-serif!important;
-	font-size:180%;
+	font-size:200%;
 	font-weight:normal;
 	letter-spacing:1px;
 	font-style: italic;
@@ -347,7 +347,7 @@ body {
 }
 
 .slide4_font h4 {
-	font-size:190%;
+	font-size:205%;
 	font-family: 'DancingScript-Regular', sans-serif!important;
 	letter-spacing:2px;
 	font-style: italic;
