@@ -17,8 +17,8 @@
     src: url(../fonts/Goudy Old Style Regular.ttf);
 }
 @font-face {
-    font-family:DancingScript-Regular;
-    src: url(../fonts/DancingScript-Regular.otf);
+    font-family:Cookie-Regular;
+    src: url(../fonts/Cookie-Regular.ttf);
 }
 
 /* Styles go here */
@@ -113,7 +113,7 @@ body {
 }
 
 .slide1_font h3 span{
-	font-family:'DancingScript-Regular',sans-serif!important;
+	font-family:'Cookie-Regular',sans-serif!important;
 	font-weight:normal;
 	font-style: italic;
 	letter-spacing:1px;
@@ -126,7 +126,7 @@ body {
 	letter-spacing:1px;
 }
 .slide2_font h3 {
-	font-family: 'DancingScript-Regular', sans-serif!important;
+	font-family: 'Cookie-Regular', sans-serif!important;
 	font-size:340%;
 	font-weight:normal;
 	letter-spacing:1px;
@@ -149,7 +149,7 @@ body {
 
 .slide4_font h4 {
 	font-size:370%;
-	font-family: 'DancingScript-Regular', sans-serif!important;
+	font-family: 'Cookie-Regular', sans-serif!important;
 	letter-spacing:2px;
 	font-style: italic;
 }
@@ -310,7 +310,7 @@ body {
 }
 
 .slide1_font h3 span{
-	font-family:'DancingScript-Regular',sans-serif!important;
+	font-family:'Cookie-Regular',sans-serif!important;
 	font-size:75%;
 	font-weight:600;
 	font-style: italic;
@@ -324,7 +324,7 @@ body {
 	letter-spacing:1px;
 }
 .slide2_font h3 {
-	font-family: 'DancingScript-Regular', sans-serif!important;
+	font-family: 'Cookie-Regular', sans-serif!important;
 	font-size:200%;
 	font-weight:normal;
 	letter-spacing:1px;
@@ -348,7 +348,7 @@ body {
 
 .slide4_font h4 {
 	font-size:205%;
-	font-family: 'DancingScript-Regular', sans-serif!important;
+	font-family: 'Cookie-Regular', sans-serif!important;
 	letter-spacing:2px;
 	font-style: italic;
 }
