@@ -20,6 +20,14 @@
     font-family:Cookie-Regular;
     src: url(../fonts/Cookie-Regular.ttf);
 }
+@font-face {
+    font-family:gradecursive;
+    src: url(../fonts/gradecursive.ttf);
+}
+@font-face {
+    font-family:Nickainley;
+    src: url(../fonts/Nickainley.ttf);
+}
 
 /* Styles go here */
 body {
@@ -126,7 +134,7 @@ body {
 	letter-spacing:1px;
 }
 .slide2_font h3 {
-	font-family: 'Cookie-Regular', sans-serif!important;
+	font-family: 'Nickainley', sans-serif!important;
 	font-size:340%;
 	font-weight:normal;
 	letter-spacing:1px;
@@ -148,8 +156,9 @@ body {
 }
 
 .slide4_font h4 {
-	font-size:370%;
-	font-family: 'Cookie-Regular', sans-serif!important;
+	font-size:300%;
+	font-family: 'gradecursive', sans-serif!important;
+	line-height:1.5em;
 	letter-spacing:2px;
 	font-style: italic;
 }
@@ -179,7 +188,8 @@ body {
 	letter-spacing:3px;
 	font-family: 'Helvetica','Open Sans',sans-serif;
 	
-}*/
+}
+*/
 
 
 .my_bold {
@@ -324,7 +334,7 @@ body {
 	letter-spacing:1px;
 }
 .slide2_font h3 {
-	font-family: 'Cookie-Regular', sans-serif!important;
+	font-family: 'Nickainley', sans-serif!important;
 	font-size:200%;
 	font-weight:normal;
 	letter-spacing:1px;
@@ -347,8 +357,8 @@ body {
 }
 
 .slide4_font h4 {
-	font-size:205%;
-	font-family: 'Cookie-Regular', sans-serif!important;
+	font-size:200%;
+	font-family: 'gradecursive', sans-serif!important;
 	letter-spacing:2px;
 	font-style: italic;
 }
