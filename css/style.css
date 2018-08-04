@@ -134,8 +134,8 @@ body {
 	letter-spacing:1px;
 }
 .slide2_font h3 {
-	font-family: 'Nickainley', sans-serif!important;
-	font-size:340%;
+	font-family: 'Cookie-Regular',sans-serif!important;
+	font-size:370%;
 	font-weight:normal;
 	letter-spacing:1px;
 	font-style: italic;
@@ -156,9 +156,9 @@ body {
 }
 
 .slide4_font h4 {
-	font-size:300%;
-	font-family: 'gradecursive', sans-serif!important;
-	line-height:1.5em;
+	font-size:400%;
+	font-family: 'Cookie-Regular',sans-serif!important;
+	line-height:1em;
 	letter-spacing:2px;
 	font-style: italic;
 }
@@ -334,7 +334,7 @@ body {
 	letter-spacing:1px;
 }
 .slide2_font h3 {
-	font-family: 'Nickainley', sans-serif!important;
+	font-family:'Cookie-Regular',sans-serif!important;
 	font-size:200%;
 	font-weight:normal;
 	letter-spacing:1px;
@@ -358,7 +358,7 @@ body {
 
 .slide4_font h4 {
 	font-size:200%;
-	font-family: 'gradecursive', sans-serif!important;
+	font-family: 'Cookie-Regular',sans-serif!important;
 	letter-spacing:2px;
 	font-style: italic;
 }
