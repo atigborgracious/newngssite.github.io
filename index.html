@@ -61,9 +61,16 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="about.html">Who We Are</a>
-          </li>
+            <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Who We Are
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="about.html">About Us</a>
+             <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="what we do.html">What We Do</a>
+        </div>
+      </li>
           <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           What We Offer
@@ -106,19 +113,26 @@
    
       
       <div class="container py-5">
-         <section class="row">
-           <section class="col-md-12 home_content ">
-               <h1  data-aos="fade-up" data-aos-duration="3000">WELCOME</h1>
-               <img src="img/line2.png" class="img-fluid"/>
-<p class="home_content"  data-aos="zoom-In" data-aos-duration="3000">
-    Tri works denotes an influential movement, designed to make life and home-owning easy and faster. Most individual happens to be stressed- out in search for a great apartment (dream House), inclusive of all they wanted in it, but with less information and no helping hands, it’s a life search with an endless desire never achieved
-We not just provide quality housing structure, we deliver remarkable service, thereby making your dreams come through, and this isn’t just mere words but with testimonies from previous clients, you will be left with no option but to understand the standard we possess.
-      
+         <section class="row home_content">
+           <section class="col-md-8 ">
+               <h1  data-aos="fade-up" data-aos-duration="3000">From The Desk Of The President </h1>
+            
+<p  data-aos="zoom-In" data-aos-duration="3000">
+      Every time we have a success story it gives me a personal satisfaction because the vision of this company is to make your dreams manifest.<br/>
+I want to personally thank you for taking the time to invest your dream in our hands.
+We pride ourselves in providing cut edge  top real estate initiatives that work in the current real estate market.<br/>
+We Hope that our relationship with you will be successful and create a lifetime of income and business opportunities that will last for a lifetime.
+Again I appreciate your business<br/>
+    <B>Mike Nwanju <br/>
+President & Founder</B>
           </p>
+             </section>
+             <section class="col-md-4  ">
+     <img src="img/president.png" class="img-fluid"/>
              </section>
           </section>
           <hr/>
-         
+     
           
 </div>
       
@@ -126,7 +140,7 @@ We not just provide quality housing structure, we deliver remarkable service, th
            <section class="row">
            <section class="col-md-12 offer ">
                
-               <h3  data-aos="zoom-In" data-aos-duration="3000">What TRI-WORKS Offers</h3>
+               <h3  data-aos="zoom-In" data-aos-duration="3000">What TRI-WORKS Deliver</h3>
 
              </section>
           </section>
@@ -176,6 +190,11 @@ We not just provide quality housing structure, we deliver remarkable service, th
 <div id="sff">
       
     <div class="container h-100">
+        <section class="row">
+           <section class="col-md-12 home_content ">
+                <h1  data-aos="fade-up" data-aos-duration="3000">3 Areas of Focus</h1>
+            </section>
+        </section>
       
         <section class="row h-100">
            <section class="col-md-4 home_seller py-2 ">
@@ -194,7 +213,18 @@ We not just provide quality housing structure, we deliver remarkable service, th
         
     </div>
 </div>   
+    <div class="appointment">
+      <div class="container">
+         <section class="row text-center">
+          <section class="col-md-12">
+               <h2>Looking For Appointment?</h2>
+           <a href="contact.html">  <button type="button" class="btn btn-default ">plan appointment</button>  </a>
+          </section>
+          </section>
+        
+        </div>
       
+      </div>
       
       <footer>
         <div class="container">
@@ -209,7 +239,64 @@ We not just provide quality housing structure, we deliver remarkable service, th
       </footer>
       
       
-      
+     <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Appointment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="row">
+    <div class="col p-2">
+      <input type="text" class="form-control" placeholder="first name">
+    </div>
+    <div class="col p-2">
+      <input type="text" class="form-control" placeholder="last name">
+    </div>
+  </div>
+<div class="row">
+    <div class="col p-2">
+      <input type="text" class="form-control" placeholder="phone number">
+    </div>
+    <div class="col p-2">
+      <input type="text" class="form-control" placeholder="email">
+    </div>
+  </div>
+<div class="row">
+    <div class="col p-2">
+      <input type="text" class="form-control" placeholder="date">
+    </div>
+    <div class="col p-2">
+      <input type="text" class="form-control" placeholder="time">
+    </div>
+  </div>  
+<div class="row p-2">
+           <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+  <label class="form-check-label" for="inlineCheckbox1">Home Sell</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+  <label class="form-check-label" for="inlineCheckbox2">Home Buyer</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+  <label class="form-check-label" for="inlineCheckbox3">Home Investor</label>
+</div> 
+            </div>            
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div> 
       
       <script>
          $(document).ready(function() {
