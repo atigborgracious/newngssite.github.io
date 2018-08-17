@@ -34,6 +34,9 @@ html,body {
 }
 
 /******HOMEPAGE********/
+.btn-default {
+    background-color:#fff !important; 
+}
 
 #homebanner {
     background: url("../img/aboutback.jpg") repeat center top;
@@ -82,18 +85,39 @@ html,body {
 }
 
 .home_content  h1 {
-    font-weight: bolder;
-    font-size: 3.8em;
+     font-family: 'Raleway', sans-serif;
+    font-size: 2em;
     color: #5d5d5d!important;
     letter-spacing: 4px; 
+    text-align: center;
+    font-weight: 700;  
 }
 .home_content {
     font-family: 'Raleway', sans-serif;
-    text-align: center;
-    padding: 2% 11%;
+    text-align:left;
+    padding: 3% 7%;
     letter-spacing: 1px;
     color: #5d5d5d!important;
 }
+
+.appointment {
+   background: url("../img/appoint.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:5% 2%; 
+}
+
+.appointment h2 {
+   font-family: 'Raleway', sans-serif;
+    text-align:center;
+    font-weight: bold;
+    font-size: 2.2em;
+    letter-spacing: 3px;
+    color: #fff; 
+}
+
 
 #sff {
    
@@ -158,7 +182,7 @@ html,body {
 
 .offer h3{
     font-family: 'Raleway', sans-serif;
-    font-size: 2.2em;
+    font-size: 2em;
     color: #5d5d5d!important;
     letter-spacing: 4px; 
     text-align: center;
@@ -226,7 +250,7 @@ footer {
 }
     .home_content  h1 {
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 2em;
     color: #5d5d5d!important;
     letter-spacing: 4px; 
 }
@@ -398,6 +422,28 @@ footer {
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;  
+}
+.team2 {
+    margin-top: 2%;
+}
+.team h4 {
+    font-size: 1.3em;
+   color:#4a4a4a;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px; 
+    text-align: center;
+    padding: 2% 2% 0% 2% ;
+}
+
+.team h5 {
+    font-size: 1.0em;
+   color:#4a4a4a;
+    font-weight:normal;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px; 
+    text-align: center;
+    padding: 0% 2% 0% 2% ;
 }
 
 #about_down ul li {
@@ -817,11 +863,6 @@ footer {
     text-align: center;
 }
 
-#sff6 .contact_right {
-  background-color:#303539;
-  padding-top:7%!important; 
-    height: 100vh;
-}
 
 .contact_left2{
     position: absolute;
@@ -832,6 +873,23 @@ footer {
 
 
 
+#sff6 .contact_right {
+  background-color:#303539;
+  padding-top:15%!important; 
+    height: 100vh;
+   
+}
+
+#sff6 .contact_right2 h3{
+ font-size: 1.5em;
+     font-family: 'Raleway', sans-serif;
+    font-weight:normal;
+    letter-spacing: 4px;
+    text-align: center!important;
+    color:#fff;
+
+}
+
 .contact_left2 h2{
     font-size: 4em;
      font-family: 'Raleway', sans-serif;
@@ -839,34 +897,27 @@ footer {
     letter-spacing: 4px;
     text-align: center;
     color:#fff;
-    
-       margin-bottom: 5%;
+    margin-bottom: 5%;
 }
 
-.contact_left2 h2 span {
-    padding: 2% 3%;
-    border: 2px solid #fff;
- 
-}
 
 .contact_left2 h3{
-    font-size: 3em;
+    font-size: 2em;
      font-family: 'Raleway', sans-serif;
     font-weight:bold;
     letter-spacing: 4px;
     text-align: center;
     color:#fff;
-    
 }
 
- #sff6 .contact_right {
-  background-color:#303539;
-  padding-top:7%!important; 
-    height: 100vh;
-}
+ 
     
-
-.contact_right h2{
+.form-check-inline {
+    color:#fff!important;
+     font-family: 'Raleway', sans-serif;
+    
+}
+.contact_left h4{
     text-align: center;
     font-size: 1.5em;
      font-family: 'Raleway', sans-serif;
@@ -875,7 +926,7 @@ footer {
     color:#fff;
 }
 
-.contact_right p{
+.contact_left p{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
@@ -925,7 +976,7 @@ footer {
 @media screen and (max-width: 1266px){
     #sff6 .contact_right {
   background-color:#303539;
-  padding-top:20%!important; 
+  padding-top:30%!important; 
     height: 100vh;
 }
     
@@ -935,7 +986,17 @@ footer {
 
     #sff6 .contact_right {
     height: auto;
+    padding-top:10%!important; 
 }
+    #sff6 .contact_left {
+    height: 80vh;
+    padding-top:10%!important; 
+    padding-bottom: 10%; 
+       
+ padding-bottom:18%!important;        
+    height: 700px;
+}
+    
    /* #sff6 .investor_left {
    background: url("../img/contact_banner.jpg") no-repeat center top;
   -webkit-background-size: cover;
@@ -970,6 +1031,7 @@ footer {
     font-weight:bold;
     letter-spacing: 4px;
     text-align: center;
+    padding-top: 25%;
     color:#fff;
     
 }
