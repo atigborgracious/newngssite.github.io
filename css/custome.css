@@ -229,7 +229,7 @@ html,body {
 #welcome_note h2 {
     font-weight: bold;
     font-size: 3.5em;
-    padding:5%;
+    padding:;
     color: #015de4;
     letter-spacing: 4px; 
     font-family: 'Roboto', sans-serif;
@@ -302,7 +302,7 @@ footer {
     #welcome_note h2 {
     font-weight: bold;
     font-size: 2.5em;
-    padding:5%;
+    /*padding:5%;*/
     color: #015de4;
     letter-spacing: 4px; 
     font-family: 'Roboto', sans-serif;
