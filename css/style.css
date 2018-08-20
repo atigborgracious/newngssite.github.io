@@ -295,16 +295,6 @@ body {
 }
 @media screen and (max-width: 640px){
    
-  /* .hero h1 {
-    font-size: 2.9em;    
-    font-weight: 600;
-	letter-spacing:2px;
-    margin-top: 10%;
-	font-style:italic;
-    padding: 0;
-	opacity: 1;
-	font-family: 'mrseaves','Open Sans',sans-serif!important;
-}*/
 .slide1_font h1 {
 	font-family: 'Helvetica', sans-serif!important;
 	font-size:260%;
@@ -363,23 +353,7 @@ body {
 	font-style: italic;
 }
 
-/*.hero h2 {
-    font-size: 1.6em;    
-    font-weight: bold;
-	letter-spacing:2px;
-	font-family:'MrsEavesRomanRegular',sans-serif!important;
-    margin:10% 0 0 0;
-     padding: 0;
-	opacity: 1;
-	line-height:1.5em;
-}
-.hero h3{
-	font-size: 1.2em;
-	letter-spacing:3px;
-	font-family: 'Helvetica','Open Sans',sans-serif!important;
-	text-align: center;
-	
-}*/
+
 
 .hero ul li {
 	 padding:;
@@ -603,4 +577,296 @@ footer p{
   
 padding-top: 1%;    
 letter-spacing: 0.2rem;
+}
+
+
+/***********MENU 2************/
+
+#fw_values {
+   
+    margin-top: 0 !important;
+    width: 100%;
+    margin-bottom: 0px;
+}
+#fw_values .container {
+    width: 100%;
+}
+
+#fw_values .col-lg-4, .col-lg-8 {
+    margin: 0;
+    padding: 15px;
+}
+#fw_values .values_left {
+ background:url("../img/values_banner.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    position: relative;
+    height: 100vh;
+}
+
+#fw_values .values_right {
+   background-color:#fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100vh;
+    padding-top: 5%;
+    line-height: 1.6em;
+}
+
+.values_left2{
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:15%;
+   
+}
+
+.values_left2 h2 {
+    font-family: 'Helvetica', sans-serif!important;
+	font-size:300%;
+	font-weight:600;
+	letter-spacing:1px;
+    color: #fff;
+    text-align: center;
+}
+
+.values_left2 span {
+     padding: 5px 10px;
+    border:solid #fff 3px ;
+}
+
+.values_right h3 {
+     font-size: 2em;
+    color: #2d3347;
+	font-weight: bold;
+	 font-family: 'mrseaves','Open Sans',sans-serif!important;
+    letter-spacing: 2px;
+
+}
+.values_right p {
+    font-size: 1.6em;
+    color: #2d3347;
+	 font-family: 'MrsEavesRomanRegular','Open Sans',sans-serif!important;
+
+}
+
+
+#fw_commit {
+   
+    margin-top: 0 !important;
+    width: 100%;
+    margin-bottom: 0px;
+}
+#fw_commit .container {
+    width: 100%;
+}
+
+#fw_commit .col-lg-4, .col-lg-8 {
+    margin: 0;
+    padding: 15px;
+}
+#fw_commit .commit_left {
+ background:url("../img/commit_banner.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    position: relative;
+    height: 100vh;
+}
+
+#fw_commit .commit_right {
+   background-color:#fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100vh;
+    padding-top: 10%;
+    line-height: 1em;
+}
+
+.commit_left2{
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:3%;
+   
+}
+
+.commit_left2 h2 {
+    font-family: 'Helvetica', sans-serif!important;
+	font-size:300%;
+	font-weight:600;
+	letter-spacing:1px;
+    color: #fff;
+    text-align: center;
+}
+
+.commit_left2 span {
+     padding: 5px 10px;
+    border:solid #fff 3px ;
+}
+
+.commit_left2 h3 {
+    font-family: 'MrsEavesRomanRegular','Open Sans',sans-serif!important;
+	font-size:200%;
+	font-weight:400;
+	letter-spacing:1px;
+    color: #fff;
+    text-align: left;
+}
+
+.commit_right h3 {
+     font-size: 1.5em;
+    color: #2d3347;
+	font-weight: normal;
+	font-family: 'MrsEavesRomanRegular','Open Sans',sans-serif!important;
+  
+
+}
+.commit_right p {
+    font-size: 1.6em;
+    color: #2d3347;
+	 font-family: 'MrsEavesRomanRegular','Open Sans',sans-serif!important;
+
+}
+
+#fw_about .about_left{
+ background:url("../img/about_banner.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    position: relative;
+    height: 100vh;
+}
+
+.about_left2{
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:25%;
+   
+}
+
+.about_left2 h2{
+    font-family: 'Helvetica', sans-serif!important;
+	font-size:4.3em;
+	font-weight:bolder;
+	letter-spacing:2px;
+    color: #fff;
+    text-align: center;
+}
+
+.about_content {
+    background-color: #f5efef;
+    margin:3% 0;
+    color: #2d3347;
+	font-weight: normal;
+	font-family: 'MrsEavesRomanRegular','Open Sans',sans-serif!important;
+    padding:2%;
+}
+
+.about_content p{font-size:1.7em;}
+
+
+@media screen and (max-width: 1024px) {
+    
+    #fw_values .values_right {
+   background-color:#fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+    padding-top: 5%;
+    line-height: 1.6em;
+    padding-bottom: 5%;
+}
+    #fw_values .values_left {
+ background:url("../img/values_banner.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    position: relative;
+    height: 70vh;
+}
+ 
+    
+     #fw_commit .commit_right {
+   background-color:#fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: auto;
+    padding-top: 5%;
+    line-height: 1.6em;
+    padding-bottom: 5%;
+}
+    #fw_commit .commit_left {
+ background:url("../img/commit_banner.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    position: relative;
+    height: 85vh;
+}
+  
+ .about_left2{
+    position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left:2%;
+   
+} 
+
+}
+
+@media screen and (max-width: 700px) {
+    
+    .commit_left2 h2 {
+    font-family: 'Helvetica', sans-serif!important;
+	font-size:220%;
+	font-weight:600;
+	letter-spacing:1px;
+    color: #fff;
+    text-align: center;
+}
+    
+     #fw_commit .commit_left {
+ background:url("../img/commit_banner.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    position: relative;
+    height: 100vh;
+}
+     #fw_about .about_left {
+ background:url("../img/about_banner2.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    position: relative;
+    height: 94vh;
+}
+    
+    .about_left2 h2{
+    font-family: 'Helvetica', sans-serif!important;
+	font-size:2.3em;
+	font-weight:bolder;
+	letter-spacing:2px;
+    color: #fff;
+    text-align: center;
+}
+
 }
