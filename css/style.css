@@ -457,7 +457,17 @@ font-family:'Helvetica',sans-serif!important;
 font-family: 'mrseaves','Open Sans',sans-serif!important;
     line-height: 0.6em!important;
 }
+#wes h3 {font-size:400%; letter-spacing:1px;text-transform: lowercase;
+font-family: 'mrseaves','Open Sans',sans-serif!important;
+    line-height: 0.6em!important;
+}
 #scope_of_mission p{
+	font-size:1.8em;
+    line-height: 1.2em!important;
+	font-family:'MrsEavesRomanRegular',sans-serif!important;
+	}
+
+.scope_of_mission2 p{
 	font-size:1.8em;
     line-height: 1.2em!important;
 	font-family:'MrsEavesRomanRegular',sans-serif!important;
@@ -472,6 +482,14 @@ font-family: 'mrseaves','Open Sans',sans-serif!important;
     text-align: center;
     margin-top: 5%;
 }
+
+#wes {
+    background-color:#2d3347;
+    padding: 5% 2%;
+}
+
+
+
 @media screen and (max-width: 800px) {
     .scope_of_mission2 {
     background-color: #fff;
