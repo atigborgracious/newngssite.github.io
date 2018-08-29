@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 10px;
 	display: flex;
-	
+	word-wrap: break-word;
 	color:#000;
 	 font-family: 'MrsEavesRomanRegular'!important;
 }
@@ -12,6 +12,7 @@
     color:#fff;
 	 font-family: 'MrsEavesRomanRegular'!important;
     font-size: 23pt;
+    padding: 1% 0;
 }
 
 .accordion {
@@ -25,9 +26,9 @@
 .box {
 	position: relative;
 	background-color:rgba(0,0,0,.54);
-    height: 64px;
+    height: auto;
     transition: all .15s ease-in-out;
-     padding:0%;  
+     padding:1% 0;  
 }
 .box::before {
     content: '';
@@ -56,7 +57,7 @@ header .box-title {
 .box-title {
 	width: calc(100% - 40px);
 	height: 64px;
-	line-height: 64px;
+	line-height: 60px;
 	padding: 0 20px;
     font-size: 25pt;
     font-weight: 300;
@@ -83,6 +84,7 @@ header .box-title {
 	display: none;
 }
 input:checked + .box {
+     
 	height: auto;
 	margin: 16px 0;
     box-shadow: 0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);
@@ -95,6 +97,7 @@ input:checked + .box .box-close {
 	display: inline-block;
 }
 .arrows section .box-title {
+    
 	padding-left: 44px;
 	width: calc(100% - 64px);
 }
@@ -105,6 +108,7 @@ input:checked + .box .box-close {
 	font-size: 20pt;
 	left: 20px;
 	top: -2px;
+     padding-top:1% ; 
 	transition: transform .15s ease-in-out;
 	color: #fff;
 }
@@ -128,6 +132,26 @@ input:checked + section.box .box-title:before {
 	
 	color:#000;
 	 font-family: 'MrsEavesRomanRegular'!important;
-}    
+}
+    
+.box-title {
+	width: calc(100% - 40px);
+	height: 64px;
+	line-height: 40px;
+	padding: 0 20px ;
+    font-size: 25pt;
+    font-weight: 300;
+    color: #fff;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+} 
+    .box {
+	position: relative;
+	background-color:rgba(0,0,0,.54);
+    height: auto;
+    transition: all .15s ease-in-out;
+     padding-bottom:5% ;  
+}
    
 }

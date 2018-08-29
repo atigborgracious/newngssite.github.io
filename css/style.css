@@ -459,11 +459,11 @@ font-family:'Helvetica'!important;
 
 #scope_of_mission h3 {font-size:400%; letter-spacing:1px;
 font-family: 'MrsEavesRomanRegular'!important;
-    line-height: 0.6em!important;
+    line-height: 1em!important;
 }
 #wes h3 {font-size:400%; letter-spacing:1px;
 font-family: 'MrsEavesRomanRegular'!important;
-    line-height: 0.6em!important;
+    line-height: 0.8em!important;
 }
 #scope_of_mission p{
 	font-size:1.8em;
@@ -1960,6 +1960,16 @@ letter-spacing: 0.2rem;
     font-family: 'MrsEavesRomanRegular'!important;
 }
 
+#accor2 {
+ background-color:#2d3347;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    height: auto;
+    padding: 1% ;
+    font-family: 'MrsEavesRomanRegular'!important;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -2008,3 +2018,12 @@ letter-spacing: 0.2rem;
 }
 /***********END OF MENU 7************/
 /***********Accordion************/
+#fw_mentor .what_left{
+ background:url("../img/be-a-mentor.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    position: relative;
+    height: 75vh;
+}
