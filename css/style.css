@@ -649,7 +649,7 @@ letter-spacing: 0.2rem;
   -o-background-size: cover;
   background-size: cover; 
     position: relative;
-    height: 100vh;
+    height: 48em;
 }
 
 #fw_values .values_right {
@@ -658,7 +658,7 @@ letter-spacing: 0.2rem;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    height: 100vh;
+    height: 48em;
     padding-top: 5%;
     line-height: 1.6em;
 }
