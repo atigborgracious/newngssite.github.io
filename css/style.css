@@ -2027,3 +2027,168 @@ letter-spacing: 0.2rem;
     position: relative;
     height: 75vh;
 }
+
+
+#fw_contact {
+   
+    margin-top: 0 !important;
+    width: 100%;
+    margin-bottom: 0px;
+}
+#fw_contact .container {
+    width: 100%;
+}
+
+#fw_contact .col-lg-6 {
+    margin: 0;
+}
+#fw_contact .contact_left {
+ background:url("../img/contact_banner.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    padding-top: 15%;
+    height: 100vh;
+}
+
+#fw_contact .contact_right {
+   background-color:#2d3347;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding-top:12%!important; 
+    height: 100vh;
+    line-height: 1.4em;
+}
+
+.form_details {
+   
+}
+.contact_left h2{
+    font-family: 'MrsEavesRomanRegular'!important;
+    color:#fff;
+    font-size: 5em;
+    text-align: center;
+}
+.contact_left h4{
+    font-family: 'MrsEavesRomanRegular'!important;
+    color:#fff;
+    font-size: 2.2em;
+    text-align: center;
+}
+.contact_left p{
+    font-family: 'MrsEavesRomanRegular'!important;
+    color:#fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+.form-group textarea {
+    border : solid #c0c8d0 1px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    margin-top: 2%;
+    resize: none;
+    height: 13em;
+    color:#2d3347;
+    font-size: 1.5em;
+   font-family: 'MrsEavesRomanRegular'!important;
+    -webkit-appearance: none;
+}
+
+.form-line input[type="text"] {
+    border : solid #c0c8d0 1px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    resize: none;
+    color:#2d3347;
+    align-items: center;
+    font-size: 1.5em;
+    
+   font-family: 'MrsEavesRomanRegular'!important;
+    -webkit-appearance: none;
+}
+
+
+.send input[type="submit"] {
+    border: 1px solid #327b91;
+	border-radius: 3px;
+   text-align: center;
+    padding: .2em ;
+    width: 30%;
+    margin-top: 0.3em;
+    font-size: 1.8em;
+   font-family: 'MrsEavesRomanRegular'!important;  
+    color: #fff;
+    letter-spacing: 1px;
+    outline: none;
+    background-color: #3171ab  ;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -webkit-appearance: none;
+}
+.send input[type="submit"]:hover {
+    background-color: #120842;
+}
+
+.contact-grids input[type="submit"] {
+    border: 1px solid #327b91;
+	border-radius: 3px;
+    text-align: center;
+    padding: .3em ;
+    width: 30%;
+    margin-top: 0.6em;
+    font-size: 1.6em;
+    font-family: 'MrsEavesRomanRegular'!important;
+    color: #2d3347;
+    letter-spacing: 1px;
+    outline: none;
+    background-color: #3171ab  ;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -webkit-appearance: none;
+}
+.form-control {
+    margin: 2% auto 0 auto!important;
+   
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    #fw_contact .contact_left {
+ background:url("../img/contact_banner.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+    padding-top: 25%;
+        padding-bottom: 14%;
+    height: auto;
+}
+
+#fw_contact .contact_right {
+   background-color:#2d3347;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:auto;
+    padding-top: 7%;
+ 
+    line-height: 1.4em;
+    
+}
+    
+
+}
