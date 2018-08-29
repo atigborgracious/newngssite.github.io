@@ -60,7 +60,7 @@ header .box-title {
 	-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
 }
 .box-content {
-    background-color: rgba(0,0,0,.54);
+   
 	width: calc(100% - 0px);
 	padding: 30px 20px;
 	font-size: 20pt;
@@ -109,16 +109,19 @@ input:checked + section.box .box-title:before {
 @media screen and (max-width: 1024px) {
     
     .accordion {
-	margin: auto;
+	margin: 0;
 	width: 100%;
     
 }
-    
-    .box {
-	position: relative;
-	background-color:rgba(0,0,0,.54);
-    height: 64px;
-    padding:4%;    
-    transition: all .15s ease-in-out;
-}
+#contain2 {
+	height: calc(100% - 20px);
+	width: calc(100% - 5px);
+	margin: 0;
+	padding: 10px;
+	display: flex;
+	
+	color:#000;
+	 font-family: 'MrsEavesRomanRegular'!important;
+}    
+   
 }
