@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/reset.css"  />    
  <link rel="stylesheet" href="css/bootstrap.css"  />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link  rel="stylesheet"  href="css/accordian.css">
  <link  rel="stylesheet"  href="css/aos.css">
   <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script-->
 
@@ -107,23 +108,29 @@ Many young ones in single-parent household, face opportunity gap – social, eco
    
 </div>  
     <div id="accor">
-<div class="container2">
+     <div id="contain2">
         
-          <div class="accordion">
-            <dl>
-              <dt>
-                <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">Get Involved </a>
-              </dt>
-              <dd class="accordion-content accordionItem collapsed " id="accordion1" aria-hidden="true">
-                <p>	-Become a Mentor <br/>-Find a Mentor <br/>-Advocacy <br/> -Donate <br/>-Community Engagement <br/> -Register for a program <br/> -Volunteer (Volunteer recruitment)
+       
+<nav class="accordion arrows">
+		<!--header class="box">
+			<label for="acc-close" class="box-title">Accordion menu</label>
+		</header-->
+		<input type="radio" name="accordion" id="cb1" />
+		<section class="box">
+			<label class="box-title" for="cb1">Get Involved </label>
+			<label class="box-close" for="acc-close"></label>
+			<div class="box-content">
+             <p>	-Become a Mentor <br/>-Find a Mentor <br/>-Advocacy <br/>
+ -Donate <br/>-Community Engagement <br/> -Register for a program <br/> -Volunteer (Volunteer recruitment)
 </p>
-              </dd>
-              <dt>
-                <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">
-                  Get Started!</a>
-              </dt>
-              <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
-                <p>Are you a parent, guardian, a career coach, teacher, or a responsible adult who will want to volunteer as a mentor? </p>
+            </div>
+		</section>
+		<input type="radio" name="accordion" id="cb2" />
+		<section class="box">
+			<label class="box-title" for="cb2">  Get Started!</label>
+			<label class="box-close" for="acc-close"></label>
+			<div class="box-content">
+              <p>Are you a parent, guardian, a career coach, teacher, or a responsible adult who will want to volunteer as a mentor? </p>
                   <p>
 A guide to decision making to volunteer as a mentor. Ask yourself the following questions: <br/>
 	-Am I willing to commit my time to be a listening ear, caring heart, a lifting hand to a lonely youth?<br/>
@@ -160,19 +167,18 @@ Mentoring is a shared opportunity for learning and growth. You can grow up with 
                   <p>
 Stories connect us to each other, they motivate us to take action and they inspire us to give back. We all have stories to share and our collective voice will help propel the mentoring movement forward. It all begins with sharing your story. Do you have a mentor you want to thank? Someone who made or is making a tremendous difference in your life? Or maybe you are a mentor and have had a transformational experience mentoring a young person? We want to hear from you.  There is no better way to understand the impact mentoring can have then hearing directly from who benefit. Though each mentoring story is different, they are all inspiring. Stories show how the mentoring effect has a profound impact not only on mentees, but also mentors.
 </p>
-              </dd>
-              <dt>
-                <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
-                  Third Accordion heading
-                </a>
-              </dt>
-              <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
-                <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
-              </dd>
-            </dl>
+            </div>
+		</section>
+		<!--input type="radio" name="accordion" id="cb3" />
+		<section class="box">
+			<label class="box-title" for="cb3">Item 3</label>
+			<label class="box-close" for="acc-close"></label>
+			<div class="box-content">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque finibus tristique nisi, maximus ullamcorper ante finibus eget.</div>
+		</section-->
+
+		<input type="radio" name="accordion" id="acc-close" />
+	</nav>
           </div>
-        </div>
  </div>
 
 
