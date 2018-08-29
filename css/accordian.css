@@ -8,6 +8,12 @@
 	color:#000;
 	 font-family: 'MrsEavesRomanRegular'!important;
 }
+.accordion h4 {
+    color:#fff;
+	 font-family: 'MrsEavesRomanRegular'!important;
+    font-size: 23pt;
+}
+
 .accordion {
 	margin: auto;
 	width: 80%;
