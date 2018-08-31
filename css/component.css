@@ -1,0 +1,279 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+/* Set all parents to full height */
+html, body, 
+.container1,
+.cbp-fbscroller,
+.cbp-fbscroller section { 
+	height: 100%; 
+}
+
+.log1 img{
+    display: block;
+}
+ .log2 img{
+    display: none;
+}
+
+/* The nav is fixed on the right side  and we center it by translating it 50% 
+(we don't know it's height so we can't use the negative margin trick) */
+.cbp-fbscroller > nav {
+	position: fixed;
+	z-index: 9999;
+	right: 20px;
+	top: 50%;
+	width: 16px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.cbp-fbscroller > nav a {
+	display: block;
+	position: relative;
+	z-index: 9999;
+	color: transparent;
+	width: 12px;
+	height: 12px;
+	outline: none;
+	margin: 25px 0;
+	border-radius: 50%;
+	border: 4px solid #142240;
+}
+
+.no-touch .cbp-fbscroller > nav a:hover {
+	background: rgba(255,255,255,0.6);
+}
+
+.cbp-fbscroller > nav a.cbp-fbcurrent {
+	background: #fff;
+}
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.no-touch .cbp-fbscroller section {
+	background-attachment: fixed;
+}
+
+#fbsection1 {
+	/*background-image: url(../images/1.jpg) ;*/
+   height: auto;
+    
+}
+
+#fbsection2 {
+	background-image: url(../images/about_banner.jpg);
+    height: auto;
+}
+
+#fbsection3 {
+	background-image: url(../images/3.jpg);
+        height: auto;
+}
+
+#fbsection4 {
+	background-image: url(../images/4.jpg);
+        height: auto;
+}
+
+#fbsection5 {
+	background-image: url(../images/5.jpg);
+        height: auto;
+}
+
+/******NAV-MENU******/
+
+.mobile-nav-button {
+  width: 35px;
+  position: absolute;
+  margin: 2rem;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  cursor: pointer;
+  width: 35px;
+  height: 30px;
+}
+
+.mobile-nav-button .mobile-nav-button__line {
+  width: 100%;
+  height: 4px;
+  background: #fff;
+  position: relative;
+  transition: 1s ease;
+}
+
+.mobile-nav-button .mobile-nav-button__line:nth-of-type(2) { margin: 0.5rem 0; }
+
+.mobile-nav-button .mobile-nav-button__line--1 {
+  transform: rotate(45deg);
+  top: 13px;
+  position: absolute;
+}
+
+.mobile-nav-button .mobile-nav-button__line--2 { display: none; }
+
+.mobile-nav-button .mobile-nav-button__line--3 {
+  transform: rotate(135deg);
+  top: 13px;
+  position: absolute;
+}
+
+.mobile-menu {
+  display: block;
+  max-width: 40%;
+  width: 100%;
+  right: -100%;
+  height: 50vh;
+  background: #48bcfe;
+  position: absolute;
+  z-index: 9998;
+  transition: 0.6s ease;
+  top: 0;
+  opacity: 0;
+}
+
+.mobile-menu ul {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
+}
+
+.mobile-menu ul li { list-style: none; padding-bottom: 2.5%; }
+
+.mobile-menu ul li a {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 150%;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+    
+}
+
+.mobile-menu ul li a:after {
+  content: '';
+  background: #0e0e0e;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  z-index: -1;
+  transition: 0.4s ease;
+}
+
+.mobile-menu ul li a:hover { color: #fff; }
+
+.mobile-menu ul li a:hover:after { right: 0; }
+
+.mobile-menu img {
+  position: absolute;
+  width: 150px;
+  display: block;
+  left: 50%;
+  top: 3rem;
+  transform: translatex(-50%);
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-menu--open {
+  right: 0;
+  opacity: 1;
+}
+
+
+.quote {
+    margin-top:5%;
+    margin-bottom: 5%;
+}
+
+aside:hover{
+    border: 3px solid #8e17d2;
+     transition: 0.6s linear;
+}
+.service {
+    padding : 1%;
+}
+
+
+.card {
+        position: relative;
+        display: inline-block;
+        margin: 50px;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+         transition: 0.10s ease-in;
+    }
+
+
+#copyright {
+	background: #222222;
+	padding :7px;
+	margin-top:-20px;
+	text-align: center;
+}
+#copyright p , #copyright p a {
+  text-align: center;
+	color:#fff;	
+	font-size: 15px;
+    font-weight: 80;
+    line-height: 25px;
+}
+#copyright p a:hover {
+	color:#CCB76C;
+}
+@media screen and (max-width: 800px) {
+     .cbp-fbscroller > nav  {
+        display: none;
+    }
+    .container1 > header {
+	padding: 2.875em 1.875em 1.875em;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	left: 0%;
+}
+}
+
+@media screen and (max-width: 414px) {
+    #fbsection1 {
+	/*background-image: url(../images/11.jpg) cover ;
+   background-repeat: no-repeat;
+    background-size: contain;
+        height: 242px;*/
+}
+    
+    .cbp-fbscroller > nav  {
+        display: none;
+    }
+.log1 img{
+        display: none;
+    }
+   .log2 img{
+        display: block;
+    }
+
+}
+

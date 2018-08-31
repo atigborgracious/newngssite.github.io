@@ -1,0 +1,531 @@
+/* General Blueprint Style */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+/*@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}  */
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+ 
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+.container1 > header {
+	padding: 2.875em 1.875em 1.875em;
+	position: fixed;
+	z-index: 1000;
+	width: 70%;
+	left: 30%;
+}
+
+.icon-drop:before, 
+.icon-arrow-left:before {
+	font-family: 'fontawesome';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #142240;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 8px;
+}
+
+.container1 > header nav a:hover:before {
+	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
+}
+
+/******HOME******/
+
+.home_container {
+    background: url("../images/home-banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : 100vh;
+     width: 100%;
+    padding-top: 20%;
+ 
+}
+
+.home_container h1{
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    font-size: 400%;
+}
+ .home_container h1 span {
+        border-bottom: #fff solid 2px; 
+    }
+    
+.home_container h2{
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 300%;
+}
+
+.home-content {
+ 
+}
+
+
+#about{padding-top: 7%;padding-bottom: 7%;}
+
+#about h3{
+    font-size: 3.3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+     color: #142240;
+}
+
+#about h3 span{
+    border-top: #f15429 2px solid;
+}
+
+#about p {
+    color: #142240;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+#about img {
+    padding-top: 4%;
+}
+
+
+#service h3{
+    font-size: 3.3em;
+    font-weight: 600;
+    letter-spacing: 2px;
+     color: #142240;
+}
+
+#service h3 span{
+    border-top: #f15429 2px solid;
+}
+
+/*#service_container {
+   
+    margin-top: 0 !important;
+    width: 100%;
+    margin-bottom: 0px;
+}
+#service_container .container {
+    width: 100%;
+}
+
+#service_container .col-md-3 {
+    margin: 0;
+    padding: 15px;
+}
+#service_container*/ .home-carpentry {
+  background-color: #142240;
+    height: 20em;
+    display: block;
+   padding-bottom: 3%;
+  
+}
+
+.home-carpentry  h5{
+    padding:3%;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.home-carpentry2{
+    height:16em;
+    background: url("../images/Carpentry.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding:2%;  
+}
+
+
+#service_container .home-plumbing {
+   background-color: #142240;
+    height: 20em;
+    display: block;
+   padding-bottom: 3%;
+}
+
+.home-plumbing  h5{
+    padding:3%;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.home-plumbing2{
+     height:16em;
+    background: url("../images/Plumbing.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding:2%;  
+}
+
+
+#service_container .home-electricity {
+  background-color: #142240;
+    height: 20em;
+    display: block;
+   padding-bottom: 3%;
+}
+
+.home-electricity  h5{
+    padding:3%;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.home-electricity2{
+    height:16em;
+    background: url("../images/Electricity.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding:2%;  
+}
+
+
+
+
+
+#service_container .home-cleaning {
+ background-color: #142240;
+    height: 20em;
+    display: block;
+   padding-bottom: 3%;
+}
+
+.home-cleaning  h5{
+    padding:3%;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.home-cleaning2{
+     height:16em;
+    background: url("../images/Cleaning.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding:2%;  
+}
+
+
+
+#service_container .home-ac {
+    background-color: #142240;
+    height: 23em;
+    display: block;
+   padding-bottom: 3%;
+}
+
+.home-ac  h5{
+    padding:3%;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+.home-ac2{
+    height:16em;
+    background: url("../images/ac.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding:2%;  
+}
+
+
+#service_container .home-tiles {
+   background-color: #142240;
+    height: 23em;
+    display: block;
+   padding-bottom: 3%;
+}
+.home-tiles  h5{
+    padding:3%;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+.home-tiles2{
+   height:16em;
+    background: url("../images/wall.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding:2%;  
+}
+
+
+
+
+#service_container .home-appliance {
+   background-color: #142240;
+    height: 23em;
+    display: block;
+   padding-bottom: 3%;
+}
+.home-appliance h5{
+    padding:3%;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+.home-appliance2{
+    height:16em;
+    background: url("../images/appliance.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding:2%;  
+}
+
+
+
+
+
+
+#service_container .home-wardrobe {
+  background-color: #142240;
+    height: 23em;
+    display: block;
+   padding-bottom: 3%;
+}
+.home-wardrobe h5{
+    padding:3%;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+.home-wardrobe2{
+    height:16em;
+    background: url("../images/wardrobe.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+     padding:2%;  
+}
+
+#product h3{
+    font-size: 3.3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+     color: #fff;
+    padding-top: 3%;
+}
+
+#product h3 span{
+    border-top: #f15429 2px solid;
+}
+
+#product h4{
+    font-size: 2.3em;
+    font-weight:500;
+    letter-spacing: 3px;
+     color: #fff;
+    padding-top: 3%;
+}
+#product h5 {
+    letter-spacing: 1px;
+}
+
+.form-group textarea {
+    border : solid #142240  1px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    margin-top: 2%;
+    resize: none;
+    height: 8em;
+    color:#142240 ;
+    font-size: 1.2em;
+     background-color:rgba(255,255,255,.64);
+    -webkit-appearance: none;
+}
+
+.form_details input[type="text"] {
+    border : solid #142240  1px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    resize: none;
+     color:#142240  ;
+    align-items: center;
+    font-size: 1.2em;
+    -webkit-appearance: none;
+     background-color:rgba(255,255,255,.64);
+}
+
+
+.send input[type="submit"] {
+    border: 1px solid #142240 ;
+	border-radius: 3px;
+   text-align: center;
+    padding: .2em ;
+    width: 35%;
+    margin-top:1px;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #142240 ;
+    letter-spacing: 1px;
+    outline: none;
+    background-color: #fff  ;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -webkit-appearance: none;
+}
+
+
+.form-control {
+    margin: 2% auto 0 auto!important;
+   
+}
+
+
+@media screen and (max-width: 1024px) {
+    .home_container {
+    background: url("../images/home-banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : 45em;
+     width: 100%;
+    padding-top: 40%;
+}
+    
+    #about img{
+        padding-top: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .home_container {
+    background: url("../images/home-banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : 40em;
+     width: 100%;
+    padding-top: 35%;
+}
+    
+    #about img{
+        padding-top: 5%;
+    }
+    
+    .home_container h1{
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    font-size: 200%;
+        word-wrap: break-word;
+}
+
+.home_container h2{
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 150%;
+}
+    
+}
+
+@media screen and (max-width: 500px) {
+    .home_container {
+    background: url("../images/home-banner.jpg") repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height : 40em;
+     width: 100%;
+    padding-top: 65%;
+}
+    
+    #about img{
+        padding-top: 5%;
+    }
+    
+    .home_container h1{
+    font-weight: 600;
+    letter-spacing: 0.4em;
+    font-size: 190%;
+}
+
+    .home_container h1 span {
+        border-bottom: #fff solid 2px; 
+    }
+    
+.home_container h2{
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 150%;
+}
+    
+}
+@media screen and (max-width: 322px){
+    
+      .home_container h1{
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    font-size: 165%;
+        
+    
+}
+
+.home_container h2{
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 140%;
+}
+}
