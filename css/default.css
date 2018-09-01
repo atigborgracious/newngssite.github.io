@@ -84,6 +84,7 @@ a:hover {
     height : 100vh;
      width: 100%;
     padding-top: 20%;
+     color:#fff!important;
  
 }
 
@@ -91,6 +92,7 @@ a:hover {
     font-weight: 700;
     letter-spacing: 0.4em;
     font-size: 400%;
+     color:#fff!important;
 }
  .home_container h1 span {
         border-bottom: #fff solid 2px; 
@@ -100,6 +102,7 @@ a:hover {
     font-weight: 300;
     letter-spacing: 0.1em;
     font-size: 300%;
+    color:#fff!important;
 }
 
 .home-content {
@@ -441,6 +444,7 @@ a:hover {
     height : 45em;
      width: 100%;
     padding-top: 40%;
+         color:#fff!important;
 }
     
     #about img{
@@ -470,12 +474,14 @@ a:hover {
     letter-spacing: 0.4em;
     font-size: 200%;
         word-wrap: break-word;
+         color:#fff!important;
 }
 
 .home_container h2{
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 150%;
+     color:#fff!important;
 }
     
 }
@@ -500,6 +506,7 @@ a:hover {
     font-weight: 600;
     letter-spacing: 0.4em;
     font-size: 190%;
+         color:#fff!important;
 }
 
     .home_container h1 span {
@@ -510,6 +517,7 @@ a:hover {
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 150%;
+     color:#fff!important;
 }
     
 }
@@ -519,11 +527,13 @@ a:hover {
     font-weight: 500;
     letter-spacing: 0.4em;
     font-size: 165%;
+           color:#fff!important;
         
     
 }
 
 .home_container h2{
+     color:#fff!important;
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 140%;
