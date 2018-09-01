@@ -22,7 +22,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
  
-    color: #fff;
+    color: #fff!important;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -164,6 +164,8 @@ a:hover {
     height: 20em;
     display: block;
    padding-bottom: 3%;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
   
 }
 
@@ -171,6 +173,8 @@ a:hover {
     padding:3%;
     letter-spacing: 1px;
     font-size: 1.2em;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 
 .home-carpentry2{
@@ -195,6 +199,8 @@ a:hover {
     padding:3%;
     letter-spacing: 1px;
     font-size: 1.2em;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 
 .home-plumbing2{
@@ -219,6 +225,8 @@ a:hover {
     padding:3%;
     letter-spacing: 1px;
     font-size: 1.2em;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 
 .home-electricity2{
@@ -246,6 +254,8 @@ a:hover {
     padding:3%;
     letter-spacing: 1px;
     font-size: 1.2em;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 
 .home-cleaning2{
@@ -271,6 +281,8 @@ a:hover {
     padding:3%;
     letter-spacing: 1px;
     font-size: 1.2em;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 .home-ac2{
     height:16em;
@@ -293,6 +305,8 @@ a:hover {
     padding:3%;
     letter-spacing: 1px;
     font-size: 1.2em;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 .home-tiles2{
    height:16em;
@@ -317,6 +331,8 @@ a:hover {
     padding:3%;
     letter-spacing: 1px;
     font-size: 1.2em;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 .home-appliance2{
     height:16em;
@@ -343,6 +359,8 @@ a:hover {
     padding:3%;
     letter-spacing: 1px;
     font-size: 1.2em;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 
 .home-wardrobe2{
@@ -373,9 +391,14 @@ a:hover {
     letter-spacing: 3px;
      color: #fff;
     padding-top: 3%;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
 }
 #product h5 {
     letter-spacing: 1px;
+     color: #fff!important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
 }
 
 .form-group textarea {
@@ -387,6 +410,7 @@ a:hover {
     resize: none;
     height: 8em;
     color:#142240 ;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
      background-color:rgba(255,255,255,.64);
     -webkit-appearance: none;
@@ -394,6 +418,7 @@ a:hover {
 
 .form_details input[type="text"] {
     border : solid #142240  1px;
+    font-family: 'Raleway', sans-serif;
     border-radius: 4px;
     outline: none;
     width: 100%;
@@ -414,6 +439,7 @@ a:hover {
     width: 35%;
     margin-top:1px;
     font-size: 1.4em;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: #142240 ;
     letter-spacing: 1px;
