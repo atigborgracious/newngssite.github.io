@@ -474,14 +474,14 @@ a:hover {
 
 @media screen and (max-width: 1024px) {
     .home_container {
-    background: url("../images/home-banner.jpg") repeat center top;
+    background: url("../images/home-banner4.jpg") repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     height : 45em;
      width: 100%;
-    padding-top: 30%;
+    padding-top: 10%;
          color:#fff!important;
 }
     
@@ -493,14 +493,14 @@ a:hover {
 
 @media screen and (max-width: 800px) {
     .home_container {
-    background: url("../images/home-banner.jpg") repeat center top;
+    background: url("../images/home-banner4.jpg") repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     height : 40em;
      width: 100%;
-    padding-top: 40%;
+    padding-top: 15%;
 }
     
     #about img{
@@ -526,14 +526,14 @@ a:hover {
 
 @media screen and (max-width: 500px) {
     .home_container {
-    background: url("../images/home-banner.jpg") repeat center top;
+    background: url("../images/home-banner4.jpg") repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     height : 40em;
      width: 100%;
-    padding-top: 2%;
+    padding-top: 40%;
 }
     
     #about img{
