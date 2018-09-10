@@ -38,7 +38,7 @@ html, body,
 	outline: none;
 	margin: 25px 0;
 	border-radius: 50%;
-	border: 4px solid #142240;
+	border: 4px solid #f91a15;
 }
 
 .no-touch .cbp-fbscroller > nav a:hover {
@@ -104,7 +104,7 @@ html, body,
 .mobile-nav-button .mobile-nav-button__line {
   width: 100%;
   height: 4px;
-  background: #fff;
+  background: #f91a15;
   position: relative;
   transition: 1s ease;
 }
@@ -131,7 +131,7 @@ html, body,
   width: 100%;
   right: -100%;
   height: 50vh;
-  background: #48bcfe;
+  background: #08487f;
   position: absolute;
   z-index: 9998;
   transition: 0.6s ease;
