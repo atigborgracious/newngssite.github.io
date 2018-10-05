@@ -25,23 +25,32 @@
   <body>
      
 
-      
+      <header>
+        <div class="container-fluid">
+                    
+     <section class="nav_fix">               
+  <div class="mobile-nav-button">
+    <div class="mobile-nav-button__line"></div>
+    <div class="mobile-nav-button__line"></div>
+    <div class="mobile-nav-button__line"></div>
+  </div>
+  <nav class="mobile-menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#service">What We Do</a></li>
+      <li><a href="#product">Clients</a></li>    
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav></section>
+                </div>
+      </header>
       
        <header class="v-header container2">
            
-           <div class="menu-wrapper">
-     <div class="menu-button">
-       <span></span>
-       <span></span>
-       <span></span>
-     </div>
-     <ul>
-       <li class="menu-list-item"><a>About </a></li>
-       <li class="menu-list-item"><a>Services</a></li>
-        <li class="menu-list-item"><a>Clients</a></li> 
-       <li class="menu-list-item"><a>Contact </a></li>
-     </ul>
-  </div>    
+    
+              
+
            
     <div class="fullscreen-video-wrap">
       <!--  https://www.videvo.net/video/typing-on-computer-white-bg/4475/ -->
@@ -296,11 +305,11 @@ rather, for the benefit of its clients.</p>
     <!-- /.carousel -->
       
       <div id="client">
-      <div class="container" style="margin-top:10%;">
+      <div class="container" style="margin-top:2%;">
           
-           <section class="row ">
-            <section class="col-md-12 pb-3">
-            <h2 data-aos="zoom-in" data-aos-duration="2600">Our Clients</h2>
+           <section class="row " style="margin-bottom: 10% ;">
+            <section class="col-md-12 ">
+            <h2 data-aos="zoom-in" data-aos-duration="2000">Our Clients</h2>
                 </section>
         </section>
           
@@ -507,7 +516,18 @@ rather, for the benefit of its clients.</p>
     
       <!------MENU----->
     
-      <script type="text/javascript" src="js/menu.js"></script>
+      <script>
+$(document).ready(function () {
+  $('.mobile-nav-button').on('click', function() {
+  $( ".mobile-nav-button .mobile-nav-button__line:nth-of-type(1)" ).toggleClass( "mobile-nav-button__line--1");
+  $( ".mobile-nav-button .mobile-nav-button__line:nth-of-type(2)" ).toggleClass( "mobile-nav-button__line--2");  
+  $( ".mobile-nav-button .mobile-nav-button__line:nth-of-type(3)" ).toggleClass( "mobile-nav-button__line--3");  
+  
+  $('.mobile-menu').toggleClass('mobile-menu--open');
+  return false;
+}); 
+});
+</script>
       
       
       <script src='js/aos.js'></script>
