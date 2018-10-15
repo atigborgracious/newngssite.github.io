@@ -7,11 +7,11 @@ $(window).scroll(function(){
 function parallax(){
     var wScroll = $(window).scrollTop();
     
-    $('.parallax--box').css('top',-1+(wScroll*0.009)+'em')
+    $('.parallax--box').css('top',-10+(wScroll*0.009)+'em')
      
-    $('.parallax--box2').css('top',-1+(wScroll*0.007)+'em')   
+    $('.parallax--box2').css('top',-10+(wScroll*0.007)+'em')   
     
-     $('.parallax--box3').css('top',-1+(wScroll*0.008)+'em')   
+     $('.parallax--box3').css('top',-10+(wScroll*0.008)+'em')   
     
     $('.parallax--box4').css('top',-20+(wScroll*0.009)+'em')
      
