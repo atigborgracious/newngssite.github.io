@@ -1,20 +1,21 @@
 
 
 #particles-js{
-  background:orange;
+  background:#ff8a00;
   max-height:auto;
     padding: 2%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 #login{
-  background:rgba(255,255,255,0.5);
+  background:rgba(0,0,0,0.5);
   opacity:0.9;
   padding:2em;
   position:absolute;
   top:100px;
   left:50px;
-    color:#454545;
+    /*color:#454545;*/
+    color:#fff;
 }
 
 #login input[type="text"], #login input[type="password"]{
