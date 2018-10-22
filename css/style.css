@@ -1,10 +1,10 @@
 
 
 #particles-js{
-  background:#ff8a00;
+  background-color: #1c2735/*#ff8a00*/;
   max-height:auto;
     padding: 1% 2% 12% 2% !important;
-   margin-top: 1%;
+   margin-top:;
 }
 
 #particles-js h2 {
@@ -13,15 +13,15 @@
 }
 
 #login{
-  background:rgba(255,255,255,0.5);
+  background:rgba(255,255,255,0.8);
   opacity:0.9;
-  padding:2em;
+  padding:2em 5.5em;
   position:absolute;
     height:auto;
   /*top:100px;
   left:50px;
     color:#454545;*/
-    color:#141414;
+    color:#454545;
 }
 
 #login input[type="text"], #login input[type="password"]{
