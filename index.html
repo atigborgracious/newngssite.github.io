@@ -19,6 +19,10 @@
       <link  rel="stylesheet"  href="css/custome.css">
       <link rel="stylesheet" href="css/style.css">
        <link  rel="stylesheet"  href="css/hover.css">
+      
+      
+      <link href="css/gallery.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/grid-gallery.css">
   </head>
   <body>
      
@@ -37,6 +41,7 @@
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
+     <li><a href="#portfolio">Works</a></li>      
       <li><a href="#clients">Clients</a></li>    
       <li><a href="#contactwrapper">Contact</a></li>
     </ul>
@@ -77,7 +82,7 @@ rather, for the benefit of its clients.</p>
              <div class="row">
                 
                 <div class="col-md-12 text-center">
-                   <h2 class="titles" ><span>About Us</span></h2>
+                   <h2 class="titles" >About Us</h2>
                       <p data-aos="zoom-in" data-aos-duration="2800">
                  Welcome to markOne an agency that is small in size, <br/>
              but big on attitude. an agency that doesn't churn out creatives for the sake of creativity rather, for the benefit of its clients. where strategy strikes the right chord with creative ideas and where the brand comes first, not business. where ideas are not lifted from the black book but from great insights about the brands. where communication doesn't cause more confusion but breaks the clutter with simplicity. where scam is considered harm. a honest, down-to-earth agency, "it's my kind of agency". an agency that works really, really hard to see to it that your brand stands out among the rest.
@@ -143,7 +148,7 @@ rather, for the benefit of its clients.</p>
       <div class="container" >
            <section class="row titles mb-4" >
             <section class="col-md-12 pt-5">
-            <h2  data-aos="fade-down" data-aos-duration="2600"><span>What We Do</span></h2>
+            <h2  data-aos="fade-down" data-aos-duration="2600">What We Do</h2>
                 </section>
         </section>
  <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000" >
@@ -331,12 +336,56 @@ rather, for the benefit of its clients.</p>
        </div>
     <!-- /.carousel -->
       
+      
+      <div id="portfolio">
+       <div class="container">
+         <section class="row titles">
+           <section class="col-md-12">
+                    <h2  data-aos="fade-down" data-aos-duration="2600">Our Works</h2>
+             </section>
+           </section>
+          </div>
+      </div>
+      <section class="gallery-block grid-gallery">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-sm-3 item">
+                        <a class="lightbox" href="img/pic8.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/pic8.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-3  item">
+                        <a class="lightbox" href="img/pic7.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/pic7.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-3 item">
+                        <a class="lightbox" href="img/pic6.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/pic6.jpg">
+                        </a>
+                    </div>
+                    <div class="col-sm-3  item">
+                        <a class="lightbox" href="img/pic5.jpg">
+                            <img class="img-fluid image scale-on-hover" src="img/pic5.jpg">
+                        </a>
+                    </div>        
+                </div>
+          </div>
+           <hr/>
+      </section>
+      
+      
+     
+      
+      
+      
       <div id="clients" class="content-section">
       <div class="container" style="margin-top:2%; margin-bottom: 33%;">
           
            <section class="row titles" style="margin-bottom: 10% ;">
             <section class="col-md-12 ">
-            <h2  data-aos="fade-down" data-aos-duration="2600"><span>Our Clients</span></h2>
+            <h2  data-aos="fade-down" data-aos-duration="2600">Our Clients</h2>
                 </section>
         </section>
           
@@ -641,6 +690,11 @@ $(document).ready(function () {
 </script>
       
       
+      
+       <script src="js/gallery.js"></script> 
+        <script>
+            baguetteBox.run('.grid-gallery', { animation: 'slideIn'});
+        </script>
       
       
       <script src='js/aos.js'></script>
