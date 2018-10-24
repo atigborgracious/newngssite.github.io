@@ -19,7 +19,7 @@ function parallax(){
     
      $('.parallax--box6').css('top',-18+(wScroll*0.008)+'em')
     
-     $('.parallax--box7').css('top',-31+(wScroll*0.015)+'em')
+     $('.parallax--box7').css('top',-36+(wScroll*0.015)+'em')
     
      $('.parallax--box8').css('top',-25+(wScroll*0.009)+'em')
      
