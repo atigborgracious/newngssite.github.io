@@ -29,3 +29,23 @@
   margin-bottom:1px;
   border:1px #ccc solid;
 }
+
+#content_tohide1  {
+    display: block;
+}
+
+#content_tohide2  {
+    display: none;
+}
+
+
+@media(max-width:960px){
+  
+    #content_tohide1  {
+    display: none;
+}
+    
+     #content_tohide2  {
+    display:block;
+}
+}
