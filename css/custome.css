@@ -168,6 +168,13 @@ padding-top: 2%;
     padding-bottom: 1%;
 }
 
+video {
+	top:0 !important;
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+
 .header-content h1 span {
     border-bottom: #fff solid 2px;
     padding-bottom: 1%;
