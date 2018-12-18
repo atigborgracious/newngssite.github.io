@@ -99,7 +99,7 @@ p{
 
 #video-background {
 /*  making the video fullscreen  */
-  
+  position: fixed;
   right: 0; 
   bottom: 0;
   min-width: 100%; 
@@ -126,7 +126,7 @@ padding-top: 2%;
   margin:auto;
   text-align:center;
     
-} 
+}
 
 .fullscreen-video-wrap{
   position:absolute;
@@ -172,9 +172,7 @@ video {
 	top:0 !important;
   width: 100%    !important;
   height: auto   !important;
-  margin-top:0% !important;
-background-attachment: 	scroll !important;
-	margin-bottom: 0% !important;
+  margin-top:-3% !important;
 }
 
 
