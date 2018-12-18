@@ -99,7 +99,7 @@ p{
 
 #video-background {
 /*  making the video fullscreen  */
-  position: fixed;
+  
   right: 0; 
   bottom: 0;
   min-width: 100%; 
@@ -173,6 +173,7 @@ video {
   width: 100%    !important;
   height: auto   !important;
   margin-top:-3% !important;
+background-attachment: 	scroll !important;
 }
 
 
