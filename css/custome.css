@@ -165,7 +165,7 @@ padding-top: 0%;
   color:#f39200;    
   margin-bottom:0;
   letter-spacing: 3px; 
-    padding-bottom: 1%;
+    padding-bottom: 0%;
 }
 
 video {
@@ -186,8 +186,8 @@ video {
  font-family: 'Raleway', sans-serif;    
   font-size:1.5rem;
   display:block;
-  padding-bottom:2rem;
-  padding-top:1rem;    
+  padding-bottom:0rem;
+  padding-top:0rem;    
   font-weight:400;
   letter-spacing: 1px;      
 }
@@ -196,7 +196,7 @@ video {
   background: #34b3a0;
   color:#fff;
   font-size:1.2rem;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   text-decoration: none;
 }
 
