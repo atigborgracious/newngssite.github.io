@@ -172,8 +172,9 @@ video {
 	top:0 !important;
   width: 100%    !important;
   height: auto   !important;
-  margin-top:-3% !important;
+  margin-top:0% !important;
 background-attachment: 	scroll !important;
+	margin-bottom: 0% !important;
 }
 
 
