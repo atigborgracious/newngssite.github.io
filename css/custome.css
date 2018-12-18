@@ -173,6 +173,7 @@ video {
   width: 100%    !important;
   height: auto   !important;
   margin-top:-3% !important;
+background-attachment: scroll;	
 }
 
 
