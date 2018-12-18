@@ -113,7 +113,7 @@ p{
 .v-header{
     background-attachment:scroll; 
   height:80vh;
-  display:flex;
+  /*display:flex;*/
   color:#fff;
 
 }
