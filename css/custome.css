@@ -112,8 +112,8 @@ p{
 
 .v-header{
     background-attachment:scroll; 
-  height:80vh;
-  display:flex;
+  /*height:80vh;
+  display:flex;*/
   color:#fff;
 
 }
