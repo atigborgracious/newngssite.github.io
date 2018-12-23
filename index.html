@@ -698,6 +698,34 @@ read more/less
       
       </div>
 </div> </div>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  <div class="carousel-wrap">
+  <div class="owl-carousel">
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+    <div class="item"><img src="http://placehold.it/150x150"></div>
+  </div>
+</div>
+
+	  
       <!--div id="contact"-->
           <div id="contactwrapper" class="content-section" style="margin-top: 5%;">
         <div class="container">
@@ -784,7 +812,30 @@ read more/less
       
       </div>
       
-        
+        <script>
+		$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='fa fa-caret-left'></i>",
+    "<i class='fa fa-caret-right'></i>"
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5
+    }
+  }
+})
+	  </script>	
       
       <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
