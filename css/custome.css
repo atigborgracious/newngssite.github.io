@@ -491,7 +491,7 @@ color: #fff;
  margin:5px auto; 
 width: 70px;
   height: 70px;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 
 .mobile-menu ul li a {
