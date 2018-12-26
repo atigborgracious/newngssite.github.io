@@ -1,8 +1,8 @@
 #particles-js{
   background-color: #ff8a00 /*#1c2735*/;
   max-height:auto;
-    padding: 2% 2% 12% 2% !important;
-   margin-top:2%;
+    padding: 0% 2% 12% 2% !important;
+   margin-top:-2%;
 }
 
 #particles-js h2 {
@@ -19,7 +19,7 @@
   /*top:100px;
   left:50px;
     color:#454545;*/
-  margin-top:2%;
+  margin-top:4%;
     color:#454545;
 }
 
@@ -48,5 +48,6 @@
     display:block;
 }
 }
+
 
 
