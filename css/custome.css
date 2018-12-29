@@ -51,6 +51,11 @@ p{
 
 
 /********VIDEO*******/
+#vid-con {
+width: 100%;
+height: auto;	
+}
+
 #myVideo {
   right: 0;
   bottom: 0;
