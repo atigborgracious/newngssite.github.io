@@ -52,7 +52,7 @@ p{
 
 /********VIDEO*******/
 #vid-con {
-min-width:100%;
+width:100vw;
 margin:auto;	
 }
 
