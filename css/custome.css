@@ -51,37 +51,13 @@ p{
 
 
 /********VIDEO*******/
-
-header .video_container{
-  background-color: black;
-  height: 75vh;
-  min-height: auto;
-  width: 100%;
-  overflow: hidden;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height:auto;
 }
-
-header .video_container2{
-  background-color: black;
-  height:auto;
-  min-height: auto;
-  width: 100%;
-  overflow: hidden;
-}
-
-header video {
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
 
 
 /********END OF VIDEO*******/
