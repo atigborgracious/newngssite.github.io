@@ -51,10 +51,10 @@ p{
 
 
 /********VIDEO*******/
-#vid-con {
+/*#vid-con {
 max-width:1200px;
 margin:auto;	
-}
+} */
 
 #myVideo {
   width: 100%; 
