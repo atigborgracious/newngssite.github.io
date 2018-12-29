@@ -52,15 +52,15 @@ p{
 
 /********VIDEO*******/
 #vid-con {
-width: 100%;
-height: auto;	
+max-width:1200px;
+margin:auto;	
 }
 
 #myVideo {
-  right: 0;
-  bottom: 0;
   width: 100%; 
   height:auto;
+top:0;
+  left:0;	
 }
 
 
