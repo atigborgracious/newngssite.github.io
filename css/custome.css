@@ -154,7 +154,8 @@ padding-top: 0%;
   -o-background-size: cover;
   background-size: cover;
      width: 100%;
-	padding:1% 0%; 
+	padding:5% 0%; 
+	margin-top:-2%;
 }
 
 .about-phone2 {
