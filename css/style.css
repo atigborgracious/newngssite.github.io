@@ -1,53 +1,709 @@
-#particles-js{
-  background-color: #ff8a00 /*#1c2735*/;
-  max-height:auto;
-    padding: 5% 2% !important;
-   margin-top:-2%;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800|Raleway:400,600,700,800,900');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600,800');
+
+*{
+  box-sizing: border-box;
 }
 
-#particles-js h2 {
-     font-family: 'MarkOT-Bold', sans-serif!important;
-    font-weight:600;
+body{
+  margin:0;
+  font-family: 'Open Sans', sans-serif;    
+  /*font-family: 'Raleway', sans-serif;*/
+  font-size:1rem;
+  font-weight:normal;
+  line-height:1.5;
+  color:#333;
+  overflow-x:hidden;
+
 }
 
-#login{
-  background:rgba(255,255,255,0.8);
-  opacity:0.9;
-  padding:2em 5.5em;
-  position:absolute;
-    height:auto;
-  /*top:100px;
-  left:50px;
-    color:#454545;*/
-  margin-top:4%;
-    color:#454545;
+nav {
+    border-bottom: #f7a300 solid 1px;
 }
 
-#login input[type="text"], #login input[type="password"]{
-  padding:0px 7px;
-  margin-bottom:0px;
-  border:1px #ccc solid;
+.navbar-nav li a {
+    color:#fff !important;
+    letter-spacing: 1px;
+} 
+
+.navbar-brand {
+   color:#fff !important; 
 }
 
-#content_tohide1  {
-    display: block;
+#landing-page {
+   background:url("../img/landing-page.jpg") no-repeat center top;
+    background-attachment: fixed;
+    color: #fff!important;
+  -webkit-background-size:100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%; 
+  color: #fff;
+  padding:17% 5%;
+  text-align: center;
+} 
+
+
+#landing-page h1 {
+    font-size: 8em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
 }
 
-#content_tohide2  {
-    display: none;
+#landing-page h3 {
+    font-size: 4em;
+    color: #fff;
+    letter-spacing: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+} 
+
+
+#landing-page p {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 15px;
 }
 
 
-@media(max-width:960px){
-  
-    #content_tohide1  {
-    display: none;
+
+#park-1 {
+    margin-top: 0 !important;
+    width: 100%;
+    margin-bottom: 0px;
 }
+
+
+#park-1 .col-lg-6 {
+    margin: 0;
+    padding: 15px;
+} 
+
+#park-1 .container {
+    width: 100%;
+} 
+
+#park-1 .park1-left{
+   background:url("../img/park1-left.jpg") no-repeat center top;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;     
+  color: #fff;
+  padding:5%;
+  height:27em;
+  display:block;
+  font-family: 'Raleway', sans-serif;
+} 
+
+#park-1 .park1-right{
+   background-color: red;
+  color: #fff;
+  padding:7% 5%;
+  height:27em;
+  font-family: 'Raleway', sans-serif;
+} 
+
+.park1-right h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    letter-spacing: 4px;
+} 
+
+
+#park-2 {
+    margin-top: 0 !important;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+#park-2 .col-lg-6 {
+    margin: 0;
+    padding: 15px;
+} 
+
+#park-2 .container {
+    width: 100%;
+} 
+
+#park-2 .park2-right{
+   background:url("../img/park2-right.jpg") no-repeat center top;
+   -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;       
+  color: #fff;
+  padding:5%;
+  height:27em;
+  font-family: 'Raleway', sans-serif;
+  display:block;      
+} 
+
+#park-2 .park2-left{
+   background-color:#206aa7;
+  color: #fff;
+  padding:7% 5%;
+  height:27em;
+  font-family: 'Raleway', sans-serif; 
+} 
+
+.park2-left h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+
+#park-3 {
+    margin-top: 0 !important;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+#park-3 .col-lg-6 {
+    margin: 0;
+    padding: 15px;
+} 
+
+#park-3 .container {
+    width: 100%;
+} 
+
+#park-3 .park3-left{
+   background:url("../img/park3-left.jpg") no-repeat center top;
+    -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;       
+  color: #fff;
+  padding:5%;
+  height:27em;
+  display: block;    
+  font-family: 'Raleway', sans-serif;
+} 
+
+#park-3 .park3-right{
+   background-color: #f7b308;
+  color: #fff;
+  padding:3% 5%;
+  height:27em;
+  font-family: 'Raleway', sans-serif;
+} 
+
+.park3-right h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600;
+    letter-spacing: 4px;
+} 
+
+@media (max-width:1200px) {
     
-     #content_tohide2  {
-    display:block;
-}
+  #landing-page {
+   background:url("../img/landing-page.jpg") no-repeat center top;
+    background-attachment:scroll;
+    color: #fff!important;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover; 
+  color: #fff;
+  padding:17% 5%;
+  text-align: center;
+} 
+
+
+#landing-page h1 {
+    font-size: 4em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
 }
 
+#landing-page h3 {
+    font-size: 2.5em;
+    color: #fff;
+    letter-spacing: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+} 
+    
+     
+  #park-1 .park1-left{
+  display:none;
+}    
+    
+    #park-1 .park1-right{
+   background:url("../img/park1-mobile.jpg") no-repeat center top;
+     -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;     
+  color: #fff;
+  padding:15% 5%;
+  height:auto;
+  font-family: 'Raleway', sans-serif;
+} 
+
+
+#park-2 .park2-right{
+  display:none;
+} 
+    
+ #park-2 .park2-left{
+   background:url("../img/park2-mobile.jpg") no-repeat center top;
+     -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;     
+  color: #fff;
+  padding:15% 5%;
+  height:auto;
+  font-family: 'Raleway', sans-serif;
+} 
+    
+ #park-3 .park3-left{
+  display:none;
+}    
+    
+    #park-3 .park3-right{
+   background:url("../img/park3-mobile.jpg") no-repeat center top;
+     -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;     
+  color: #fff;
+  padding:15% 5%;
+  height:auto;
+  font-family: 'Raleway', sans-serif;
+}     
+    
+}
+
+/*****POLLS PAGE******/
+#polls-wrapper {
+     background:url("../img/poll-wrapper.jpg") no-repeat center top;
+    background-attachment: fixed;
+    color: #fff!important;
+  -webkit-background-size:100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%; 
+  color: #fff;
+  padding:10% 5%;
+  text-align: center;
+} 
+
+
+#polls-wrapper h1 {
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}
+
+#polls{
+background-color: #18142d;
+color:#fff;
+padding: 7% 10%;   
+font-weight:normal;    
+} 
+
+#polls h5 {
+    font-weight:normal;
+    margin-bottom: 2%;
+}
+
+.questions {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding:3%;
+    margin: 5% auto;
+    color: #18142d;
+}
+
+@media (max-width:1200px) {
+  #polls-wrapper {
+     background:url("../img/poll-wrapper.jpg") no-repeat center top;
+    background-attachment: scroll;
+    color: #fff!important;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover; 
+  color: #fff;
+  padding:30% 5%;
+  text-align: center;
+} 
+
+
+#polls-wrapper h1 {
+   font-size: 1.5em;
+    color: #fff;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+} 
+
+    #polls h5 { 
+     font-size: 1em;    
+    font-weight:normal;
+    margin-bottom: 2%;
+}
+
+    
+#polls{
+background-color: #18142d;
+color:#fff;
+padding: 15% 10%;   
+font-weight:normal;    
+} 
+    
+.questions {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding:10% 2%;
+    margin: 5% auto;
+    color: #18142d;
+}    
+    
+}
+
+
+/*****FEEDBACK PAGE******/
+#feedback-wrapper {
+     background:url("../img/feedback-wrapper.jpg") no-repeat center top;
+    background-attachment: fixed;
+    color: #fff!important;
+  -webkit-background-size:100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%; 
+  color: #fff;
+  padding:10% 5%;
+  text-align: center;
+} 
+
+
+#feedback-wrapper h1 {
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}
+
+
+@media (max-width:1200px) {
+   #feedback-wrapper {
+     background:url("../img/poll-wrapper.jpg") no-repeat center top;
+    background-attachment: scroll;
+    color: #fff!important;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover; 
+  color: #fff;
+  padding:30% 5%;
+  text-align: center;
+} 
+
+
+#feedback-wrapper h1 {
+   font-size: 1.5em;
+    color: #fff;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}   
+}
+
+/*****ANNOUNCEMENT PAGE******/
+#announcement-wrapper {
+     background:url("../img/announcement-wrapper.jpg") no-repeat center top;
+    background-attachment: fixed;
+    color: #fff!important;
+  -webkit-background-size:100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%; 
+  color: #fff;
+  padding:10% 5%;
+  text-align: center;
+} 
+
+
+#announcement-wrapper h1 {
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}
+
+.annoucements {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding:3%;
+    margin: 5% auto;
+    color: #18142d;
+} 
+
+@media (max-width:1200px) { 
+    
+    #announcement-wrapper {
+     background:url("../img/announcement-wrapper.jpg") no-repeat center top;
+    background-attachment:scroll;
+    color: #fff!important;
+  -webkit-background-size:cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size:cover; 
+  color: #fff;
+  padding:30% 5%;
+  text-align: center;
+} 
+
+    
+    #announcement-wrapper h1 {
+    font-size: 1.5em;
+    color: #fff;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}
+
+    .annoucements h3 {
+        font-size: 1.2em;
+    }
+    .annoucements h5 {
+        font-size: 1em;
+    } 
+    .annoucements p {
+        font-size: 0.8em;
+    }
+    
+} 
+
+
+
+/*****POLLS PAGE******/
+#national-wrapper {
+     background:url("../img/national-day.jpg") no-repeat center top;
+    background-attachment: fixed;
+    color: #fff!important;
+  -webkit-background-size:100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%; 
+  color: #fff;
+  padding:10% 5%;
+  text-align: center;
+} 
+
+
+#national-wrapper h1 {
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}
+
+#women-wrapper {
+     background:url("../img/women-day.jpg") no-repeat center top;
+    background-attachment: fixed;
+    color: #fff!important;
+  -webkit-background-size:100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%; 
+  color: #fff;
+  padding:10% 5%;
+  text-align: center;
+} 
+
+
+#women-wrapper h1 {
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+} 
+
+
+#burn-wrapper {
+     background:url("../img/burn.jpg") no-repeat center top;
+    background-attachment: fixed;
+    color: #fff!important;
+  -webkit-background-size:100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size:100%; 
+  color: #fff;
+  padding:10% 5%;
+  text-align: center;
+} 
+
+
+#burn-wrapper h1 {
+    font-size: 5em;
+    color: #fff;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}
+
+
+
+#polls{
+background-color: #18142d;
+color:#fff;
+padding: 7% 10%;   
+font-weight:normal;    
+} 
+
+#polls h5 {
+    font-weight:normal;
+    margin-bottom: 2%;
+}
+
+.questions {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding:3%;
+    margin: 5% auto;
+    color: #18142d;
+}
+
+@media (max-width:1200px) {
+  #national-wrapper {
+     background:url("../img/national-day.jpg") no-repeat center top;
+    background-attachment: scroll;
+    color: #fff!important;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover; 
+  color: #fff;
+  padding:30% 5%;
+  text-align: center;
+} 
+
+
+#national-wrapper h1 {
+   font-size: 1.6em;
+    color: #fff;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}  
+
+    #women-wrapper {
+     background:url("../img/women-day.jpg") no-repeat center top;
+    background-attachment: scroll;
+    color: #fff!important;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover; 
+  color: #fff;
+  padding:30% 5%;
+  text-align: center;
+} 
+
+
+#women-wrapper h1 {
+   font-size: 1.6em;
+    color: #fff;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+} 
+    
+    #burn-wrapper {
+     background:url("../img/burn.jpg") no-repeat center top;
+    background-attachment: scroll;
+    color: #fff!important;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover; 
+  color: #fff;
+  padding:30% 5%;
+  text-align: center;
+} 
+
+
+#burn-wrapper h1 {
+   font-size: 1.6em;
+    color: #fff;
+    letter-spacing: 4px;
+    font-family: 'Open Sans', sans-serif;  
+    text-align: center;
+    font-weight: 800;
+}  
+    
+
+    #polls h5 { 
+     font-size: 1em;    
+    font-weight:normal;
+    margin-bottom: 2%;
+}
+
+    
+#polls{
+background-color: #18142d;
+color:#fff;
+padding: 15% 10%;   
+font-weight:normal;    
+} 
+    
+.questions {
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding:10% 2%;
+    margin: 5% auto;
+    color: #18142d;
+}    
+    
+}
+
+
+footer {
+    background-color: #262626;
+    color:#fff;
+    padding-top:1%;
+     padding-bottom:1%;
+    letter-spacing: 1px;
+}
 
 
