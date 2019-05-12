@@ -126,7 +126,7 @@ body{
 
 .panel-1 {
     color:#4e4e50;
-  
+  cursor:pointer;
    padding:5% 5% 1% 5%;
      font-family:'corporate_s_bold',sans-serif!important;  
 } 
@@ -147,7 +147,7 @@ body{
 .panel-title > a:hover, 
 .panel-title > a:active, 
 .panel-title > a:focus  {
-    text-decoration:none;
+    text-decoration:none;cursor:pointer;
 }
 
 .panel-heading h3 {
@@ -170,11 +170,13 @@ body{
     padding:3% 1px 3% 1px;
     color:#4e4e50;
      border: #4D4D4D solid 1px;   
+    cursor:pointer;
 }
 
 .dropdown-menu {
     width: 100%;
     margin-top:3%;
+    cursor:pointer;
 }
 
 .dropdown img {
@@ -199,17 +201,20 @@ body{
     padding-right: 20px;
     color:#4e4e50;
     padding-top:5px;
+    cursor:pointer;
 }
 .dropdown  > a.collap:before {
     float: right !important;
     content:"\f067";
     color:#4e4e50;
+    cursor:pointer;
 }
 .dropdown  > a.collap:hover, 
 .dropdown  > a.collap:active, 
 .dropdown  > a.collap:focus  {
     text-decoration:none;
     color:#4e4e50;
+    cursor:pointer;
 }
 
 .logos ul  {
