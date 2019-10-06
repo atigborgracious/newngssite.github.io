@@ -1,579 +1,689 @@
-/* General Blueprint Style */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
-@import url('https://fonts.googleapis.com/css?family=Raleway:900');
-@import url('https://fonts.googleapis.com/css?family=Roboto:900');
-/*@font-face {
-	font-family: 'fontawesome';
-	src:url('../fonts/fontawesome.eot');
-	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
-		url('../fonts/fontawesome.woff') format('woff'),
-		url('../fonts/fontawesome.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap');
+*,:after,:before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+body,html{
+    font-size:100%;
+    padding:0;
+    margin:0;
+} 
 
-*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-body, html { font-size: 100%; padding: 0; margin: 0;}
 
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:before, .clearfix:after { content: " "; display: table; }
-.clearfix:after { clear: both; }
 
-body {
- 
-    color: #fff!important;
-    font-family: 'Raleway', sans-serif;
+.navbar-custom {
+    background: rgba(255,255,255,1);
+    /*box-shadow: 0 3px 6px rgba(0,0,0,0.7);*/
+    top: 0 !important;
+    
 }
 
-a {
-	color: #f0f0f0;
-	text-decoration: none;
+.navbar-custom .navbar-brand{
+    color: black;
+    padding: 0.8rem 1rem;
+    
+}
+/* change the link color and add padding for height */ 
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 16px;
+} 
+/* change the color of active or hovered links */
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+    background-color:black; 
+} 
+
+.navbar img{
+    height: 50px;
+    width : auto;
+} 
+
+.log-in-button {
+    padding: 1% 6%;
 }
 
-a:hover {
-	color: #000;
+.btn-login {
+    background: #bd1d46;
+    color: white;
+    border:none;
+    width:100%;
+    
+    border-radius: 25px;
 }
 
-.container1 > header {
-	padding: 2.875em 1.875em 1.875em;
-	position: fixed;
-	z-index: 1000;
-	width: 70%;
-	left: 30%;
+.text-center {
+    text-align: center;
+}
+/*.log-in-button button{
+    background: #bd1d46;
+    color: white;
+    padding: 2%;
+    border-radius: 20px;
+    border:none;
+}*/
+
+/*****HOME SECTION******/
+
+
+.home_container{
+   background:url(../images/HomeBackground-1.jpg) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding-top:8%;
+    padding-bottom:3%;
+    color:#2b2b2b;
+    text-align: left;
 }
 
-.icon-drop:before, 
-.icon-arrow-left:before {
-	font-family: 'fontawesome';
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 2;
-	text-align: center;
-	color: #142240;
-	-webkit-font-smoothing: antialiased;
-	text-indent: 8000px;
-	padding-left: 8px;
-}
-
-.container1 > header nav a:hover:before {
-	color: #fff;
-}
-
-.icon-drop:before {
-	content: "\e000";
-}
-
-.icon-arrow-left:before {
-	content: "\f060";
-}
-
-/******HOME******/
-
-.home_container {
-    background: url("../images/home-banner4.jpg") repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    height : 100vh;
-     width: 100%;
-    padding-top: 2%;
-     color:#fff!important;
- 
-}
-
-.home_container h1{
+.home-content h2{
+    letter-spacing:1px;
     font-weight: 700;
-    letter-spacing: 0.4em;
-    font-size: 400%;
-     color:#fff!important;
-}
- .home_container h1 span {
-        border-bottom: #fff solid 2px; 
-    }
-    
-.home_container h2{
-    font-weight: 300;
-    letter-spacing: 0.1em;
-    font-size: 300%;
-    color:#fff!important;
+    font-size:40px;
+    text-align: left;
+    color:#bd1d46!important;
+    font-family: 'Montserrat', sans-serif;    
+} 
+
+.slide-logo img {
+    width: 550px;
+    height: auto;
 }
 
-.home-content {
+.learn-more button{
+    font-size:14px;
+    background: #bd1d46;
+    color:#fff;
+    border: none;
+    padding: 3% 6%;
+    border-radius: 27px;
+    
+} 
+
+.learn-more button a {
+    color:#fff;
+} 
+
+.home-content img {
+    margin: 0 auto;
+    text-align: center;
+    
+} 
+
+.play-store ul {
+  margin: 0 auto;  
+  text-align: center;  
+}
+
+
+.play-store ul li{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+.play-store img {
+    height: 60px;
+    width:auto;
+    margin: 0 auto;
+    text-align: center;
+} 
+
+
+.carousel-item2 {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.carousel-item2 h2 {
+     letter-spacing:3px;
+    font-size: 35px;
+    font-weight:bold;
+    color: #142240;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.carousel-item2 p {
+     letter-spacing:1px;
+    font-size: 16px;
+    font-weight:300;
+    color: #142240;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+
+.carousel-button {
+    background-color: #142240;
+    padding:7px 25px 10px 25px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.carousel-button a {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/*****ABOUT US SERVICE******/
+
+#about-container{
+        background:url(../images/About-Us.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-repeat: no-repeat;
+       background-position-y: bottom;
+       min-height: 100vh;
+        padding:6% 0;
+    }
+
+
+#about-container h2 {
+    letter-spacing:3px;
+    font-size: 45px;
+    font-weight:bold;
+    color: #142240;
+    padding-top: 15%;
+    padding-bottom:1% ;
+    font-family: 'Montserrat', sans-serif;   
+    text-align:;
+} 
+
+#about-container p {
+    font-size: 13px;
+    font-weight:300;
+    padding-top: 5%;
+    padding-bottom:1% ;
+    font-family: 'Montserrat', sans-serif;   
+    text-align:;
+    line-height: 2em;
+} 
+
+@media(max-width:1024px){
+    
+    
+#about-container{
+        background:url(../images/About-Us.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-repeat: no-repeat;
+       background-position-y: bottom;
+       min-height: 100vh;
+        padding:26% 0;
+    }
+}
+
+
+@media(max-width:812px) {
+    
+    #about-container{
+        background:url(../images/About-us-mini%20%E2%80%93%201.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        background-repeat: no-repeat;
+       background-position-y: top;
+        height:100vh
+       min-height: 700px;
+        padding:15% 0;
+    }
+    
+    
+  #about-container h2 {
+    letter-spacing:3px;
+    font-size: 45px;
+    font-weight:bold;
+     color: #142240;
+      margin-top:10%;
+    padding: 5% 5% 1% 5%;
+    font-family: 'Montserrat', sans-serif;   
+    text-align:;
+}   
+    
+#about-container p {
+    font-size: 13px;
+    font-weight:300;
+    padding: 5% 5% 1% 5%;
+    font-family: 'Montserrat', sans-serif;   
+    text-align:;
+    line-height: 2em;
+} 
+
+}
+ 
+/*****END OF ABOUT US PAGES******/
+
+
+
+
+/*****OUR SERVICES SECTION******/
+
+.services-container {
+     background:url(../images/service-Bg.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+         height: auto;
+        padding:25% 0 20% 0;
+} 
+
+.services-container h2 {
+     letter-spacing:3px;
+    font-size: 55px;
+    font-weight:bold;
+    color: #142240;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+
+#CarouselTest img {
+    width: 100%;
+    height:auto;
+}
+
+.card-title {
+       letter-spacing:1px;
+    font-size: 30px;
+    font-weight:400;
+     color: #142240;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.card-text {
+       letter-spacing:1px;
+    font-size: 13px;
+    font-weight:300;
+     color: #707070;
+    font-family: 'Montserrat', sans-serif;  
+} 
+
+
+
+.card p {
+       letter-spacing:1px;
+    font-size: 13px;
+    font-weight:300;
+     color: #707070;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7em;
+}
+
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top:20px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators .active {
+    background-color: white;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+  
+@media(max-width:720px) {
+    
+   .services-container {
+     background:url(../images/service-Bg.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+         height: auto;
+        padding:35% 0 30% 0;
+} 
+
+.services-container h2 {
+     letter-spacing:3px;
+    font-size: 35px;
+    font-weight:bold;
+    color: #142240;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
  
 }
 
 
-#about{padding-top: 7%;padding-bottom: 7%;}
+/*****PROJECT SECTION******/
+.projects-container {
+     background:url(../images/project-Bg.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+         height: auto;
+        padding:25% 0 20% 0;
+} 
 
-#about h3{
-    font-size: 3.3em;
-    font-weight: bold;
-    letter-spacing: 2px;
-     color: #142240;
-}
-
-#about h3 span{
-    border-top: #f15429 2px solid;
-}
-
-#about p {
+.projects-container h2 {
+     letter-spacing:3px;
+    font-size: 55px;
+    font-weight:bold;
     color: #142240;
-    font-size: 1.1em;
-    text-align: justify;
-    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
 }
 
-#about img {
-    padding-top: 4%;
+.project-card {
+    background: #142240;
+    color: #fff;
+    border-radius: 10px;
+    height: 23em ;
+    width: auto;
 }
 
-
-#service h3{
-    font-size: 3.3em;
-    font-weight: 600;
-    letter-spacing: 2px;
-     color: #142240;
-    font-family: 'Raleway', sans-serif;
-}
-
-#service h3 span{
-    border-top: #f15429 2px solid;
-}
-
-/*#service_container {
-   
-    margin-top: 0 !important;
-    width: 100%;
-    margin-bottom: 0px;
-}
-#service_container .container {
-    width: 100%;
-}
-
-#service_container .col-md-3 {
-    margin: 0;
-    padding: 15px;
-}
-#service_container*/ .home-carpentry {
-  background-color: #142240;
-    height: 20em;
-    display: block;
-   padding-bottom: 3%;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-  
-}
-
-.home-carpentry  h5{
-    padding:3%;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home-carpentry2{
-    height:16em;
-    background: url("../images/Carpentry.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-     padding:2%;  
-}
-
-
-#service_container .home-plumbing {
-   background-color: #142240;
-    height: 20em;
-    display: block;
-   padding-bottom: 3%;
-}
-
-.home-plumbing  h5{
-    padding:3%;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home-plumbing2{
-     height:16em;
-    background: url("../images/Plumbing.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-     padding:2%;  
-}
-
-
-#service_container .home-electricity {
-  background-color: #142240;
-    height: 20em;
-    display: block;
-   padding-bottom: 3%;
-}
-
-.home-electricity  h5{
-    padding:3%;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home-electricity2{
-    height:16em;
-    background: url("../images/Electricity.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-     padding:2%;  
-}
-
-
-
-
-
-#service_container .home-cleaning {
- background-color: #142240;
-    height: 20em;
-    display: block;
-   padding-bottom: 3%;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home-cleaning  h5{
-    padding:3%;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home-cleaning2{
-     height:16em;
-    background: url("../images/Cleaning.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-     padding:2%;  
-    font-family: 'Raleway', sans-serif;
-}
-
-
-
-#service_container .home-ac {
-    background-color: #142240;
-    height: 23em;
-    display: block;
-   padding-bottom: 3%;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home-ac  h5{
-    padding:3%;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-}
-.home-ac2{
-    height:16em;
-    background: url("../images/ac.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-     padding:2%;
-    font-family: 'Raleway', sans-serif;
-}
-
-
-#service_container .home-tiles {
-   background-color: #142240;
-    height: 23em;
-    display: block;
-    font-family: 'Raleway', sans-serif;
-   padding-bottom: 3%;
-}
-.home-tiles  h5{
-    padding:3%;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-}
-.home-tiles2{
-   height:16em;
-    background: url("../images/wall.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-     padding:2%;  
-    font-family: 'Raleway', sans-serif;
-}
-
-
-
-
-#service_container .home-appliance {
-   background-color: #142240;
-    height: 23em;
-    display: block;
-   padding-bottom: 3%;
-    font-family: 'Raleway', sans-serif;
-}
-.home-appliance h5{
-    padding:3%;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-}
-.home-appliance2{
-    height:16em;
-    background: url("../images/appliance.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-     padding:2%;  
-    font-family: 'Raleway', sans-serif;
-}
-
-
-
-
-
-
-#service_container .home-wardrobe {
-  background-color: #142240;
-    height: 23em;
-    display: block;
-   padding-bottom: 3%;
-    font-family: 'Raleway', sans-serif;
-}
-.home-wardrobe h5{
-    padding:3%;
-    letter-spacing: 1px;
-    font-size: 1.2em;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home-wardrobe2{
-    height:16em;
-    background: url("../images/wardrobe.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-     padding:2%;  
-    font-family: 'Raleway', sans-serif;
-}
-
-#product h3{
-    font-size: 3.3em;
-    font-weight: bold;
-    letter-spacing: 2px;
-     color: #fff;
-    padding-top: 3%;
-}
-
-#product h3 span{
-    border-top: #f15429 2px solid;
-}
-
-#product h4{
-    font-size: 2.3em;
+.card-title3 {
+    letter-spacing:3px;
+    font-size: 35px;
     font-weight:500;
-    letter-spacing: 3px;
-     color: #fff;
-    padding-top: 3%;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.card-body h6 span {
+    font-weight:300; 
 }
-#product h5 {
+
+@media(max-width:1024px) {
+  
+    .project-card {
+    background: #142240;
+    color: #fff;
+    border-radius: 10px;
+    height:auto ;
+    width: 100%;
+}
+    
+}
+
+
+@media(max-width:720px) {
+    
+   .projects-container {
+     background:url(../images/project-Bg.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+         height: auto;
+        padding:35% 0 30% 0;
+} 
+
+.projects-container h2 {
+     letter-spacing:3px;
+    font-size: 35px;
+    font-weight:bold;
+    color: #142240;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+ 
+}
+
+
+
+/*****CONTACT SECTION******/
+
+
+.contact-container {
+        background:url(../images/contact-bg.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height:auto;
+        width:100%;
+        padding:13% 3% 6% 3%;
+    text-align: center;
+    }
+
+
+.contact-container h2{
+    font-size:50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;  
+    color: #142240;
+    padding-top: 2%;
+    
+} 
+
+.contact-container h3{
+    font-size:35px;
     letter-spacing: 1px;
-     color: #fff!important;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.3em;
-}
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;  
+    color: #142240;
+    padding-top: 1%;
+    
+} 
 
-.form-group textarea {
-    border : solid #142240  1px;
-    border-radius: 4px;
-    outline: none;
-    width: 100%;
-    margin-top: 2%;
-    resize: none;
-    height: 8em;
-    color:#142240 ;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.2em;
-     background-color:rgba(255,255,255,.64);
-    -webkit-appearance: none;
-}
 
-.form_details input[type="text"] {
-    border : solid #142240  1px;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 4px;
-    outline: none;
-    width: 100%;
-    resize: none;
-     color:#142240  ;
-    align-items: center;
-    font-size: 1.2em;
-    -webkit-appearance: none;
-     background-color:rgba(255,255,255,.64);
+.contact-container h6{
+   font-size:16px;
+    letter-spacing: 1px;
+    font-weight:normal;
+    font-family: 'Montserrat', sans-serif;  
+     color:#484848; 
+    padding-top: 1%;  
 }
 
 
-.send input[type="submit"] {
-    border: 1px solid #142240 ;
-	border-radius: 3px;
-   text-align: center;
-    padding: .2em ;
+.contact-container p{
+   font-size:12px;
+    letter-spacing: 1px;
+    font-weight:300;
+    font-family: 'Montserrat', sans-serif;  
+     color:#484848;  
+}
+
+.contact-button button{
     width: 35%;
-    margin-top:1px;
-    font-size: 1.4em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    color: #142240 ;
-    letter-spacing: 1px;
-    outline: none;
-    background-color: #fff  ;
-    transition: 0.5s all ease;
-    -webkit-transition: 0.5s all ease;
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    -ms-transition: 0.5s all ease;
-    -webkit-appearance: none;
+     background-color: #142240;
+    color:#ffff;
 }
 
 
-.form-control {
-    margin: 2% auto 0 auto!important;
-   
+
+#contact button{
+    font-size:14px;
+    background: #bd1d46;
+    color:#fff;
+    border: none;
+    padding: 2% 5%;
+    border-radius: 27px;
+    float: right;
+    
+} 
+
+
+#contact h1 span {
+    border-top: 9px solid #69d2e7;
+}
+
+#contact h4 {
+ margin-top:7%;
 }
 
 
-@media screen and (max-width: 1024px) {
-    .home_container {
-    background: url("../images/home-banner4.jpg") repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    height : 45em;
-     width: 100%;
-    padding-top: 10%;
-         color:#fff!important;
+
+.group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
 }
-    
-    #about img{
-        padding-top: 10%;
-    }
-    
+.group input {
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  border-radius: 2px;   
+  background: rgba(255,255,255,0.5);    
+}
+.group input:focus {
+  outline: none;
+}
+.group input:focus ~ label, .group input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color:#142240;
+}
+.group label {
+  position: absolute;
+  color: #333;
+  top: 12px;
+  left: 0;
+  transition: 0.2s ease all;
+    padding-left: 4px;
+}
+.bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.bar:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background:#142240;
+  height: 1px;
+  transition: left 0.2s ease-out, right 0.2s ease-out;
+}
+input:focus ~ .bar:before {
+  left: 0;
+  right: 0;
+} 
+
+
+
+.btn-submit {
+    background:#142240;
+    color:#fff;
+    border-radius: 35px;
+    border:none;
+    padding: 10px 30px;
 }
 
-@media screen and (max-width: 800px) {
-    .home_container {
-    background: url("../images/home-banner4.jpg") repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    height : 40em;
-     width: 100%;
-    padding-top: 15%;
-}
+@media(max-width:1024px){
+   .contact-container {
+        background:url(../images/contact-bg.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height:auto;
+        width:100%;
+        padding:25% 3% 20% 3%;
+    text-align: center;
+    } 
     
-    #about img{
-        padding-top: 5%;
-    }
-    
-    .home_container h1{
-    font-weight: 500;
-    letter-spacing: 0.4em;
-    font-size: 200%;
-        word-wrap: break-word;
-         color:#fff!important;
+ 
 }
 
-.home_container h2{
-    font-weight: 200;
-    letter-spacing: 0.1em;
-    font-size: 150%;
-     color:#fff!important;
-}
+
+
+@media(max-width:720px){
+   .contact-container {
+        background:url(../images/contact-bg.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height:auto;
+        width:100%;
+        padding:30% 3% 6% 3%;
+    text-align: center;
+    } 
     
+    
+    .contact-container h2{
+    font-size:30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;  
+    color: #142240;
+    padding-top: 2%;
+    
+}
 }
 
-@media screen and (max-width: 500px) {
-    .home_container {
-    background: url("../images/home-banner4.jpg") repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    height : 40em;
-     width: 100%;
-    padding-top: 40%;
-}
-    
-    #about img{
-        padding-top: 5%;
-    }
-    
-    .home_container h1{
-    font-weight: 600;
-    letter-spacing: 0.4em;
-    font-size: 190%;
-         color:#fff!important;
-}
 
-    .home_container h1 span {
-        border-bottom: #fff solid 2px; 
-    }
-    
-.home_container h2{
-    font-weight: 200;
-    letter-spacing: 0.1em;
-    font-size: 150%;
-     color:#fff!important;
-}
-    
-}
-@media screen and (max-width: 322px){
-    
-      .home_container h1{
-    font-weight: 500;
-    letter-spacing: 0.4em;
-    font-size: 165%;
-           color:#fff!important;
-        
-    
-}
 
-.home_container h2{
-     color:#fff!important;
-    font-weight: 200;
-    letter-spacing: 0.1em;
-    font-size: 140%;
-}
-}
+
+
+footer {
+    background-color:#444444;
+    color: #fff;
+    text-align: center;
+    padding-top:1%;
+    letter-spacing: 2px;
+    
+} 
+
+
