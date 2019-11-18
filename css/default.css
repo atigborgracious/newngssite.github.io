@@ -178,6 +178,7 @@ body,html{
     border-radius: 5px;
     margin: 3% auto 0 auto;
     padding: 1%;
+    height:auto;
 }
 
 
@@ -185,6 +186,7 @@ body,html{
     width: 50px;
     height:auto;
     float:right;
+     margin-top:0%;
 } 
 
 .home-icons h4 {
@@ -486,20 +488,90 @@ body,html{
 
 
 @media(max-width:720px){
-   
-    .home-gender-male {
-        background:url(../images/1.jpg) repeat center top;
+    
+    
+    
+.home-icons {
+      background: rgba(255,255,255,1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin: 5% auto 1% auto;
+    padding: 3%;
+    height:8em;
+}
+
+
+.home-icons img {
+    width: 50px;
+    height:auto;
+    float:none;
+    text-align: center;
+    margin:5% auto 0 auto;
+    
+} 
+
+.home-icons h4 {
+    letter-spacing:2px;
+    font-size:0.8em;
+    font-weight:600;
+    color: #2b2b2b;
+    text-align:center;
+    margin-top:4%;
+    font-family: 'Montserrat', sans-serif;   
+}
+    
+    
+ .home-saree {
+    background:url(../images/home-saree.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
         background-size:cover;
-        padding:20% 0 0 0;
-        height:8em;
-        width: 100%;
-        border-radius: 15px;
-        text-align: center;
-        margin: 5% auto;
-    }
+        padding-top:45%;
+        width:auto;
+        height:20em;
+        opacity: 0.9;
+       padding-left: 10%;
+        border-radius: 5px;
+        text-align: left;
+    
+} 
+   
+    
+    
+    
+ .home-wedding {
+    background:url(../images/home-wedding.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        padding-top:45%;
+        width:auto;
+        height:20em;
+    padding-right: 15%;
+        border-radius: 5px;
+        text-align: right;
+    
+}
+
+.home-kurtis {
+    background:url(../images/11.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        padding-top:45%;
+    padding-left:5%;
+        width:auto;
+        height:20em;
+        opacity: 0.7;
+        border-radius: 5px;
+        text-align:center;
+        margin-top: 1em;
+}  
+    
+   
     
     
 }
