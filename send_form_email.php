@@ -4,7 +4,7 @@ ini_set('display_errors', 'On');
 if(isset($_POST['email'])) {
 
 // EDIT THE 2 LINES BELOW AS REQUIRED
-$email_to = "info@quickworksuae.com";
+$email_to = "atigborgracious@gmail.com";
 $email_subject = "Message From Website";
 $email_from = "Website";
 
@@ -15,8 +15,7 @@ function clean_string($string) {
   return str_replace($bad,"",$string);
 }
 
-$email_message .= "First Name: ".clean_string($_POST["first_name"])."\n";
-$email_message .= "Last Name: ".clean_string($_POST["last_name"])."\n";
+$email_message .= "Name: ".clean_string($_POST["full_name"])."\n";
 $email_message .= "Telephone: ".clean_string($_POST["telephone"])."\n";    
 $email_message .= "Email: ".clean_string($_POST["email"])."\n";
 
