@@ -1251,6 +1251,24 @@ footer h6 {
 } 
 
 
+@media(max-width:800px)  {
+    .sadik-wrapper{ 
+    background:url(../images/sadik-bg.jpg) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:30% 3% 10% 3%;
+    align-content: center;
+    color:#fff;
+}  
+
+    
+}
+
+
 /*********END OF SADIK*********/
 
 /*********COMING SOON*********/
