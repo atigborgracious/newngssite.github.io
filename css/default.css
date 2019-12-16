@@ -1,6 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway);
+/**@import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway);
 @import url(https://fonts.googleapis.com/css?family=Raleway:900);
-@import url('https://fonts.googleapis.com/css?family=Montserrat100,200,300,400,500,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');**/
+
+@font-face {
+font-family: 'Dubai Regular';
+font-style: normal;
+font-weight: normal;
+src: url(../fonts/Dubai-Regular.woff);             
+}
+
+
+@font-face {
+font-family: 'Dubai Light';
+font-style: normal;
+font-weight: normal;
+src: url(../fonts/Dubai-Light.woff);         
+}
+
+
+@font-face {
+font-family: 'Dubai Medium';
+font-style: normal;
+font-weight: normal;
+src: url(../fonts/Dubai-Medium.woff);    
+}
+
+
+@font-face {
+font-family: 'Dubai Bold';
+font-style: normal;
+font-weight: normal;
+src: url(../fonts/Dubai-Bold.woff);     
+}
+
+
 *,:after,:before{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -10,9 +44,40 @@ body,html{
     font-size:100%;
     padding:0;
     margin:0;
+    font-family: 'Dubai Regular', sans-serif;  
 } 
 
- 
+
+h1 {
+   font-size:50px; 
+}
+
+h2 {
+   font-size:45px; 
+}
+
+h3 {
+   font-size:35px; 
+}
+
+h4 {
+   font-size:30px; 
+}
+
+h5 {
+   font-size:25px; 
+}
+
+h6 {
+   font-size:20px; 
+}
+
+
+p {
+    font-family: 'Dubai Regular', sans-serif;    
+    letter-spacing:0px;
+     font-size:16px; 
+}
 
 
 .navbar-custom {
@@ -24,7 +89,7 @@ body,html{
 
 .navbar-custom .navbar-brand{
     color: black;
-    padding: 0.8rem 1rem;
+    padding: 0.5rem 1rem;
     
 }
 /* change the link color and add padding for height */ 
@@ -32,17 +97,18 @@ body,html{
     color: black;
     padding: 1rem 1rem;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 } 
 /* change the color of active or hovered links */
 
 .navbar-custom .nav-item:hover .nav-link {
-    color: white;
-    background-color:black; 
+    color:#ED1F24; 
+    border-bottom: #ED1F24 2px solid;
+    animation-duration: 4s;
 } 
 
 .navbar img{
-    height: 50px;
+    height: 40px;
     width : auto;
 } 
 
@@ -72,554 +138,885 @@ body,html{
 
 /*****HOME SECTION******/
 
+.v-header {
+    height : 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
 
-.home_container{
-   background:url(../images/HomeBackground-1.jpg) repeat center top;
+.container2 {
+    max-width: 500px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+    
+} 
+
+.fullscreen-video-wrap {
+    position :absolute;
+    top: 0;
+    left : 0;
+    width: 100%;
+    height : 100vh;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.header-overlay {
+    height : 100vh;
+    width : 100%;
+    position: absolute;
+    top: 0;
+    left : 0;
+    background: rgba(74,123,179,0.7);
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.header-content {
+    z-index: 2;
+}
+
+.header-content-inner {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header-content h5{
+  display:block;
+  padding-bottom:2rem;
+    /**color: #82c141;**/
+    color:#fff;
+    font-weight: bold;
+    font-family: 'Dubai Bold', sans-serif;    
+    letter-spacing: 4px;
+    margin-top: 1%;
+}
+
+.header-content h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    /**color:#282e34;**/
+    margin-top: 15%!important;
+    font-size: 65px;
+} 
+
+.home-about {
+    margin:7% auto;
+    padding: 1% 10%;
+}
+
+.home-about h3 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    color:#ED1F24;
+    text-align: center;
+   
+}
+
+.home-about p {
+   font-family: 'Dubai Regular', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 1px;
+    line-height: 2em;
+    color:#1F304A;
+   text-align: center;
+}
+
+.home-about button {
+    background:#ED1F24;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-align: center;
+    border:none;
+    
+}
+
+.home-about button a {
+    color: #fff;
+}
+
+.home-about button a:hover {
+    color: #fff;
+}
+
+
+.why-choose-us {
+     background:url(../images/why-choose-us.jpg) repeat center top;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
     height:auto;
     width:100%;
-    padding-top:8%;
-    padding-bottom:3%;
-    color:#2b2b2b;
-    text-align: left;
-}
-
-.home-content h2{
-    letter-spacing:1px;
-    font-weight: 700;
-    font-size:40px;
-    text-align: left;
-    color:#bd1d46!important;
-    font-family: 'Montserrat', sans-serif;    
-} 
-
-.slide-logo img {
-    width: 550px;
-    height: auto;
-}
-
-.learn-more button{
-    font-size:14px;
-    background: #bd1d46;
+    padding: 5% 0%;
     color:#fff;
-    border: none;
-    padding: 3% 6%;
-    border-radius: 27px;
-    
-} 
-
-.learn-more button a {
-    color:#fff;
-} 
-
-.home-content img {
-    margin: 0 auto;
     text-align: center;
-    
-} 
-
-
-
-
-
-
-
-.carousel-item2 {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 
-.carousel-item2 h2 {
-     letter-spacing:3px;
-    font-size: 35px;
+.why-choose-us h3 {
+   font-family: 'Dubai Bold', sans-serif;    
     font-weight:bold;
-    color: #142240;
+    letter-spacing: 3px;
+    color:#fff;
     text-align: center;
-    font-family: 'Montserrat', sans-serif; 
+   
 }
 
-.carousel-item2 p {
-     letter-spacing:1px;
+.why-choose-us-card {
+    background: rgba(255,255,255,0.9);
+     border-radius:8px;
+     padding:10% 1%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.3); 
+}
+
+.why-choose-us-card img {
+    width:50px;
+    height: auto;
+    margin:0 auto;
+}
+
+
+.why-choose-us h5 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 2px;
+    color:#1F304A;
+    padding-top: 5%;
+    text-align: center;
+   
+}
+
+
+
+
+.home-services h3 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    color:#ED1F24;
+    text-align: center;
+    margin-top:7%;
+    margin-bottom:3%;
+}
+
+.home-serv-head {
+    background:#1F304A;
+    font-family: 'Dubai Bold', sans-serif;    
+    border-radius: 15px;
+    padding-bottom: 10px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    color:#fff;
+    text-align: center; 
+    
+}
+
+
+.home-ser1  { background:url(../images/home-ser1.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:17em;
+    width:100%;
+    padding-top: 50%;
+    color:#fff;
+}
+
+.home-ser1 h5 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 1px;
+    color:#fff;
+    text-align: center;
+}
+
+
+
+
+.home-ser2  { background:url(../images/home-ser2.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:17em;
+    width:100%;
+    padding-top: 50%;
+    color:#fff;
+}
+
+.home-ser2 h5 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 1px;
+    color:#fff;
+    text-align: center;
+}
+
+
+.home-ser3  { background:url(../images/home-ser3.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:17em;
+    width:100%;
+    padding-top: 50%;
+    color:#fff;
+}
+
+.home-ser3 h5 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 1px;
+    color:#fff;
+    text-align: center;
+}
+
+
+
+
+.home-ser4  { background:url(../images/home-ser%204.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:17em;
+    width:100%;
+    padding-top: 50%;
+    color:#fff;
+}
+
+.home-ser4 h5{
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 1px;
+    color:#fff;
+    text-align: center;
+}
+
+
+
+
+.home-ser5  { background:url(../images/home-ser5.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:17em;
+    width:100%;
+    padding-top: 50%;
+    color:#fff;
+}
+
+.home-ser5 h5{
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 1px;
+    color:#fff;
+    text-align: center;
+}
+
+
+.home-services button {
+    background:#ED1F24;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-align: center;
+    border:none;
+    
+}
+
+.home-services button a {
+    color: #fff;
+}
+
+.home-services button a:hover {
+    color: #fff;
+}
+
+
+.quote { background:url(../images/quote.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding: 7% 25%;
+    color:#fff;
+    margin-top:0;
+}
+
+.quote h3{
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 1px;
+    color:#fff;
+    text-align: center;
+}
+
+
+.quote button {
+    background:#ED1F24;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-align: center;
+    border:none;
+    
+}
+
+
+.quote button a {
+    color: #fff;
+}
+
+.quote button a:hover {
+    color: #fff;
+}
+
+
+
+footer {
+    background: #242526;
+    padding: 5% 1%;
+    color:#fff;
+}
+
+footer h6 {
+    letter-spacing: 2px;
+}
+
+
+.footer2 {
+    background: #0F0F0F;
+    padding: 15px 0px 0px 0px;
+    color:#9A9A9A;
+    text-align: center;
+    
+}
+
+@media(max-width:960px){
+  .container2{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
+    
+     .header-content h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    color:#fff;
+      font-size: 35px;
+    margin-top: 15%!important;
+} 
+    
+    
+.home-about {
+    margin:20% auto;
+    padding: 1% 1%;
+}
+
+.home-about h3 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    color:#ED1F24;
+    text-align: center;
+   
+}
+
+.home-about p {
+   font-family: 'Dubai Regular', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 1px;
+    line-height: 2em;
+    color:#1F304A;
+   text-align:justify;
+}    
+    
+    
+.why-choose-us {
+     background:url(../images/why-choose-us.jpg) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding: 25% 0%;
+    color:#fff;
+    text-align: center;
+}
+
+
+.why-choose-us h3 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    color:#fff;
+    text-align: center;
+   
+}  
+    
+ 
+.quote { background:url(../images/quote.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding: 17% 10%;
+    color:#fff;
+    margin-top:0;
+}    
+    
+    
+
+.home-services h3 {
+   font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    color:#ED1F24;
+    text-align: center;
+    margin-top:20%;
+    margin-bottom:3%;
+}    
+    
+ 
+    
+    .home-services {
+        padding-bottom: 20%;
+    }
+    
+    
+    
+    
+    
+}
+
+/*********ABOUT US*********/
+.about-wrapper{ 
+    background:url(../images/about-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:7% 10%;
+    align-content: center;
+    color:#fff;
+}  
+
+
+.about-wrapper h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    /**color:#282e34;**/
+    margin-top: 5%!important;
+    font-size: 65px;
+    text-align: center;
+} 
+
+.about-wrapper p {
+    line-height: 1.8em;
+    font-size: 20px;
+    text-align:left;
+} 
+@media(max-width:1024px) {
+    
+  .about-wrapper{ 
+    background:url(../images/about-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    padding:13% 10%;
+    align-content: center;
+    color:#fff;
+}   
+}
+
+
+
+@media(max-width:900px) {
+    .about-wrapper{ 
+    background:url(../images/about-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:8% 10%;
+    color:#fff;
+}  
+    
+    .navbar img{
+    height: 20px;
+    width : auto;
+} 
+}
+
+
+
+@media(max-width:720px) {
+    
+    
+    .about-wrapper{ 
+    background:url(../images/about-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:45% 0%;
+    color:#fff;
+}  
+
+
+.about-wrapper h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    /**color:#282e34;**/
+    margin-top: 5%!important;
+    font-size: 40px;
+    text-align: center;
+} 
+
+.about-wrapper p {
+    line-height: 1.8em;
     font-size: 16px;
-    font-weight:300;
-    color: #142240;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif; 
+    text-align: justify;
 }
-
-
-
-.carousel-button {
-    background-color: #f91a15;
-    padding:7px 25px 10px 25px;
-    color: #fff;
-    border-radius: 30px;
-}
-
-.carousel-button a {
-    font-size: 14px;
-    color: #fff;
-}
-
-
-
-.home-icons {
-      background: rgba(255,255,255,1);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
-    border-radius: 5px;
-    margin: 3% auto 0 auto;
-    padding: 1%;
-    height:auto;
-}
-
-
-.home-icons img {
-    width: 50px;
-    height:auto;
-    float:right;
-     margin-top:0%;
+    
 } 
 
-.home-icons h4 {
-    letter-spacing:2px;
-    font-size:0.8em;
-    font-weight:600;
-    color: #2b2b2b;
-    text-align:left;
-    margin-top:6%;
-    font-family: 'Montserrat', sans-serif;   
-}
 
-.home-gender-male {
-        background:url(../images/men.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding:6% 0;
-        height:18em;
-        border-radius: 5px;
-        text-align: center;
-        margin: 10% auto 13% auto;
-     opacity: 0.7;
-    }
+/*********END OF ABOUT US*********/
 
-.home-gender-male:hover{
-    opacity: 1;
-    transition: 0.5s;
-}
 
-.home-gender-male h3{
-    letter-spacing:5px;
-    font-size:2.5em;
-    font-weight:600;
-    color: #fff;
-    text-align: center;
-    margin-top:20%;
-    font-family: 'Montserrat', sans-serif;   
+/*********SERVICE*********/
+.service-wrapper{ 
+    background:url(../images/service-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:10% 5%;
+    align-content: center;
+    color:#fff;
 }  
 
 
-.home-gender-female {
-        background:url(../images/women.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding:6% 0;
-        height:18em;
-        opacity: 0.7;
-        border-radius: 5px;
-        text-align: center;
-        margin: 10% auto 13% auto;
-    }
-
-.home-gender-female:hover{
-    opacity: 1;
-    transition: 0.5s;
-}
-
-
-.home-gender-female h3{
-    letter-spacing:5px;
-    font-size:2.5em;
-    font-weight:600;
-    color: #fff;
-    margin-top:20%;
+.service-wrapper h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    /**color:#282e34;**/
+    margin-top: 5%!important;
+    font-size: 65px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;   
-} 
-
-.home-gender-male .btn {
-    background: #fff;
-    border:none;
-    border-radius: 30px;
-    font-size:0.8em;
-    margin-top:1%;
-    padding:5px 20px 7px 20px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
-} 
-
-.home-gender-male .btn a {
-    color: #2b2b2b;
-}
-
-.home-gender-female .btn {
-    background: #fff;
-    border:none;
-    border-radius: 30px;
-    font-size:0.8em;
-    margin-top:1%;
-    padding:5px 20px 7px 20px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
-} 
-
-.home-gender-female .btn a {
-    color: #2b2b2b;
-} 
-
-.new-arrival-title h2 {
-     letter-spacing:3px;
-    font-size:2em;
-    font-weight:100;
-    color:#2b2b2b;
-    text-align: center;
-    margin:20px auto;
-    font-family: 'Montserrat', sans-serif;  
-  
-}
-
-.new-arrival-title span {
-    border-bottom: solid #2b2b2b 1px;
-    margin-top: 15px;
-}
-
-.new-arrival-card {
-    padding: 5%;
-    border-radius: 5px;
-    background-color: #fff;
-    text-align: center;
-    margin:5px auto;  
 } 
 
 
-.new-arrival-card:hover {
-   background: rgba(255,255,255,1);
-   box-shadow: 0 3px 6px rgba(0,0,0,0.4);
-     transition: 0.5s;
-}
-
-.new-arrival-card h3{
-    letter-spacing:3px;
-    font-size:1.2em;
-    font-weight:400;
-    color:#2b2b2b;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;   
-}
-
-.new-arrival-card h5{
-    margin-top: 10%;
-    letter-spacing:1px;
-    font-size:0.8em;
-    font-weight:400;
-    opacity: 0.8;
-    color:#2b2b2b;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;   
-} 
-
-
-.new-arrival-card button{
-    background-color: #ff5b00;
-    font-size:1em;
-    border: none;
-    border-radius: 30px;
-    padding: 3px 30px 5px 30px;
-    margin:5px auto;
-}
-
-.new-arrival-card button a {
-    color:#fff;
-    font-size:1em;
+.service-card {
+    background: rgba(255,255,255,0.9);
+     border-radius:15px;
+     padding:0% 0% 3% 0%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.3); 
+    margin-top:3%;
 }
 
 
-
-.home-saree {
-    background:url(../images/home-saree.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding-top:20%;
-        width:auto;
-        height:17em;
-        opacity: 0.9;
-       padding-left: 10%;
-        border-radius: 5px;
-        text-align: left;
-    
-} 
-
-
-.home-saree h3 {
-    letter-spacing:3px;
-    font-size:2em;
-    font-weight:700;
-    color:#fff;
-    text-align:left;
-    font-family: 'Montserrat', sans-serif;  
-} 
-
-
-
-.home-saree h3:hover {
-    letter-spacing:3px;
-    font-size:2.3em;
-     transition: 0.5s;
-} 
-
-
-
-.home-saree p a {
-    letter-spacing:1px;
-    font-size:0.8em;
-    font-weight:300;
-    color:#fff;
-    text-align:left;
-    font-family: 'Montserrat', sans-serif;  
-}
-
-
-
-.home-kurtis {
-    background:url(../images/11.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding-top:16%;
-    padding-left:5%;
-        width:auto;
-        height:12em;
-        opacity: 0.7;
-        border-radius: 5px;
-        text-align:center;
-        margin-top: 1em;
-}  
-
-
-.home-kurtis h3 {
-    letter-spacing:3px;
-    font-size:2em;
-    font-weight:700;
-    color:#fff;
-    text-align:center;
-    font-family: 'Montserrat', sans-serif;  
-} 
-
-
-
-.home-kurtis h3:hover {
-    letter-spacing:3px;
-    font-size:2.3em;
-     transition: 0.5s;
-} 
-
-
-
-.home-kurtis p a {
-    letter-spacing:1px;
-    font-size:0.8em;
-    font-weight:300;
-    color:#fff;
-    text-align:left;
-    font-family: 'Montserrat', sans-serif;  
-}
-
-
-
-
-
-.home-wedding {
-    background:url(../images/home-wedding.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding-top:45%;
-        width:auto;
-        height:30em;
-    padding-right: 15%;
-        border-radius: 5px;
-        text-align: right;
-    
-}
-
-.home-wedding h3 {
-    letter-spacing:3px;
-    font-size:2em;
-    font-weight:700;
-    color:#fff;
-    text-align:right;
-    font-family: 'Montserrat', sans-serif;  
-} 
-
-
-.home-wedding p a {
-    letter-spacing:1px;
-    font-size:0.8em;
-    font-weight:300;
-    color:#fff;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;  
-}
-
-
-
-@media(max-width:720px){
-    
-    
-    
-.home-icons {
-      background: rgba(255,255,255,1);
-    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
-    border-radius: 5px;
-    margin: 5% auto 1% auto;
-    padding: 3%;
-    height:8em;
-}
-
-
-.home-icons img {
-    width: 50px;
-    height:auto;
-    float:none;
-    text-align: center;
-    margin:5% auto 0 auto;
-    
-} 
-
-.home-icons h4 {
-    letter-spacing:2px;
-    font-size:0.8em;
-    font-weight:600;
-    color: #2b2b2b;
-    text-align:center;
-    margin-top:4%;
-    font-family: 'Montserrat', sans-serif;   
-}
-    
-    
- .home-saree {
-    background:url(../images/home-saree.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding-top:45%;
-        width:auto;
-        height:20em;
-        opacity: 0.9;
-       padding-left: 10%;
-        border-radius: 5px;
-        text-align: left;
-    
-} 
-   
-    
-    
-    
- .home-wedding {
-    background:url(../images/home-wedding.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding-top:45%;
-        width:auto;
-        height:20em;
-    padding-right: 15%;
-        border-radius: 5px;
-        text-align: right;
-    
-}
-
-.home-kurtis {
-    background:url(../images/11.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding-top:45%;
-    padding-left:5%;
-        width:auto;
-        height:20em;
-        opacity: 0.7;
-        border-radius: 5px;
-        text-align:center;
-        margin-top: 1em;
-}  
-    
-   
-    
-    
-}
-
-
-.modal-full {
-    min-width: 90%;
-    margin: 0 auto;
-}
-
-.modal-full .modal-content {
-    min-height: 90vh;
-}
-
-
-.home-product-details h2 {
-    
-  letter-spacing:3px;
-    font-size:2em;
-    font-weight:700;
-    color:#FF1818;
-    text-align:left;
+.service-1 {
+      background:url(../images/service-1.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:20em;
+    width:100%;
     margin-top:2%;
-    font-family: 'Montserrat', sans-serif;    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.service-2 {
+      background:url(../images/service-2.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:20em;
+    width:100%;
+    margin-top:2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.service-3 {
+      background:url(../images/service-3.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:20em;
+    width:100%;
+    margin-top:2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.service-4 {
+      background:url(../images/service-4.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:20em;
+    width:100%;
+    margin-top:2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.service-5 {
+      background:url(../images/service-5.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:20em;
+    width:100%;
+     margin-top:2%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.service-card h4 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 3px;
+    color:#ED1F24;
+    font-size: 35px;
+    text-align: left; 
+    padding: 1% 5%;
+    margin-top: 3%;
+}
+
+.service-card h6 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 3px;
+    color:#1F304A;
+    font-size: 25px;
+    text-align: left; 
+    padding: 0% 5%;
+    margin-top: 0%;
+    text-decoration: underline;
+}  
+
+.service-card  p {
+    padding: 0% 5%;
+    font-size: 18px;
+    color:#1F304A;
+}
+
+
+@media(max-width:720px) {
+    
+    
+ .service-wrapper{ 
+    background:url(../images/service-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:25% 0%;
+    color:#fff;
+}  
+
+
+.service-wrapper h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    /**color:#282e34;**/
+    margin-top: 15%!important;
+    font-size: 40px;
+    text-align: center;
+} 
+    
+    
+.service-card h4 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 3px;
+    color:#ED1F24;
+    font-size: 28px;
+    text-align: left; 
+    padding: 1% 5%;
+    margin-top: 3%;
+}    
+    
+    
+.service-card h6 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 3px;
+    color:#1F304A;
+    font-size: 22px;
+    text-align: left; 
+    padding: 1% 5%;
+    margin-top: 0%;
+    text-decoration: underline;
+}     
+    
+    
+.service-1 {
+      background:url(../images/service-1.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:15em;
+    width:100%;
+     margin-top:10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}   
+
+.service-2 {
+      background:url(../images/service-2.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:15em;
+    width:100%;
+     margin-top:10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}     
+    
+.service-3 {
+      background:url(../images/service-3.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:15em;
+    width:100%;
+     margin-top:10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} 
+    
+ .service-4 {
+      background:url(../images/service-4.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:15em;
+    width:100%;
+      margin-top:10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} 
+    
+     .service-5 {
+      background:url(../images/service-5.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:15em;
+    width:100%;
+         margin-top:10%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} 
+      
+    
 } 
 
-.home-product-details h3 {
-    
-  letter-spacing:1px;
-    font-size:1.8em;
-    font-weight:500;
-    color:#444444;
-    text-align:left;
-    margin-top:5%;
-    font-family: 'Montserrat', sans-serif;    
-}
 
-.home-product-details h4 {
-    
-  letter-spacing:1px;
-    font-size:1.5em;
-    font-weight:500;
-    color:#444444;
-    text-align:left;
-    margin-top:5%;
-    font-family: 'Montserrat', sans-serif;    
-}
 
+/*********END OF SERVICE*********/
+
+
+
+/*********CONTACT US*********/
+.contact-wrapper{ 
+    background:url(../images/contact-bg.jpg) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:7% 10%;
+    align-content: center;
+    color:#fff;
+}  
+
+
+.contact-wrapper h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    /**color:#282e34;**/
+    margin-top: 5%!important;
+    font-size: 65px;
+    text-align: center;
+} 
+
+
+.contact-wrapper h5 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 3px;
+    color:#fff;
+    font-size: 25px;
+    padding: 0% 5%;
+    margin-top: 0%;
+    text-decoration: underline;
+}  
+
+.contact-wrapper  p {
+    padding: 0% 5%;
+    font-size: 18px;
+    color:#fff;
+}
 
 
 
@@ -627,27 +1024,30 @@ body,html{
   position: relative;
   width: 100%;
   margin-bottom: 30px;
+    color: #fff;
 }
 .group input {
   border: none;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #fff;
   padding: 10px;
   display: block;
   width: 100%;
+    color:#ffff;
   border-radius: 2px;   
-  background: rgba(255,255,255,0.5);    
+  background: rgba(255,255,255,0.0);    
 }
 .group input:focus {
   outline: none;
+    color:#ffff;
 }
 .group input:focus ~ label, .group input:valid ~ label {
   top: -20px;
   font-size: 14px;
-  color:#ff5b00;
+  color:#fff;
 }
 .group label {
   position: absolute;
-  color: #333;
+  color: #fff;
   top: 12px;
   left: 0;
   transition: 0.2s ease all;
@@ -664,7 +1064,7 @@ body,html{
   left: 50%;
   right: 50%;
   bottom: 0;
-  background:#ff5b00;
+  background:#fff;
   height: 1px;
   transition: left 0.2s ease-out, right 0.2s ease-out;
 }
@@ -675,59 +1075,238 @@ input:focus ~ .bar:before {
 
 
 
-.contact-button button{
-    width: 35%;
-     background-color:#ff5b00;
-    border-radius: 30px;
-    color:#ffff;
+.btn-submit {
+    background:#fff;
+    color:#142240;
+    border-radius: 35px;
+    border:none;
+    padding: 7px 40px;
 }
 
 
 
+@media(max-width:720px) {
+  
+    .contact-wrapper{ 
+    background:url(../images/contact-bg.jpg) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:17% 1%;
+    align-content: center;
+    color:#fff;
+}  
 
-
-footer {
-    background-color:#444444;
-    color: #fff;
+    
+    .contact-wrapper h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    /**color:#282e34;**/
+    margin-top: 25%!important;
+    font-size: 40px;
     text-align: center;
-    padding-top:1%;
+} 
+    
+    .contact-wrapper h5 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 3px;
+    color:#fff;
+    font-size: 18px;
+    padding: 0% 5%;
+    margin-top: 0%;
+    text-decoration: underline;
+}
+    
+    .contact-wrapper  p {
+    padding: 0% 1%;
+    font-size: 14px;
+    color:#fff;
+}
+    
+    footer {
+    background: #242526;
+    padding: 15% 1%;
+    color:#fff;
+}
+
+footer h6 {
+    
+    font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
     letter-spacing: 2px;
+    color:#fff;
+    font-size: 18px;
+    padding: 0% 5%;
+    margin-top: 0%;
+    text-decoration: underline;
+}
+    
+    footer p {
+         padding: 0% 1%;
+    font-size: 14px;
+    color:#fff;
+}
+
+
+    
+}
+
+
+/*********END OF CONTACT US*********/
+
+
+/*********SADIK*********/
+
+.sadik-wrapper{ 
+    background:url(../images/sadik-bg.jpg) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:12% 10% 5% 10%;
+    align-content: center;
+    color:#fff;
+}  
+
+
+.sadik-wrapper h5 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 2px;
+    color:#fff;
+    font-size: 30px;
+    margin-top: 0%;
     
 } 
 
 
-/*********ABOUT US**********/
-.about-wrapper {
-        background:url(../images/aboutus.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding:9% 0 7%;
-        height:auto;
-        width: 100%;
-        text-align: center;
-    } 
+.sadik-card {
+    background: rgba(255,255,255,1);
+     border-radius:15px;
+     padding:7%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.3); 
+    margin-top:2%;
+    color:#1F304A;
+}
+
+.sadik-card h5 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 2px;
+    color:#1F304A;
+    font-size: 30px;
+    
+} 
+
+.sadik-content h5 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 2px;
+    color:#ED1F24;
+    font-size: 30px;
+    text-align: center;
+    
+} 
+
+.sadik-content  p {
+    padding: 0% 5%;
+       color:#1F304A;
+    font-size: 18px;
+}
 
 
-.about-wrapper h2 {
-    letter-spacing:3px;
-    font-size:2.4em;
-    font-weight:700;
-    color:#fff;
-    text-align:center;
-    font-family: 'Montserrat', sans-serif;  
+.sadik-content-card {
+    background: rgba(255,255,255,1);
+     border-radius:10px;
+     padding:0% 0% 5% 0%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.3); 
+     margin-top:2%;
+     color:#ED1F24;
+    text-align: center;
+}
+
+
+.sadik-content-card img {
+    border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+}
+
+
+.sadik-content h6 {
+   font-family: 'Dubai Medium', sans-serif;    
+    font-weight:normal;
+    letter-spacing: 1px;
+    color:#ED1F24;
+    font-size: 20px;
+    text-align: center;
+    padding: 10% 0 5% 0;
+    
 } 
 
 
-.about-content p {
-   letter-spacing:1px;
-    font-size:0.9em;
-    font-weight:300;
-    color:#7A7A7A;
-    opacity: 1;
-    text-align:center;
-    font-family: 'Montserrat', sans-serif;  
-    margin: 5% auto;
-    line-height: 1.8em;
+/*********END OF SADIK*********/
+
+/*********COMING SOON*********/
+
+.coming-wrapper{ 
+    background:url(../images/about-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:20% 10%;
+    align-content: center;
+    color:#fff;
+}  
+
+
+.coming-wrapper h1 {
+     font-family: 'Dubai Bold', sans-serif;    
+    font-weight:bold;
+    letter-spacing: 3px;
+    /**color:#282e34;**/
+    margin-top: 5%!important;
+    font-size: 65px;
+    text-align: center;
+} 
+
+
+@media(max-width:1024px) {
+  .coming-wrapper{ 
+    background:url(../images/about-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:80vh;
+    width:100%;
+    padding:40% 10%;
+    align-content: center;
+    color:#fff;
+}    
+}
+
+
+@media(max-width:800px) {
+  .coming-wrapper{ 
+    background:url(../images/about-bg.png) repeat center top;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:100%;
+    padding:40% 10%;
+    align-content: center;
+    color:#fff;
+}    
 }
