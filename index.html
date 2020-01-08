@@ -19,15 +19,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
   <body >
-    
-      <div class="menu-bg"></div>
-<div class="menu-burger">☰</div>
-<div class="menu-items">
-  <div>CALL</div>
-  <div>DRIVE</div>
-  <div>MAIL</div>
+    <input class="menu-trigger" type="checkbox" id="menu_trigger"/>
+<div class="overlay" id="fullscreen_nav">
+  <ul class="menu-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Join Us</a></li>
+    <li><a href="#">Contact Us</a></li>
+  </ul>
 </div>
-
+<label class="hamburger-menu" for="menu_trigger"><span></span><span></span><span></span></label>
       
      
    <div id="home">
@@ -71,10 +73,7 @@
   <script src="js/all.min.js"></script> 
       
 <script type="text/javascript">
-   $('.menu-burger, .menu-items').on('click', function() {
-  $('.menu-bg, .menu-items, .menu-burger').toggleClass('fs');
-  $('.menu-burger').text() == "☰" ? $('.menu-burger').text('✕') : $('.menu-burger').text('☰');
-});
+   
        </script>
     
       
