@@ -58,7 +58,8 @@ footer {
 }
 
 #left-side {
-  height:100vh;
+    height: 100vh;
+  background-size: cover;
   background:url(../images/left-side.jpg) repeat center top;
   padding:20% 0; 
   z-index: 1;     
@@ -66,9 +67,11 @@ footer {
 
 
 #right-side {
-  height:100vh;
-  background:url(../images/right.jpg) repeat center top;
+  
+  background:url(../images/right-side.jpg) repeat center top;
   padding:20% 0;  
+ height: 100vh;
+   background-size: cover;
   align-items: center;
   z-index: 1;       
 }
@@ -111,13 +114,13 @@ footer {
   height:100%;
   background:url(../images/left-side.jpg) repeat center top;
   padding:35% 4%; 
-  z-index: 1;     
+  z-index: 1;  
 }
 
 
 #right-side {
   height:100%;
-  background:url(../images/right.jpg) repeat center top;
+  background:url(../images/right-side.jpg) repeat center top;
   padding:35% 4%;  
   align-items: center;
   z-index: 1;       
@@ -142,7 +145,7 @@ footer {
 
 #right-side {
   height:100%;
-  background:url(../images/right.jpg) repeat center top;
+  background:url(../images/right-side.jpg) repeat center top;
   padding:30% 0;  
   align-items: center;
   z-index: 1;       
@@ -181,7 +184,7 @@ footer {
 
 #right-side {
   height:100%;
-  background:url(../images/right.jpg) repeat center top;
+  background:url(../images/right-side.jpg) repeat center top;
   padding:40% 5%;  
   align-items: center;
   z-index: 1;       
