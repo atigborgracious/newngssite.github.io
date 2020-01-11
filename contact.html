@@ -7,11 +7,12 @@
 
     <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="css/bootstrap.css" >
-      <link rel="stylesheet" type="text/css" href="css/default.css"/>  
+      <link rel="stylesheet" type="text/css" href="css/default.css"/> 
+       <link rel="stylesheet" type="text/css" href="css/menu.css"/>    
        <link  rel="stylesheet"  href="css/aos.css">  
       <!-- font Awsome -->
   <link rel="stylesheet" href="css/all.min.css" />
-    <title>Quick Works</title>
+    <title>Jamal</title>
    
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -19,171 +20,87 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
   <body >
-        
+    <input class="menu-trigger" type="checkbox" id="menu_trigger"/>
+<div class="overlay" id="fullscreen_nav">
+  <ul class="menu-links">
+     <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Join Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</div>
+     
+<label class="hamburger-menu" for="menu_trigger"><span></span><span></span><span></span></label>
       
-  <nav class="shadow navbar navbar-expand-md navbar-light navbar-custom p-0 fixed-top top-fixed" id="mainNav" >
-       <div class="container-fluid">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-   <a class="navbar-brand" href="#"><img src="images/nav-logo.png" class="img-fluid"/></a>
+     
+ 
+      <div class="container-fluid  home-banner">
+  <div class="row justify-content-center h-100">
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-     <li class="nav-item">
-                <a class="nav-link"  href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link "  href="about-us.html">About Us</a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link "  href="services.html">Services</a>
-            </li>
+     <div class=" col-xl-6  p-5 contact-title">
+               <h2>Let's Talk</h2>
+            <section class="contact-inner-left">
              
-            <li class="nav-item">
-                <a class="nav-link "  href="projects.html">Projects</a>
-            </li>
-        
-            
-             <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Our Partners
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="viena.html">Viena</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="technistone.html">TechniStone</a>
-        </div>
-      </li>
-        
-            
-            <li class="nav-item">
-                <a class="nav-link " href="contact.html">Contact Us</a>
-            </li>
-    </ul>
-  </div>
-           </div>
-</nav>       
-      
-      
-      
-<div class="contact-container">
-      
- <div class="container">
-    
-     <section class="row">
-        <section class="col-md-12" data-aos="zoom-in" data-aos-duration="900">
-        
-              <h2> Get in touch with us! </h2>
-            
-         </section>
-     
-     </section>
-   
- <section class="row mt-5">    
-     
-
-     
-     
-      <section class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
-          <h6>Address</h6>
-          <p>
-             Quickworks technical services LLC.,
-          </p> 
-          <p> 4th floor- office 404
-BB07 tower, Bay Square,</p>
-          <p>Business Bay
-Sheikh Zayed road, </p>
-<p>Dubai, UAE 
-          </p>
-          
-     </section>
-
-      
-      <section class="col-lg-3" data-aos="zoom-in" data-aos-duration="1100">
-           <h6>Telephone</h6>
-          <p>
-              +971 (4) 5595 295 
-          </p>
-           <p>
-              +971 (4) 5595 296 
-          </p>
-        
-           <h6>Email</h6>
-          <p>
-          quickworksuae@gmail.com
-          </p>   
-          
-     </section>
-     
-     
-           <section class="col-lg-5" data-aos="zoom-in" data-aos-duration="1300">
-            <form class="mt-3 contact-button text-center">
-    <div class="group">      
-      <input type="text" required name="first_name" placeholder="">
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>First Name</label>
+               <form class="my-form ">
+               <div class="form-group">
+                <label for="formGroupExampleInput2">Name</label>
+                <input type="text" class="form-control " id="formGroupExampleInput2" placeholder="Enter your name">
+              </div>    
+                
+                <div class="row mt-4">
+    <div class="col-xl-6">
+      <div class="form-group">
+                <label for="formGroupExampleInput2">Phone Number</label>
+                <input type="text" class="form-control " id="formGroupExampleInput2" placeholder="Enter your phone">
+              </div>  
     </div>
-    <div class="group">      
-      <input type="text" required name="last_name" placeholder="">
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Last Name</label>
-    </div>            
-                
-    <div class="group">      
-      <input type="text" required  name="telephone" placeholder=" ">
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Phone</label>
+    <div class="col-xl-6">
+      <div class="form-group">
+                <label for="formGroupExampleInput2">Email</label>
+                <input type="text" class="form-control " id="formGroupExampleInput2" placeholder="Enter your email">
+              </div>  
     </div>
+  </div>   
+                   <div class="form-group">
+                <label for="formGroupExampleInput2">Message</label>
+                <textarea type="text" id="form10" class="md-textarea form-control" placeholder="Your Message" rows="1"></textarea>
+              </div> 
+                   
+            <input type="submit" value="Submit" class="btn-submit" >           
+                   
+                   
+           </form>
                 
-    <div class="group">      
-      <input type="text" required  name="email" placeholder="">
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Email</label>
-    </div>            
-                  
-  <div class="group">      
-      <input type="text" required name="comments">
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Message</label>
-    </div>   
-    
-    <!--button type="button" class="btn text-center">Send</button-->             
-      <input type="submit" value="Submit" class="btn-submit" >           
-             
-  </form>
-     </section>
-     
-     </section>    
-     
-     
-     
-  </div>      
-    
-</div>      
-                                
-                              <!--iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d115468.7841249604!2d55.256578358846035!3d25.257142980024845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3e5f5cda192a2ea7%3A0x71a4bae5fbdac1ea!2sBusiness+village+B%2C1%2C+3c+Port+Saeed-+129%2C+Deira%2C+Dubai.!3m2!1d25.2571595!2d55.3266187!5e0!3m2!1sen!2sae!4v1535759634981" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe--> 
-      
-      
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.532551842277!2d55.27768801500922!3d25.185256983901667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDExJzA2LjkiTiA1NcKwMTYnNDcuNiJF!5e0!3m2!1sen!2sae!4v1577134280472!5m2!1sen!2sae" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 
- <footer >
-   <section class="container">
-     <section class="row ">
-       <section class="col-md-12 ">
-         <p>Design & Developed By GERIZIM DESIGNS</p>
-         </section>
+                <section class="row text-center">
+                    <section class="col-md-12">
+                 <ul class="mt-3 text-center">
+         <li><a href="#"><img src="images/fb.png" class="img-fluid"/></a></li>
+         <li><a href="#"><img src="images/ig.png" class="img-fluid"/></a></li> 
+          <li><a href="#"><img src="images/twitter-01.png" class="img-fluid"/></a></li>
+         <li><a href="#"><img src="images/youtube.png" class="img-fluid"/></a></li>     
+         </ul>
+         </section></section>
+           </section> 
          
-       
-       </section>
-    </section>      
-</footer> 
+        
+         
+         
+        </div>
+  
+      
+      
+
+    <div class="col-xl-6 text-center d-none d-xl-block" id="contact-right">
+    
+    </div>
+  </div>
+</div>
+    
+ 
+
+      
       
       
 
@@ -199,18 +116,7 @@ Sheikh Zayed road, </p>
   <script src="js/all.min.js"></script> 
       
 <script type="text/javascript">
-    $(document).ready(function(){
-				$('a[href^="#"]').on('click', function (e) {
-					e.preventDefault();
-
-					var target = this.hash;
-					var $target = $(target);
-
-					$('html, body').animate({
-						'scrollTop': $target.offset().top
-					}, 1000, 'swing');
-				});
-			});
+   
        </script>
     
       
