@@ -20,6 +20,36 @@ body,html{
     text-align: center;
 }
 
+.my-service {
+   background:url(../images/service.jpg) no-repeat center top;
+  background-size: cover;
+    padding:7% 0;
+    text-align: center;
+    color:#fff;
+}
+
+.my-service h2 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 55px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+
+.my-service button {
+    border:none;
+    padding: 7px 25px;
+    color:#fff;
+    background: #fff;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.my-service button a {
+  color:#484848;  
+}
 
 /*****HOME SECTION******/
 
@@ -202,7 +232,34 @@ box-shadow: 0 3px 6px rgba(255,255,255,0.4);
     font-size: 40px;
     letter-spacing: 7px;
     text-align: center;
-}    
+}  
+    
+.my-service {
+   background:url(../images/service.jpg) no-repeat center top;
+  background-size: cover;
+    padding:20% 0;
+    text-align: center;
+    color:#fff;
+}
+
+.my-service h2 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+    
+ .my-service button {
+    border:none;
+    padding: 7px 25px;
+    color:#fff;
+    background: #fff;
+    border-radius: 25px;
+    margin-top: 15px;
+}   
+    
      
 }
 
@@ -248,9 +305,10 @@ box-shadow: 0 3px 6px rgba(255,255,255,0.4);
 /******ABOUT PAGE*****/
 
 .about-container {
-    background:url(../images/right-side.jpg) repeat center top;
+    background:url(../images/about.jpg) no-repeat center top;
+    background-size: cover;
     color:#fff;
-    padding: 1% 0;
+    padding: 3% 0;
 } 
 
 
@@ -265,12 +323,44 @@ box-shadow: 0 3px 6px rgba(255,255,255,0.4);
 
 .about-content p{
     color:#515151;
-    text-align: center;
+    text-align: justify;
+    padding-top:15%;
 }
 
 
 .about-content {
     padding: 5% 0;
+}
+
+
+@media(max-width:720px) { 
+    
+ .about-container {
+    background:url(../images/about.jpg) no-repeat center top;
+    background-size: cover;
+    color:#fff;
+    padding: 25% 0;
+} 
+   
+    
+
+.about-container h1 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 7px;
+    text-align: center;  
+}
+    
+    .about-content p{
+    color:#515151;
+    text-align: justify;
+    padding-top:10%;
+}
+
+
+
 }
 
 
