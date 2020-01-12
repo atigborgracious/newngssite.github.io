@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway);
 @import url(https://fonts.googleapis.com/css?family=Raleway:900);
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800,900&display=swap');
 *,:after,:before{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -362,6 +362,117 @@ box-shadow: 0 3px 6px rgba(255,255,255,0.4);
 
 
 }
+/******MODELING PAGE*****/
+
+.model-container {
+    background:url(../images/model-background.jpg) no-repeat center top;
+    background-size: cover;
+    color:#fff;
+    padding: 5% 0;
+} 
+
+
+.model-container h1 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 900;
+    font-size: 80px;
+    letter-spacing: 7px;
+    text-align: center;  
+}
+
+
+.model-container h3{
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 7px;
+    text-align: center;  
+}
+
+
+
+
+.modeling-card {
+     background: rgba(255,255,255,1);
+     border-radius:10px;
+     padding:5%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.2); 
+    height: auto;
+    color:#FF9900;
+    text-align: center;
+    margin: 12% auto;
+}
+
+.carousel-item img {
+    border-radius: 5px;
+}
+
+
+.modeling-card h3 {
+  color:#595959!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;    
+}
+
+
+.modeling-card p {
+  color:#595959!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight:300;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-align: justify;
+    padding-top: 3%;
+    line-height: 1.8em;
+}
+
+
+@media(max-width:720px)  {
+    
+    .model-container {
+    background:url(../images/model-background.jpg) no-repeat center top;
+    background-size: cover;
+    color:#fff;
+    padding: 15% 0;
+} 
+    
+    
+    .model-container h1 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;  
+}
+
+
+.model-container h3{
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-align: center;  
+}
+
+}
+
+/*.carousel-item2 {
+  
+    width:451px;
+    height:100%;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
 
 
 /******CONTACT PAGE*****/
