@@ -475,6 +475,194 @@ box-shadow: 0 3px 6px rgba(255,255,255,0.4);
 }*/
 
 
+/******FITTNESS PAGE*****/
+
+.fittness-container {
+    background:url(../images/fittness-bg.jpg) no-repeat center top;
+    background-size: cover;
+    color:#fff;
+    padding: 5% 0;
+} 
+
+
+.fittness-container h1 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 900;
+    font-size: 80px;
+    letter-spacing: 7px;
+    text-align: center;  
+}
+
+
+.fittness-container h3{
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 7px;
+    text-align: center;  
+}
+
+
+
+
+
+.fitness-right h1 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 7px;
+    text-align: left;  
+    margin: 10% auto 3% auto;
+}
+
+
+
+.fitness-left{
+    margin-left: 0%;
+    left: 0%;
+}
+
+
+.fitness-right {
+ 
+}
+
+
+.fitness-right-content {
+  background: rgba(255,255,255,1);
+     border-radius:10px;
+     padding:5%;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.2); 
+    height: auto;
+    text-align: left;
+    margin: 12% auto; 
+}
+
+
+.fitness-right-content h3 {
+   color:#595959!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: left;  
+}  
+
+
+
+
+@media(max-width:720px)  {
+    
+    .fittness-container {
+    background:url(../images/fittness-bg.jpg) no-repeat center top;
+    background-size: cover;
+    color:#fff;
+    padding: 15% 0;
+} 
+    
+    
+    .fittness-container  h1 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;  
+}
+
+
+.fittness-container  h3{
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-align: center;  
+}
+
+}
+
+
+
+/******GALLERY PAGE*****/
+
+.gallery-container {
+    background:url(../images/gallery-bg.jpg) no-repeat center top;
+    background-size: cover;
+    color:#fff;
+    padding: 5% 0;
+} 
+
+
+.gallery-container h1 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 900;
+    font-size: 80px;
+    letter-spacing: 7px;
+    text-align: center;  
+}
+
+
+.gallery-container h3{
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 7px;
+    text-align: center;  
+}
+
+.imglist {
+   margin: 0 auto;    
+}
+
+.imglist img {
+    padding:3px;
+}
+
+.imglist a img{
+    width: 320px;
+    height: auto;
+}
+
+
+
+
+@media(max-width:720px)  {
+    
+    .gallery-container {
+    background:url(../images/gallery-bg.jpg) no-repeat center top;
+    background-size: cover;
+    color:#fff;
+    padding: 15% 0;
+} 
+    
+    
+    .gallery-container  h1 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;  
+}
+
+
+.gallery-container  h3{
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-align: center;  
+}
+
+}
+
 /******CONTACT PAGE*****/
 
 
