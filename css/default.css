@@ -205,7 +205,7 @@ body,html{
        background:url(../images/about-bg.jpg) repeat center top;
        background-attachment:scroll;
         width:100%;
-        padding:6% 15%;
+        padding:6% 2%;
         text-align: center;
     }
     
@@ -251,8 +251,9 @@ body,html{
     background: rgba(255,255,255,0.9);
     height:18em;
     width:auto;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1);  
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);  
     padding:7%;
+    border-radius: 5px;
     
 }
 
@@ -291,7 +292,7 @@ body,html{
     width:auto;
     box-shadow: 0 3px 6px rgba(0,0,0,0.1);  
     padding:7%;
-    
+     border-radius: 5px;
 }  
 }
 
