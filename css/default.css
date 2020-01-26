@@ -234,7 +234,7 @@ body,html{
 #service h1 {
     letter-spacing:3px;
     font-size: 45px;
-    font-weight:normal;
+    font-weight:600;
     color: #FF4412;
     padding-bottom:1% ;
     font-family: 'Montserrat', sans-serif;   
@@ -307,7 +307,7 @@ body,html{
         background-size:cover;
         height:auto;
         width:100%;
-        padding:5% 0 5% 0;
+        padding:10% 0 10% 0;
         letter-spacing: 2px;
      
     }
@@ -316,7 +316,7 @@ body,html{
 #support  h2 {
     letter-spacing:3px;
     font-size: 45px;
-    font-weight:normal;
+    font-weight:600;
     color: #ffff;
     font-family: 'Montserrat', sans-serif;   
     text-align: center;
@@ -353,6 +353,21 @@ body,html{
     line-height: 2em;
     font-family: 'Montserrat', sans-serif;   
     text-align: center;
+} 
+
+@media(max-width:720px)  {
+    #support {
+        background:url(../images/support.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height:auto;
+        width:100%;
+        padding:15% 0 15% 0;
+        letter-spacing: 2px;
+     
+    }
 }
 
 /*****CONTACT SECTION******/
@@ -371,7 +386,7 @@ body,html{
 #contact h1 {
      letter-spacing:3px;
     font-size: 45px;
-    font-weight:normal;
+    font-weight:600;
     color: #ffff;
     padding-bottom:1% ;
     font-family: 'Montserrat', sans-serif;   
