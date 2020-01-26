@@ -218,7 +218,7 @@ body,html{
 }
 /*****OUR SERVICES SECTION******/
 #service{
-        background:url(../images/Service-Bg.jpg) repeat center top;
+        background-color: #fff;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -286,6 +286,17 @@ body,html{
 } 
 
 @media(max-width:720px)  {
+    #service{
+        background-color: #fff;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height:auto;
+        width:100%;
+        padding:15% 0;
+    }
+    
     .service-card {
     background: rgba(255,255,255,0.9);
     height:auto
@@ -364,7 +375,7 @@ body,html{
         background-size:cover;
         height:auto;
         width:100%;
-        padding:15% 0 15% 0;
+        padding:25% 0 25% 0;
         letter-spacing: 2px;
      
     }
