@@ -24,16 +24,17 @@
     
  
       
-      
-      
-  <nav class="shadow navbar navbar-expand-md navbar-light navbar-custom p-0 fixed-top top-fixed" id="mainNav" >
+  <nav class="shadow navbar navbar-expand-md navbar-light navbar-custom p-1 fixed-top top-fixed" id="mainNav" >
        <div class="container-fluid">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-   <a class="navbar-brand" href="#"><img src="images/tasees-logo-2-1-192x300.jpg" class="img-fluid"/></a>
+          
+   <a class="navbar-brand d-md-block d-lg-block d-xl-block d-none" href="index.html"><img src="images/logo.png" class="img-fluid"/></a>
+              
+   <a class="navbar-brand  d-md-none d-lg-none d-xl-none d-block" href="index.html"><img src="images/logo-small.jpg" class="img-fluid"/></a>           
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+  <div class="collapse navbar-collapse pt-5" id="navbarTogglerDemo03">
     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
      <li class="nav-item">
                 <a class="nav-link"  href="index.html"> <span> <img src="images/home.png" class="img-fluid"/></span> Home</a>
@@ -50,22 +51,24 @@
                 <a class="nav-link "  href="projects.html"> <span> <img src="images/building.png" class="img-fluid"/></span> Projects</a>
             </li>
     
-         <li class="nav-item">
+        <!--li class="nav-item">
                 <a class="nav-link "  href="gallery.html"> <span> <img src="images/gallery.png" class="img-fluid"/></span> Gallery</a>
-            </li>
-            
+            </li-->
             <li class="nav-item">
                 <a class="nav-link " href="contact.html"> <span> <img src="images/contact.png" class="img-fluid"/></span>  Contact Us</a>
             </li>
+        <div class="language text-center mr-3 pt-2 d-md-none d-lg-none d-xl-none d-block">
+           <h6 class="text-center"><span class="eng mr-1"><a href="#">Eng</a></span>  <span class="ar"><a href="#">Ar</a></span></h6>
+           </div>  
     </ul>
   </div>
-        <div class="language mr-3">
-           <h6><span class="eng"><a href="#">Eng</a></span>  <span class="ar"><a href="#">Ar</a></span></h6>
-           </div>     
+       <div class="language text-center mr-3 pt-5 d-md-block d-lg-block d-xl-block d-none">
+           <h6 class="text-center"><span class="eng mr-1"><a href="#">Eng</a></span>  <span class="ar"><a href="#">Ar</a></span></h6>
+           </div>    
            
            
            </div>
-</nav>       
+</nav>         
       
  <div class="server-wrapper">   
   <div class="container">
@@ -86,7 +89,7 @@
     
     <div class="container pt-5 pb-5">
         <section class="row">
-           <section class="col-md-4" >
+           <section class="col-md-4 mb-3" >
                 <section class="villa1" >
                  <h3>Project Name</h3>
                     <p data-toggle="modal" data-target=".bd-example-modal-lg"><span>Project Details </span></p>
@@ -94,7 +97,7 @@
             </section>
             
             
-            <section class="col-md-4" >
+            <section class="col-md-4 mb-3" >
                 <section class="villa2" >
               <h3>Project Name</h3>
                     <p data-toggle="modal" data-target=".bd-example-modal-lg"> <span>Project Details </span></p>
@@ -102,7 +105,7 @@
             </section>
             
             
-            <section class="col-md-4" >
+            <section class="col-md-4 mb-3" >
                 <section class="villa3" >
               <h3>Project Name</h3>
                     <p data-toggle="modal" data-target=".bd-example-modal-lg"><span>Project Details </span></p>
@@ -180,12 +183,11 @@
     </div>   
 </div>      
       
-      
 <footer>
    <section class="container">
      <section class="row ">
        <section class="col-md-12 ">
-         <p>Design & Developed By PELLUCID STUDIOS</p>
+         <p>Design & Developed By <a href="http://pellucidstudios.com/" target="_blank">PELLUCID STUDIOS</a></p>
          </section>
          
        
@@ -197,7 +199,7 @@
       
      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   
-         <div class="modal-dialog modal-lg" role="document">
+         <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Project Name</h5>
@@ -207,7 +209,7 @@
       </div>
       <div class="modal-body">
         <section class="row">
-            <section class="col-md-12 pl-4 pr-4">
+            <section class="col-lg-9 pl-4 pr-4">
                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -234,26 +236,33 @@
                 
                 
             </section>
+            
+             <section class="col-lg-3">
+           <h6 class="mt-2"><B>Project Title</B></h6>
+            <h6>Living Paradise</h6>
+                 <h6 class="mt-4"><B>Project Timeline</B></h6>
+                <h6>9 Months</h6>
+                 <h6 class="mt-4"><B>Project Category</B></h6>
+                <h6>Interior</h6>
+                  <h6 class="mt-4"><B>Client</B></h6>
+            <h6 >Living Paradise</h6>
+                  <h6 class="mt-4"><B>Area</B></h6>
+                <h6>Dubai</h6>
+          </section> 
           </section>
               
         
-       <section class="row  text-center mt-4 mb-4 pl-4 pr-4">
-        <section class="col-md-4">
-           <h6><B>Project Title</B></h6>
-            <h6>Living Paradise</h6>
+     
+          
+            
+          
+           <section class="row mt-4 mb-4 pl-4 pr-4">
+        <section class="col-md-12">
+           <h6><B>Project Description</B></h6>
+            <h6 style="font-weight:normal;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra ante ut dolor porta consectetur. Nullam posuere nibh magna, ac rhoncus dolor mattis eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed congue eleifend dolor ut gravida. Fusce mattis, ligula nec ultricies sollicitudin, lorem augue euismod erat, et ultricies justo erat id neque. Integer et fringilla tellus. Aenean bibendum facilisis quam, eget dapibus odio. Aenean nec quam faucibus, ultrices dolor sit amet, sollicitudin erat.</h6>
           </section> 
-            <section class="col-md-4">
-            <h6><B>Project Timeline</B></h6>
-                <h6>9 Months</h6>
+           
           </section>  
-            <section class="col-md-4">
-             <h6><B>Project Category</B></h6>
-                <h6>Interior</h6>
-          </section>  
-          
-          </section>   
-          
-          
           
       </div>
       

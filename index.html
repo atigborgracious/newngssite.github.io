@@ -29,12 +29,15 @@
       
       
       
-  <nav class="shadow navbar navbar-expand-md navbar-light navbar-custom p-0 fixed-top top-fixed" id="mainNav" >
+  <nav class="shadow navbar navbar-expand-md navbar-light navbar-custom p-1 fixed-top top-fixed" id="mainNav" >
        <div class="container-fluid">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-   <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"/></a>
+          
+   <a class="navbar-brand d-md-block d-lg-block d-xl-block d-none" href="index.html"><img src="images/logo.png" class="img-fluid"/></a>
+              
+   <a class="navbar-brand  d-md-none d-lg-none d-xl-none d-block" href="index.html"><img src="images/logo-small.jpg" class="img-fluid"/></a>           
 
   <div class="collapse navbar-collapse pt-5" id="navbarTogglerDemo03">
     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
@@ -53,17 +56,20 @@
                 <a class="nav-link "  href="projects.html"> <span> <img src="images/building.png" class="img-fluid"/></span> Projects</a>
             </li>
     
-         <li class="nav-item">
+         <!--li class="nav-item">
                 <a class="nav-link "  href="gallery.html"> <span> <img src="images/gallery.png" class="img-fluid"/></span> Gallery</a>
-            </li>
+            </li-->
             
             <li class="nav-item">
                 <a class="nav-link " href="contact.html"> <span> <img src="images/contact.png" class="img-fluid"/></span>  Contact Us</a>
             </li>
+        <div class="language text-center mr-3 pt-2 d-md-none d-lg-none d-xl-none d-block">
+           <h6 class="text-center"><span class="eng mr-1"><a href="#">Eng</a></span>  <span class="ar"><a href="#">Ar</a></span></h6>
+           </div>  
     </ul>
   </div>
-       <div class="language mr-3 pt-5">
-           <h6><span class="eng mr-1"><a href="#">Eng</a></span>  <span class="ar"><a href="#">Ar</a></span></h6>
+       <div class="language text-center mr-3 pt-5 d-md-block d-lg-block d-xl-block d-none">
+           <h6 class="text-center"><span class="eng mr-1"><a href="#">Eng</a></span>  <span class="ar"><a href="#">Ar</a></span></h6>
            </div>    
            
            
@@ -144,11 +150,11 @@
    <section class="row">
       <section class="col-md-5">
           <h6> Welcome To</h6>
-           <h2 data-aos="zoom-in" data-aos-duration="900"> TASEES CONSULTING <br/> ENGINEERS </h2>
-            <p data-aos="slide-up" data-aos-duration="900">
+           <h2 data-aos="zoom-in" data-aos-duration="900" class="mt-3"> TASEES CONSULTING <br/> ENGINEERS </h2>
+            <p data-aos="slide-up" data-aos-duration="900" class="mt-3">
       A leading company, Established in 2009 in the United Arab Emirates, in the field of projects design and construction.The company includes engineering team with high efficiency, looking to achieve a leading position in the field of designs and supervision in all different disciplines of architectural, construction, electrical, mechanical, communications and networks of various systems.
            <br/>
-          <button type="button" class="btn mb-5"><a href="about-us.html">know more </a></button>
+          <button type="button" class="btn mb-5"><a href="about.html">know more </a></button>
                  </p>
        </section>
        <section class="col-md-1"></section>
@@ -289,8 +295,8 @@
            <section class="col-md-12" >
             
             <h3>WANT TO DISCUSS YOUR <br/> NEW PROJECT ?</h3>
-               
-               <button type="button" class="btn mb-5" data-toggle="modal" data-target="#quote">Get Quote</button>
+              <button type="button" class="btn mb-5"><a href="quote.html">Get Quote</a></button> 
+              
             </section>
            
            </section>
@@ -303,7 +309,7 @@
       <div class="my-footer">
   <div class="container">
      <section class="row">
-        <section class="col-md-4">
+        <section class="col-6 col-md-4">
          <img src="images/clock.png" class="img-fluid"/>    
           <h6>Timings</h6>
             <p>
@@ -313,7 +319,7 @@
         Thursdays <br/> 7:30AM - 2:30PM
             </p>
          </section>
-          <section class="col-md-4">
+          <section class="col-6 col-md-4">
             <img src="images/call.png" class="img-fluid"/>      
            <h6>Phone</h6>
               <p> +971 - 42552262 </p>
@@ -351,7 +357,7 @@
    <section class="container">
      <section class="row ">
        <section class="col-md-12 ">
-         <p>Design & Developed By PELLUCID STUDIOS</p>
+         <p>Design & Developed By <a href="http://pellucidstudios.com/" target="_blank">PELLUCID STUDIOS</a></p>
          </section>
          
        
