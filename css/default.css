@@ -204,6 +204,7 @@ background:rgba(0,0,0,1);
 
 .home-about {
     margin-top: 10%;
+      margin-bottom: 10%;
 }
 
 
@@ -312,6 +313,7 @@ background:rgba(0,0,0,1);
     width: 70px;
     height: auto;
     margin-bottom: 5%;
+     margin-top: 1%;
 }
 
 
@@ -405,7 +407,7 @@ background:rgba(0,0,0,1);
     }
 
 .new-project h3 {
-    letter-spacing:3px;
+    letter-spacing:1px;
     font-size: 40px;
     font-weight:bold;
      margin-top:5%;
@@ -470,25 +472,134 @@ background:rgba(0,0,0,1);
         background-size:cover;
     width:100%;
     height: auto;
-    padding: 3% 0;
+    padding: 1% 0;
     text-align: center;
     }
 
+@media(max-width:720px) {
+    
+    
+ .carousel-background {
+background:rgba(0,0,0,1);    
+ margin-bottom: 10%;
+    margin-top: 1%;
+    float:left;
+    margin-left: -5%;
+    padding:1% 5% 1% 2%;
+    width: 90%; 
+    height: auto;
+   
+}   
+    
+    
+ .home-about {
+    margin-top: 20%;
+      margin-bottom: 20%;
+}
 
+
+.home-about img {
+    border-radius: 3px;
+}
+
+.home-about h2{
+    color:#444444;
+     font-size: 40px;
+    margin-top: 2%;
+    text-align: left;
+    line-height: 1.1em;
+    letter-spacing: 3px;
+    font-family: 'Mont-Bold', sans-serif; 
+}   
+
+
+
+.home-service2 {
+    /*background: #54595f;*/
+    background:url(../images/dark-bg.png) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+    color:#fff;
+    padding: 20% 2%;
+}
+
+    
+.home-service2 img {
+    width: 70px;
+    height: auto;
+    margin-bottom: 5%;
+     margin-top: 10%;
+}
+    
+    
+    
+
+.home-service2 h3{
+    color:#fff;
+     font-size: 40px;
+    text-align:center;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+    font-family: 'Mont-Bold', sans-serif; 
+}
+
+
+.home-service2 h5{
+    color:#fff;
+     font-size: 18px;
+    text-align:center;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    font-family: 'Mont-Book', sans-serif; 
+}
+
+
+.home-service2 p{
+    color:#fff;
+     font-size: 12px;
+    text-align:left;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    margin-top: 5%;
+    font-family: 'Mont-Book', sans-serif; 
+}    
+    
+    
+.new-project h3 {
+    letter-spacing:0px;
+    font-size: 30px;
+    font-weight:bold;
+     margin-top:5%;
+     margin-bottom: 3%;
+    color:#142240;
+    padding-bottom: 2%;
+    font-family: 'Mont-Bold', sans-serif;  
+    text-align:center;
+    line-height: 1.6em;
+}     
+    
+    
+    
+    
+    
+}
 
 
 /*****ABOUT US******/
 
 .about-wrapper {
-        background:url(../images/1.gif) repeat center top;
+        background:url(../images/2.gif) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
         background-size:cover;
-     background-attachment: fixed;
+    
         padding:15% 0 5% 0;
     width: auto;
-    height: 500px;
+    height: 600px;
     text-align: center;
     }
 
@@ -586,6 +697,26 @@ background:rgba(0,0,0,1);
     font-family: 'Mont-Book', sans-serif;  
 }
 
+
+@media(max-width:720px)  {
+   
+ .about-wrapper {
+        background:url(../images/2.gif) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+    
+        padding:50% 0 5% 0;
+    width: auto;
+    height: 500px;
+    text-align: center;
+    }
+   
+    
+}
+
+
 /*****SERVICES******/
 
 .server-wrapper {
@@ -597,7 +728,7 @@ background:rgba(0,0,0,1);
     
         padding:15% 0 5% 0;
     width: auto;
-    height: 500px;
+    height: 600px;
     text-align: center;
     }
 
@@ -801,6 +932,73 @@ background:rgba(0,0,0,1);
     line-height: 1.6em;  
 }
     
+    
+   .structure3{
+    background:url(../images/supervision.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+       padding: 15% 0%;
+       height: auto;
+     text-align: center;
+}
+ 
+ .structure2 {
+   background: #fff;
+    color: #181818;
+    padding: 5%;
+     height: auto;
+    text-align: justify;
+}   
+         
+    
+    
+    
+    
+    .mep2 {
+    background:url(../images/supervision.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+       padding: 15% 0%;
+       height: auto;
+     text-align: center;
+}
+ 
+ .mep1 {
+   background: #fff;
+    color: #181818;
+    padding: 5%;
+     height: auto;
+    text-align: justify;
+}   
+     
+  
+    
+  .interior1 {
+    background:url(../images/supervision.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+       padding: 15% 0%;
+       height: auto;
+     text-align: center;
+}
+ 
+ .interior3 {
+   background: #fff;
+    color: #181818;
+    padding: 5%;
+     height: auto;
+    text-align: justify;
+}   
+    
+    
+    
+    
  .supervision3 {
     background:url(../images/supervision.jpg) repeat center top;
         -webkit-background-size:cover;
@@ -866,6 +1064,151 @@ background:rgba(0,0,0,1);
   transition: opacity .5s;
 }
 
+
+@media(max-width:720px)  {
+   
+.overlayinn {
+  opacity: 1;
+  transition: opacity .5s;
+}
+ 
+    
+ .server-wrapper {
+        background:url(../images/2.gif) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+    
+        padding:40% 0 5% 0;
+    width: auto;
+    height: 500px;
+    text-align: center;
+    }
+   
+    
+    
+    
+}
+
+
+/****QUOTE*****/
+.quote-wrapper {
+     background:url(../images/3.gif) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+    padding-top: 100px;
+    width:100%;
+}
+
+.quote-wrapper h1 {
+    letter-spacing:3px;
+    font-size: 80px;
+    font-weight:bold;
+     margin-top:80px;
+     margin-bottom:60px;
+      color:#444444;
+    padding-bottom: 2%;
+    font-family: 'Mont-Book', sans-serif;  
+    text-align:center;
+    line-height: 1.6em;
+} 
+
+.quote-wrapper h1 span {
+    border-bottom: #f91a15 2px solid;
+}
+
+
+.quote-wrapper h4 {
+    letter-spacing:3px;
+    font-size: 40px;
+    font-weight:bold;
+     margin-top:2px;
+     margin-bottom:20px;
+      color:#444444;
+    padding-bottom: 2%;
+    font-family: 'Mont-Book', sans-serif;  
+    text-align:center;
+    line-height: 1.6em;
+} 
+
+
+
+
+.project-tab {
+    
+}
+.project-tab #tabs{
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: red;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 2px solid !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.quote-wrapper input {
+    border-left: none;
+    border-right:none;
+    border-top:none;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.quote-wrapper form {
+    width:70%;
+    margin: 0 auto;
+}
+
+input[type=submit] {
+    background-color: #f91a15;
+    margin-top:1%;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 35px;
+    color: #fff;
+    padding:8px 38px;
+    float: none;
+    
+} 
+
+
+
+@media(max-width:720px) {
+ .quote-wrapper form {
+    width:95%;
+    margin: 0 auto;
+}   
+    
+}
 
 /*****VILLAS******/
 
@@ -1000,8 +1343,8 @@ background:rgba(0,0,0,1);
         background-size:cover;
     color: #fff;
     text-align: center;
-    padding-top:5%;
-     padding-bottom:1%;
+    padding-top:10%;
+     padding-bottom:2%;
     letter-spacing: 2px;  
 } 
 
@@ -1051,6 +1394,14 @@ footer p {
     color:#fff;
     padding-bottom: 1%;
     font-family: 'Mont-Book', sans-serif;  
+}
+
+footer a {
+    color:#fff;
+}
+
+footer a:hover {
+    color:#fff;
 }
 
 
