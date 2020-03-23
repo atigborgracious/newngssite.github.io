@@ -933,6 +933,27 @@ background:rgba(0,0,0,1);
 }
     
     
+  .architecture1{
+    background:url(../images/supervision.jpg) repeat center top;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+       padding: 15% 0%;
+       height: auto;
+     text-align: center;
+}
+ 
+ .architecture3 {
+   background: #fff;
+    color: #181818;
+    padding: 5%;
+     height: auto;
+    text-align: justify;
+}   
+      
+    
+    
    .structure3{
     background:url(../images/supervision.jpg) repeat center top;
         -webkit-background-size:cover;
