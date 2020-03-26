@@ -1,39 +1,6 @@
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway);
 @import url(https://fonts.googleapis.com/css?family=Raleway:900);
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700,800,900&display=swap');
-
-@font-face {
-    font-family:Mont-Black;
-    src: url(../fonts/Mont-Black.otf);
-}
-@font-face {
-    font-family:Mont-Bold;
-    src: url(../fonts/Mont-Bold.otf);
-}
-@font-face {
-    font-family:Mont-Book;
-    src: url(../fonts/Mont-Book.otf);
-}
-
-
-
-
-
-
-/*@font-face {
-    font-family:CovesBold;
-    src: url(../fonts/Coves Bold 700.otf);
-}
-@font-face {
-    font-family:CovesLight;
-    src: url(../fonts/Coves Light 300.otf);
-}*/
-
-
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,800,900&display=swap');
 *,:after,:before{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
@@ -43,1501 +10,205 @@ body,html{
     font-size:100%;
     padding:0;
     margin:0;
+     height: 100%;
 } 
 
 
 
-
-
-
-.navbar-custom {
-    background: rgba(255,255,255,1);
-    /*box-shadow: 0 3px 6px rgba(0,0,0,0.7);*/
-    top: 0 !important;
-    /*border-bottom: #444444 1px solid;*/
-}
-
-.navbar-custom .navbar-brand{
-    color: black;
-    padding: 0.8rem 1rem;
-    
-}
-/* change the link color and add padding for height */ 
-.navbar-custom .navbar-nav .nav-link {
-    color: black;
-    padding: 1rem 1rem;
-    text-align: center;
-    font-size: 16px;
-} 
-/* change the color of active or hovered links */
-
-.navbar-custom .nav-item:hover .nav-link {
-    color: white;
-    background-color:#444444; 
-    border-radius: 1px;
-} 
-
-.navbar img{
-    height: 90px;
-    width : auto;
-} 
-
-
-.nav-item img {
-    width:20px;
-    height: auto;
-    margin-top: -3%;
-}
-
-.log-in-button {
-    padding: 1% 6%;
-}
-
-.btn-login {
-    background: #bd1d46;
-    color: white;
-    border:none;
-    width:100%;
-    
-    border-radius: 25px;
-}
 
 .text-center {
     text-align: center;
 }
 
-
-.eng a {
-    color: #f91a15;
-}
-
-.ar a {
-    color:#444444;
-}
-
-
-.modal-content  {
-    -webkit-border-radius: 10px !important;
-    -moz-border-radius: 10px !important;
-    border-radius: 10px !important; 
-}
-
-.modal-content  {
-    -webkit-border:none;
-    -moz-border: none;
-    border:none; 
-}
-
-/*****HOME SECTION******/
-
-
-.slide-logo img {
-    width: 550px;
-    height: auto;
-}
-
-.carousel-item2 {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+.my-service {
+   background:url(../images/service.jpg) no-repeat center top;
   background-size: cover;
-}
-
-
-.carousel-item2 h2 {
-     letter-spacing:0px;
-    font-size: 25px;
-    color: #fff;
-    padding-top: 5px;
-    text-align: left;
-    font-family: 'Mont-Book', sans-serif;    
-  
-}
-
-.carousel-item2 p {
-     letter-spacing:0px;
-    font-size: 16px;
-    font-weight:300;
-    color: #142240;
+    padding:7% 0;
     text-align: center;
-     font-family: 'Mont-Book', sans-serif; 
-}
-
-.carousel-background {
-background:rgba(0,0,0,1);    
- margin-bottom: 10%;
-    margin-top: 1%;
-    float:left;
-    margin-left: -15%;
-    padding:1% 5% 1% 2%;
-    width: 30%; 
-    height: auto;
-   
-}
-
-
-.carousel-button {
-    background-color: transparent;
-    padding:0px 5px 2px 5px;
-    color: #fff;
-    text-align: left;
-    float: left;
-    border-radius: 0px;
-    border-bottom: #f91a15 2px solid;
-    margin-top: -3%;
-    margin-bottom: 1%;
-}
-
-.carousel-button a {
-    font-size: 14px;
-    color: #fff;
-    text-align: left;
-}
-
-.carousel-button a:hover {
-    text-decoration: none;
-}
-
-
-.home-about {
-    margin-top: 10%;
-      margin-bottom: 10%;
-}
-
-
-.home-about img {
-    border-radius: 3px;
-}
-
-.home-about h2{
-    color:#444444;
-     font-size: 60px;
-    margin-top: 2%;
-    text-align: left;
-    line-height: 1.1em;
-    letter-spacing: 3px;
-    font-family: 'Mont-Bold', sans-serif; 
-}
-
-.home-about h6{
-    color:#f91a15;
-     font-size: 20px;
-    margin-top: 0%;
-    text-align: left;
-     font-family: 'Mont-Book', sans-serif; 
-}
-
-
-.home-about p{
-    color:#444444;
-     font-size: 14px;
-    font-weight:400;
-    margin-top: 0%;
-    text-align:justify;
-    line-height: 1.8em;
-    font-family: 'Mont-Book', sans-serif; 
-}
-
-
-.home-about button {
-    background-color: transparent;
-    padding:8px 0px 2px 0px;
-     color:#444444;
-    text-align: left;
-    border-radius: 0px;
-    border-bottom: #f91a15 1px solid;
-}
-
-.home-about button a {
-   color:#444444;
-    font-size: 14px;
-}
-
-
-.home-about button a:hover {
-   color:#444444;
-    font-size: 17px;
-    text-decoration: none;
-}
-
-
-
-.home-service2 {
-    /*background: #54595f;*/
-    background:url(../images/dark-bg.png) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
     color:#fff;
-    padding: 10% 2%;
 }
 
-
-.home-service2 h3{
-    color:#fff;
-     font-size: 60px;
-    text-align:center;
-    line-height: 1.4em;
-    letter-spacing: 1px;
-    margin-bottom: 5%;
-    font-family: 'Mont-Bold', sans-serif; 
-}
-
-
-.home-service2 h5{
-    color:#fff;
-     font-size: 18px;
-    text-align:center;
-    line-height: 1.4em;
-    letter-spacing: 1px;
-    font-family: 'Mont-Book', sans-serif; 
-}
-
-
-.home-service2 p{
-    color:#fff;
-     font-size: 12px;
-    text-align:left;
-    line-height: 1.8em;
-    letter-spacing: 1px;
-    margin-top: 5%;
-    font-family: 'Mont-Book', sans-serif; 
-}
-
-
-.home-service2 img {
-    width: 70px;
-    height: auto;
-    margin-bottom: 5%;
-     margin-top: 1%;
-}
-
-
-.home-service h2{
-    color:#444444;
-     font-size: 60px;
-    font-weight:bolder;
-    margin-top: 10%;
-    text-align:center;
-    line-height: 1.4em;
-    letter-spacing: 3px;
-    font-family: 'Mont-Bold', sans-serif; 
-}
-
-.home-service h6{
-    color:#444444;
-     font-size: 20px;
-    font-weight:400;
-    margin-top: 5%;
-    text-align: left;
-    padding-bottom: 3px;
-   font-family: 'Mont-Book', sans-serif;  
-}
-
-.home-service  h6 span {
-     padding-bottom: 4px;
-    border-bottom: #f91a15 2px solid;
-}
-
-
-
-.home-service p{
-    color:#444444;
-     font-size: 14px;
-    font-weight:400;
-    margin-top: 0%;
-    text-align:justify;
-    line-height: 1.8em;
-    font-family: 'Mont-Book', sans-serif;  
-}
-
-
-.home-service2 button {
-    background-color: transparent;
-    padding:8px 0px 2px 0px;
-     color:#fff;
-    text-align: left;
-    border-radius: 0px;
-    border-bottom: #f91a15 1px solid;
-    margin-top: 3%;
-}
-
-.home-service2 button a {
-   color:#fff;
-    font-size: 14px;
-}
-
-
-.home-service2 button a:hover {
-   color:#fff;
-    font-size: 17px;
-    text-decoration: none;
-}
-
-
-.img-hover-zoom {
-  height: 300px; /* [1.1] Set it as per your need */
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-}
-
-/* [2] Transition property for smooth transformation of images */
-.img-hover-zoom img {
-  transition: transform .5s ease;
-}
-
-/* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom:hover img {
-  transform: scale(1.5);
-}
-
-
-.new-project {
-        background:url(../images/3.gif) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-        padding:4% 0;
-    margin-top: 0%;
-    text-align: center;
-    }
-
-.new-project h3 {
-    letter-spacing:1px;
-    font-size: 40px;
-    font-weight:bold;
-     margin-top:5%;
-     margin-bottom: 3%;
-    color:#142240;
-    padding-bottom: 2%;
-    font-family: 'Mont-Bold', sans-serif;  
-    text-align:center;
-    line-height: 1.6em;
-} 
-
-.new-project button {
-     color:#142240;
-    background-color: transparent;
-     border-radius: 0px;
-    border-bottom: #f91a15 2px solid;
-}
-
-.new-project button a {
-    color:#142240;
-}
-
-.new-project button a:hover {
-   text-decoration: none;
-}
-
-
-
-.quote-btn  input {
-    border-right: none;
-     border-left: none;
-     border-top: none;
-     border-radius:0px;
-    background-color: transparent;
-}
-
-
-.quote-btn  button {
-     color:#142240;
-    background-color: transparent;
-     border-radius: 0px;
-    border-bottom: #f91a15 2px solid;
-}
-
-
-.quote-btn button a {
-    color:#142240;
-}
-
-.quote-btn button a:hover {
-   text-decoration: none;
-}
-
-
-
-
-.main-wrapper {
-        background:url(../images/3.gif) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    width:100%;
-    height: auto;
-    padding: 1% 0;
-    text-align: center;
-    }
-
-@media(max-width:720px) {
-    
-    
- .carousel-background {
-background:rgba(0,0,0,1);    
- margin-bottom: 10%;
-    margin-top: 1%;
-    float:left;
-    margin-left: -5%;
-    padding:1% 5% 1% 2%;
-    width: 90%; 
-    height: auto;
-   
-}   
-    
-    
- .home-about {
-    margin-top: 20%;
-      margin-bottom: 20%;
-}
-
-
-.home-about img {
-    border-radius: 3px;
-}
-
-.home-about h2{
-    color:#444444;
-     font-size: 40px;
-    margin-top: 2%;
-    text-align: left;
-    line-height: 1.1em;
-    letter-spacing: 3px;
-    font-family: 'Mont-Bold', sans-serif; 
-}   
-
-
-
-.home-service2 {
-    /*background: #54595f;*/
-    background:url(../images/dark-bg.png) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    color:#fff;
-    padding: 20% 2%;
-}
-
-    
-.home-service2 img {
-    width: 70px;
-    height: auto;
-    margin-bottom: 5%;
-     margin-top: 10%;
-}
-    
-    
-    
-
-.home-service2 h3{
-    color:#fff;
-     font-size: 40px;
-    text-align:center;
-    line-height: 1.4em;
-    letter-spacing: 1px;
-    margin-bottom: 5%;
-    font-family: 'Mont-Bold', sans-serif; 
-}
-
-
-.home-service2 h5{
-    color:#fff;
-     font-size: 18px;
-    text-align:center;
-    line-height: 1.4em;
-    letter-spacing: 1px;
-    font-family: 'Mont-Book', sans-serif; 
-}
-
-
-.home-service2 p{
-    color:#fff;
-     font-size: 12px;
-    text-align:left;
-    line-height: 1.8em;
-    letter-spacing: 1px;
-    margin-top: 5%;
-    font-family: 'Mont-Book', sans-serif; 
-}    
-    
-    
-.new-project h3 {
-    letter-spacing:0px;
-    font-size: 30px;
-    font-weight:bold;
-     margin-top:5%;
-     margin-bottom: 3%;
-    color:#142240;
-    padding-bottom: 2%;
-    font-family: 'Mont-Bold', sans-serif;  
-    text-align:center;
-    line-height: 1.6em;
-}     
-    
-    
-    
-    
-    
-}
-
-
-/*****ABOUT US******/
-
-.about-wrapper {
-        background:url(../images/2.gif) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    
-        padding:15% 0 5% 0;
-    width: auto;
-    height: 600px;
-    text-align: center;
-    }
-
-
-.about-wrapper h1 {
-    letter-spacing:3px;
-    font-size: 60px;
-    font-weight:bold;
-     margin-top:5%;
-     margin-bottom: 3%;
-    color:#ffff;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:center;
-    line-height: 1.6em;
-} 
-
-.about-wrapper h1 span {
-    border-bottom: #f91a15 2px solid;
-}
-
-
-
-.about-content h5 {
-    letter-spacing:3px;
-    font-size: 20px;
-     margin-top:5%;
-    color:#444444;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:left;
-    line-height: 1.6em;
-} 
-
-
-.about-content p {
-    letter-spacing:1px;
-    font-size: 14px;
-     margin-bottom: 3%;
-     color:#444444;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:left;
-    line-height: 1.7em;
-} 
-
-
-.vision {
-       padding: 5%;
-    }  
-
-
-.vision h2 {
-    letter-spacing:3px;
-    font-size: 40px;
-     margin-top:5%;
-    color:#ffff;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:left;
-    line-height: 1.6em;
-    transform: skew(1deg);
-}
-
-
-.counter-bg {
-   background:url(../images/dark-bg.png) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-     background-attachment: fixed;
-    color:#fff;
-    padding: 10% 2%;
-}
-
-
-
-.counter-circle {
-   
-}
-
-
-.counter-circle h3{
-    color:#fff;
-     font-size: 60px;
-    text-align:center;
-    letter-spacing: 1px;
-    margin-bottom:0%;
-    font-family: 'Mont-Bold', sans-serif; 
-}
-
-.counter-circle h6 {
-    letter-spacing:1px;
-    font-size: 20px;
-    color:#ffff;
-    font-family: 'Mont-Book', sans-serif;  
-}
-
-
-@media(max-width:720px)  {
-   
- .about-wrapper {
-        background:url(../images/2.gif) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    
-        padding:50% 0 5% 0;
-    width: auto;
-    height: 500px;
-    text-align: center;
-    }
-   
-    
-}
-
-
-/*****SERVICES******/
-
-.server-wrapper {
-        background:url(../images/2.gif) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    
-        padding:15% 0 5% 0;
-    width: auto;
-    height: 600px;
-    text-align: center;
-    }
-
-
-.server-wrapper h1 {
-    letter-spacing:3px;
-    font-size: 60px;
-    font-weight:bold;
-     margin-top:5%;
-     margin-bottom: 3%;
-    color:#ffff;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:center;
-    line-height: 1.6em;
-} 
-
-.server-wrapper h1 span {
-    border-bottom: #f91a15 2px solid;
-}
-
-
-
-
-.architecture-wrapper {
-     background: rgba(255,255,255,1);
-     box-shadow: 0 3px 6px rgba(0,0,0,0.1); 
-     margin-top:7%;
-}
-
-
-.architecture1 {
-    background: #181818;
-     height: 25em;
-    padding-top: 15%;
-    padding-left: 2%;
-}
-
-.architecture-wrapper h2 {
-   letter-spacing:2px;
-    font-size: 35px;
-    font-weight:400;
-    color:#fff;
-    padding-bottom: 2%;
-  font-family: 'Mont-Book', sans-serif;   
-    text-align:left;
-    line-height: 1.6em;  
-}
-
-
-.architecture-wrapper h2 span {
-      padding-bottom: 4px;
-    border-bottom: #f91a15 2px solid;
-}
-
-
-.architecture2 {
-    background:url(../images/home-serv1.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-          height: 25em;
-    
-}
-
-
-.architecture3 {
-   background: #fff;
-    color: #181818;
-    padding-top: 5%;
-     height: 25em;
-    text-align: justify;
-}
-
-
-
-.structure1 {
-    background:url(../images/home-serv2.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-          height: 25em;
-    
-}
-
-
-.structure2 {
-   background: #fff;
-    color: #181818;
-    padding-top: 5%;
-     height: 25em;
-    text-align: justify;
-}
-
-
-.structure3 {
-    background: #181818;
-     height: 25em;
-    padding-top: 15%;
-    padding-left: 2%;
-}
-
-
-.mep1 {
-   background: #fff;
-    color: #181818;
-    padding-top: 5%;
-     height: 25em;
-    text-align: justify;
-}
-
-
-.mep2 {
-    background: #181818;
-     height: 25em;
-    padding-top: 15%;
-    padding-left: 2%;
-}
-
-.mep3 {
-    background:url(../images/home-serv3.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-          height: 25em;
-    
-}
-
-
-.interior1 {
-    background: #181818;
-     height: 25em;
-    padding-top: 15%;
-    padding-left: 2%;
-}
-
-
-.interior2 {
-    background:url(../images/home-serv4.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-          height: 25em;
-    
-}
-
-
-.interior3 {
-   background: #fff;
-    color: #181818;
-    padding-top: 5%;
-     height: 25em;
-    text-align: justify;
-}
-
-
-
-.supervision1 {
-    background:url(../images/home-serv5.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-          height: 25em;
-    
-}
-
-
-.supervision2 {
-   background: #fff;
-    color: #181818;
-    padding-top: 5%;
-     height: 25em;
-    text-align: justify;
-}
-
-
-.supervision3 {
-    background: #181818;
-     height: 25em;
-    padding-top: 15%;
-    padding-left: 2%;
-}
-
-
-
-@media(max-width:992px) {
-    
-    .architecture-wrapper h2 {
-   letter-spacing:2px;
-    font-size: 35px;
-    font-weight:400;
-    color:#fff;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;   
-    text-align:center;
-    line-height: 1.6em;  
-}
-    
-    
-  .architecture1{
-    background:url(../images/supervision.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-       padding: 15% 0%;
-       height: auto;
-     text-align: center;
-}
- 
- .architecture3 {
-   background: #fff;
-    color: #181818;
-    padding: 5%;
-     height: auto;
-    text-align: justify;
-}   
-      
-    
-    
-   .structure3{
-    background:url(../images/supervision.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-       padding: 15% 0%;
-       height: auto;
-     text-align: center;
-}
- 
- .structure2 {
-   background: #fff;
-    color: #181818;
-    padding: 5%;
-     height: auto;
-    text-align: justify;
-}   
-         
-    
-    
-    
-    
-    .mep2 {
-    background:url(../images/supervision.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-       padding: 15% 0%;
-       height: auto;
-     text-align: center;
-}
- 
- .mep1 {
-   background: #fff;
-    color: #181818;
-    padding: 5%;
-     height: auto;
-    text-align: justify;
-}   
-     
-  
-    
-  .interior1 {
-    background:url(../images/supervision.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-       padding: 15% 0%;
-       height: auto;
-     text-align: center;
-}
- 
- .interior3 {
-   background: #fff;
-    color: #181818;
-    padding: 5%;
-     height: auto;
-    text-align: justify;
-}   
-    
-    
-    
-    
- .supervision3 {
-    background:url(../images/supervision.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-       padding: 15% 0%;
-       height: auto;
-     text-align: center;
-}
- 
- .supervision2 {
-   background: #fff;
-    color: #181818;
-    padding: 5%;
-     height: auto;
-    text-align: justify;
-}
-   
-    
-}
-
-
-
-
-/*****PROJECTS******/
-
-.overlayone{
-  width: 100%;
-  height: auto;
-  display: inline-block;
-  position: relative;
-}
-
-.overlayinn {
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  position: absolute;
-  padding: 70px;
-  transition: opacity .5s;
-}
-
-
-.overlayinn h2 {
-    color:#fff;
-    padding-top: 70%;
-}
-
-
-.overlayinn h2 a{
-    color:#fff;
-    
-}
-
-
-
-.overlayinn:hover {
-  opacity: 1;
-  transition: opacity .5s;
-}
-
-
-@media(max-width:720px)  {
-   
-.overlayinn {
-  opacity: 1;
-  transition: opacity .5s;
-}
- 
-    
- .server-wrapper {
-        background:url(../images/2.gif) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    
-        padding:40% 0 5% 0;
-    width: auto;
-    height: 500px;
-    text-align: center;
-    }
-   
-    
-    
-    
-}
-
-
-/****QUOTE*****/
-.quote-wrapper {
-     background:url(../images/3.gif) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    padding-top: 100px;
-    width:100%;
-}
-
-.quote-wrapper h1 {
-    letter-spacing:3px;
-    font-size: 80px;
-    font-weight:bold;
-     margin-top:80px;
-     margin-bottom:60px;
-      color:#444444;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:center;
-    line-height: 1.6em;
-} 
-
-.quote-wrapper h1 span {
-    border-bottom: #f91a15 2px solid;
-}
-
-
-.quote-wrapper h4 {
-    letter-spacing:3px;
-    font-size: 40px;
-    font-weight:bold;
-     margin-top:2px;
-     margin-bottom:20px;
-      color:#444444;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:center;
-    line-height: 1.6em;
-} 
-
-
-
-
-.project-tab {
-    
-}
-.project-tab #tabs{
-    color: #eee;
-}
-.project-tab #tabs h6.section-title{
-    color: #eee;
-}
-.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: red;
-    background-color: transparent;
-    border-color: transparent transparent #f3f3f3;
-    border-bottom: 2px solid !important;
-    font-size: 18px;
-    font-weight: bold;
-}
-.project-tab .nav-link {
-    border: 1px solid transparent;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    color: #444444;
-    font-size: 18px;
+.my-service h2 {
+   color:#fff!important;
+    font-family: 'Montserrat', sans-serif;   
     font-weight: 600;
-}
-.project-tab .nav-link:hover {
-    border: none;
-}
-.project-tab thead{
-    background: #f3f3f3;
-    color: #333;
-}
-.project-tab a{
-    text-decoration: none;
-    color: #333;
-    font-weight: 600;
-}
-
-.quote-wrapper input {
-    border-left: none;
-    border-right:none;
-    border-top:none;
-    border-radius: 0px;
-    background-color: transparent;
-}
-
-.quote-wrapper form {
-    width:70%;
-    margin: 0 auto;
-}
-
-input[type=submit] {
-    background-color: #f91a15;
-    margin-top:1%;
-    margin-bottom: 30px;
-    border: none;
-    border-radius: 35px;
-    color: #fff;
-    padding:8px 38px;
-    float: none;
-    
-} 
-
-
-
-@media(max-width:720px) {
- .quote-wrapper form {
-    width:95%;
-    margin: 0 auto;
-}   
-    
-}
-
-/*****VILLAS******/
-
-.villa-wrapper {
-        background:url(../images/villa-wrapper.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-     background-attachment: fixed;
-        padding:14% 0 5% 0;
-    width: auto;
-    height: 500px;
+    font-size: 55px;
+    letter-spacing: 7px;
     text-align: center;
-    }
-
-
-.villa-wrapper h1 {
-    letter-spacing:3px;
-    font-size: 60px;
-    font-weight:bold;
-     margin-top:5%;
-     margin-bottom: 3%;
-    color:#ffff;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:center;
-    line-height: 1.6em;
-} 
-
-.villa-wrapper h1 span {
-    border-bottom: #f91a15 2px solid;
 }
 
 
-
-.villa1 {
-    background:url(../images/villa1.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-       padding: 60% 0% 10% 0%;
-       height: 500px;
-     text-align: center;
-}
-
-
-.villa1, .villa2, .villa3 h3 {
-     font-size: 35px;
-    font-weight:400;
+.my-service button {
+    border:none;
+    padding: 7px 25px;
     color:#fff;
-    padding-bottom: 2%;
-  font-family: 'Mont-Book', sans-serif;  
+    background: #fff;
+    border-radius: 25px;
+    margin-top: 50px;
 }
 
-
-
-
-.villa1 p span {
-     font-size: 15px;
-    font-weight:400;
-    color:#fff;
-    padding-bottom: 0%;
-  font-family: 'Mont-Book', sans-serif;  
-   border-bottom: #f91a15 2px solid;  
+.my-service button a {
+  color:#484848;  
 }
-
-.villa2 p span{
-     font-size: 15px;
-    font-weight:400;
-    color:#fff;
-    padding-bottom: 0%;
-  font-family: 'Mont-Book', sans-serif;  
-   border-bottom: #f91a15 2px solid;  
-}
-
-
-.villa3 p span {
-     font-size: 15px;
-    font-weight:400;
-    color:#fff;
-    padding-bottom: 0%;
-  font-family: 'Mont-Book', sans-serif;  
-   border-bottom: #f91a15 2px solid;  
-}
-
-
-.villa2 {
-    background:url(../images/villa2.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-       padding: 60% 0% 10% 0%;
-       height: 500px;
-     text-align: center;
-}
-
-
-.villa3 {
-    background:url(../images/villa3.jpg) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-       padding: 60% 0% 10% 0%;
-       height: 500px;
-     text-align: center;
-}
-
-
-.villa-button button{
-    background-color:#444444;
-    border: none;
-    padding:6px 15px;
-    border-radius: 55px;
-}
-
-.villa-button button a {
-    color:#fff;
-    font-size:20px;
-    font-family: 'Mont-Book', sans-serif;
-    text-decoration: none;
-}
-
-.my-footer {
-      background:url(../images/my-footer-by.png) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    color: #fff;
-    text-align: center;
-    padding-top:10%;
-     padding-bottom:2%;
-    letter-spacing: 2px;  
-} 
-
-.my-footer h6 {
-    font-size: 15px;
-    font-weight:400;
-    color:#fff;
-    padding-bottom: 0%;
-    font-family: 'Mont-Book', sans-serif;  
-}
-
-.my-footer p {
-    font-size: 12px;
-    font-weight:400;
-    color:#fff;
-    padding-bottom: 0%;
-    font-family: 'Mont-Book', sans-serif;  
-}
-
-.my-footer  img {
-    width:40px;
-    height:auto;
-    margin-bottom: 3%;
-   
-}
-
-
-.my-footer span img {
-    width:20px;
-    height:auto;
-   
-}
-
 
 footer {
-     background-color:#282828;
-    color: #fff;
+   background: :#484848;
+    padding: 3% 1% 1% 1%;
     text-align: center;
-    padding-top:2%;
-    letter-spacing: 2px;
-    
 } 
-
-footer p {
-    font-size: 10px;
-    font-weight:400;
-    color:#fff;
-    padding-bottom: 1%;
-    font-family: 'Mont-Book', sans-serif;  
-}
 
 footer a {
     color:#fff;
 }
 
+
 footer a:hover {
+    color: #C6C6C6;
+}
+
+/*****HOME SECTION******/
+
+.home-banner {
+  background:url(../images/Artboard%201.png) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:100vh;
+    width:auto;    
+  padding:10% 0;  
+height: 100vh;
+ min-height: 700px;
+   background-size: cover;
+  align-items: center;
+  z-index: 1;       
+}
+
+.home-banner h1 {
+     color:#161616!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+
+.home-banner h4 {
+     color:#161616!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+
+.home-banner h6 {
+     color:#161616!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+
+.home-banner h4 img{
+  width:10px;
+    height: auto;
+  display: block;
+}  
+
+.my-btn button{
+    background-color: #e37b1d;
+    color:#fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    transition: 0.5s;
+}
+
+.my-btn button:hover{
+    background-color: #ce4c19;
+    color:#fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    
+}
+
+
+.my-btn button a {
     color:#fff;
 }
 
+.my-btn button a:hover {
+    color:#fff!important;
+}
 
-
-/*****CONTACT US******/
-.contact-wrapper {
-     background:url(../images/dark-bg.png) repeat center top;
-        -webkit-background-size:cover;
-        -moz-background-size:cover;
-        -o-background-size:cover;
-        background-size:cover;
-    padding: 7% 0;
-    height:auto;
+.my-btn button img {
+    height: 20px;
+    width: auto;
+    margin-top: -5px;
 }
 
 
-.contact-wrapper h1 {
-    letter-spacing:3px;
-    font-size: 60px;
-    font-weight:bold;
-     margin-top:5%;
-     margin-bottom: 2%;
-    color:#ffff;
-    padding-bottom: 0%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:left;
-    line-height: 1.6em;
+@media(max-width:620px) {
+
+
+.home-banner {
+  background:url(../images/mobile.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:100vh;
+    width:auto;    
+  padding:30% 0;  
+height: 100vh;
+ min-height: 700px;
+   background-size: cover;
+  align-items: center;
+  z-index: 1;       
+}
+
+.home-banner h1 {
+     color:#161616!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+
+.home-banner h4 {
+     color:#161616!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+.home-banner h6 {
+     color:#161616!important;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
 } 
+    
+    
 
-.contact-wrapper h1 span {
-    border-bottom: #f91a15 2px solid;
+.home-banner h4 img{
+
+  display:none;
+}      
+    
 }
 
-
-.contact-wrapper h3 {
-    letter-spacing:2px;
-    font-size: 25px;
-     margin-top:0%;
-     margin-bottom: 2%;
-    color:#ffff;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:left;
-    line-height: 1.6em;
-} 
-
-.contact-wrapper h6 {
-    letter-spacing:1px;
-    font-size: 15px;
-     margin-top:2%;
-     margin-bottom: 2%;
-    color:#ffff;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:left;
-    line-height: 1.6em;
-} 
-
-
-.contact-wrapper p {
-    letter-spacing:1px;
-    font-size: 12px;
-     margin-top:2%;
-     margin-bottom: 2%;
-    color:#ffff;
-    padding-bottom: 2%;
-    font-family: 'Mont-Book', sans-serif;  
-    text-align:left;
-    line-height: 1.6em;
-} 
-
-
-.contact-wrapper img {
-    width:30px;
-    height:auto;
-}
-
-
-.contact-wrapper input {
-    border-right: none;
-     border-left: none;
-     border-top: none;
-     border-radius:0px;
-    background-color: transparent;
-}
-
-.contact-wrapper textarea{
-   background-color: transparent; 
-}
-
-.contact-wrapper label {
-    color:#adadad;
-}
-
-
-.contact-social span img {
-    width:25px;
-    height: auto;
-}
-
-
-
-.contact-wrapper button  {
-    background-color: transparent;
-    padding:0px 5px 2px 5px;
-    color: #fff;
-    text-align: right;
-    border-radius: 0px;
-    border-bottom: #f91a15 2px solid;
-    margin-bottom: 1%;
-}
-
-.contact-wrapper button  a {
-    font-size: 14px;
-    color: #fff;
-    text-align: left;
-}
 
