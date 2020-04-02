@@ -1129,6 +1129,26 @@ background:rgba(0,0,0,1);
 
 .get-quote-option button a {
     color:#fff;
+     
+}
+
+.project-details-btn button{
+    color:#fff;
+     background: none;
+    border: none;
+    
+}
+
+.project-details-btn button span{
+    border-bottom:#f91a15 solid 2px; 
+    padding-bottom: 5px;
+     background: none;
+}
+
+.project-details-btn button:hover{
+    color:#fff;
+    border: none!important;
+    background: none;
 }
 
 
@@ -1397,7 +1417,7 @@ input[type=submit] {
 
 
 .villa1 {
-    background:url(../images/villa1.jpg) repeat center top;
+    background:url(../images/villa14.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -1449,7 +1469,7 @@ input[type=submit] {
 
 
 .villa2 {
-    background:url(../images/villa2.jpg) repeat center top;
+    background:url(../images/villa15.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
@@ -1461,7 +1481,7 @@ input[type=submit] {
 
 
 .villa3 {
-    background:url(../images/villa3.jpg) repeat center top;
+    background:url(../images/villa16.jpg) repeat center top;
         -webkit-background-size:cover;
         -moz-background-size:cover;
         -o-background-size:cover;
