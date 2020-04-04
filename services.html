@@ -56,14 +56,14 @@
             <li class="nav-item">
                 <a class="nav-link " href="contact.html"> <span> <img src="images/contact.png" class="img-fluid"/></span>  Contact Us</a>
             </li>
-        <div class="language text-center mr-3 pt-2 d-md-none d-lg-none d-xl-none d-block">
+        <!--div class="language text-center mr-3 pt-2 d-md-none d-lg-none d-xl-none d-block">
            <h6 class="text-center"><span class="eng mr-1"><a href="#">Eng</a></span>  <span class="ar"><a href="#">Ar</a></span></h6>
-           </div>  
+           </div-->  
     </ul>
   </div>
-       <div class="language text-center mr-3 pt-5 d-md-block d-lg-block d-xl-block d-none">
+       <!--div class="language text-center mr-3 pt-5 d-md-block d-lg-block d-xl-block d-none">
            <h6 class="text-center"><span class="eng mr-1"><a href="#">Eng</a></span>  <span class="ar"><a href="#">Ar</a></span></h6>
-           </div>    
+           </div-->    
            
            
            </div>
@@ -201,7 +201,7 @@
             
             <h3>WANT TO DISCUSS YOUR <br/> NEW PROJECT ?</h3>
                
-               <button type="button" class="btn mb-5"><a href="quote.html">Get Quote</a></button>
+               <button type="button" data-toggle="modal" data-target="#quote" class="btn mb-5">Get Quote</button>
             </section>
            
            </section>
@@ -261,7 +261,7 @@
    <section class="container">
      <section class="row ">
        <section class="col-md-12 ">
-         <p>Design & Developed By <a href="http://pellucidstudios.com/" target="_blank">PELLUCID STUDIOS</a></p>
+         <p>Designed & Developed By <a href="http://pellucidstudios.com/" target="_blank">PELLUCID STUDIOS</a></p>
          </section>
          
        
@@ -269,78 +269,36 @@
     </section>      
 </footer> 
      
-      
-     <div class="modal fade" id="quote" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal fade" id="quote" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content pt-1 pb-3">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Get Quote</h5>
+      <div class="modal-header text-center">
+        <h4 class="modal-title text-center" id="exampleModalLabel"><B>PLEASE CHOOSE PROJECT TYPE</B></h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body quote-btn ">
-       <form>
-  <div class="form-group  pt-3">
-    <!--label for="exampleInputEmail1">Name</label-->
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
-    <!--small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small-->
-  </div>
-           
-      <div class="form-group pt-3">
-    <!--label for="exampleInputEmail1">Phone</label-->
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone">
-  </div>        
-           
-           
-    <div class="form-group  pt-3">
-    <!--label for="exampleInputEmail1">Email Address</label-->
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-  </div>  
-           
-    <div class="form-group  pt-3">
-    <!--label for="exampleInputEmail1">Email Address</label-->
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Location">
-  </div>           
- 
-  <div class="form-check text-center mt-3">
-   <label class="radio-inline p-2">
-       Office <br/>
-      <input type="radio" name="optradio" checked> 
-    </label>
-    <label class="radio-inline p-2">
-         House <br/>
-      <input type="radio" name="optradio">
-    </label>
-    <label class="radio-inline p-2">
-         Apartment <br/>
-      <input type="radio" name="optradio">
-    </label>
+          
+          <section class="container">
+              <section class="row text-center mt-3 mb-3">
+                <section class="col-md-12 get-quote-option">
+                     <button type="button" class="btn"><a href="quote-villa.html">VILLA</a></button> <BR/>
+                    <button type="button" class="btn"><a href="#">RESIDENTIAL/ HOTEL APARTMENTS</a></button> <BR/>
+                    <button type="button" class="btn"><a href="#">COMMERCIAL BUILDING</a></button><BR/>
+                      <button type="button" class="btn"><a href="#">EMPLOYEES / STUDENTS / LABOUR ACCOMMODATION</a></button><BR/>
+                      <button type="button" class="btn"><a href="#">WARE HOUSES / FACTORY / WORKSHOP </a></button>
+                   
+                  </section>
+               </section>
+          </section>
+          
       
-     <label class="radio-inline p-2">
-         Other <br/>
-      <input type="radio" name="optradio">
-    </label>
-      
-      
-      
-  </div>
-       <section class="row text-center"> 
-            <section class="col-md-12">
-            <button type="submit" class="btn  text-center">Submit</button>
-           </section>
-           </section>    
- 
-</form>
       </div>
-        
-      <!--div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div-->
+      
     </div>
   </div>
-</div>     
+</div>      
       
 
     <!-- Optional JavaScript -->
