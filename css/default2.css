@@ -1,0 +1,411 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Raleway);
+@import url(https://fonts.googleapis.com/css?family=Raleway:900);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,600,700,800,900&display=swap');
+
+@font-face {
+    font-family:Mont-Black;
+    src: url(../fonts/Mont-Black.otf);
+}
+@font-face {
+    font-family:Mont-Bold;
+    src: url(../fonts/Mont-Bold.otf);
+}
+@font-face {
+    font-family:Mont-Book;
+    src: url(../fonts/Mont-Book.otf);
+}
+
+
+
+*,:after,:before{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+body,html{
+    font-size:100%;
+    padding:0;
+    margin:0;
+     height: 100%;
+} 
+
+.text-center {
+    text-align: center;
+}
+
+
+.my-nav {
+  background: #fff;
+  border-radius: 10px;   
+}
+
+.my-nav img {
+    height: 45px;
+    width: auto;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+
+.navbar .nav-link {
+     color: #555;
+    font-size:14px;
+  font-weight: 400;
+font-family: 'Mont-Book', sans-serif;      
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+     color: #555;
+    text-decoration: none;
+    font-size:14px;
+  font-weight: 400;
+ font-family: 'Mont-Book', sans-serif;   
+}
+
+.navbar .navbar-brand {
+     color: #555;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #2b2b2b;
+    }
+}
+
+
+/*****HOME SECTION******/
+
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#2b2b2b;
+ min-height: 600px;    
+}
+
+.container2{
+  max-width:960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+    min-height: 600px;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.header-overlay{
+  height:100vh;
+  min-height: 700px;    
+  position: absolute;
+  top:0;
+  left:0;
+  width:99vw;
+  z-index:1;
+  /*background:#2e8eff;*/
+  background-image: linear-gradient(-90deg,#2e8eff, #000);
+  opacity:0.90;
+}
+
+.header-content{
+  z-index:2;
+}
+
+.header-content h1{
+   color:#fff;    
+  font-size:70px;
+  font-weight: 800;
+  font-family: 'Mont-Black', sans-serif;      
+  margin-bottom:0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header-content span {
+    padding: 0 20px;
+}
+
+.header-content h4{
+   color:#fff;    
+  font-size:30px;
+  font-weight: 700;
+ margin-top: 10px;
+    letter-spacing: 3px;
+     text-align: center;
+   font-family: 'Mont-Bold', sans-serif;      
+}
+
+.header-content h5{
+   /*background: rgba(255,255,255,0.9);*/
+    height:auto;
+    width:auto;
+  font-size:14px;
+  display:block;
+     color:#ffff;
+    line-height: 1.8em;
+     text-align: center;
+     font-weight: 400;
+   font-family: 'Mont-Bold', sans-serif;  
+    margin-top: 3px;
+    
+    
+}
+
+
+.header-content button {
+    background :#FEBD11;
+    border :none;
+    border-radius:5px;
+    padding: 10px 45px;
+    transition: 0.5s;
+    margin:1px;
+}
+
+.header-content button:hover {
+    color:#fff;
+    font-family: 'Mont-Book', sans-serif; 
+    text-decoration: none;
+    background : #00a04c;
+}
+
+.header-content button a {
+    color:#fff;
+    font-family: 'Mont-Book', sans-serif; 
+    font-size:14px;
+}
+
+.header-content button a:hover {
+    color:#fff;
+    font-family: 'Mont-Book', sans-serif; 
+    text-decoration: none;
+    
+}
+
+
+
+
+@media(max-width:1366px) {
+  .header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+min-height: 600px;
+  z-index:1;
+  background-image: linear-gradient(-90deg,#2e8eff, #000);
+  opacity:0.60;
+}  
+}
+
+
+@media(max-width:1024px){
+ 
+     .container2{
+    padding-right:auto;
+    padding-left:auto;
+         padding-top: 50px;
+         margin:0 auto;
+  }
+    
+    .header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+min-height: 600px;
+  z-index:1;
+ background-image: linear-gradient(-90deg,#2e8eff, #000);
+  opacity:0.60;
+}
+   
+
+.header-content h1{
+     color:#ffff; 
+    font-size:40px;
+  font-weight: 800;
+  font-family: 'Mont-Bold', sans-serif;        
+  margin-bottom:0;
+    letter-spacing: 2px;
+}
+}
+
+
+@media(max-width:720px){
+ 
+    
+ .navbar img{
+    height: 60px;
+    width : auto;
+}
+    
+    
+    .header-content h1{
+   color:#ffff;    
+  font-size:40px;
+  font-weight: 800;
+  font-family: 'Mont-Bold', sans-serif;   
+  margin-bottom:0;
+}
+
+.header-content h5{
+    background:#2e8eff;
+    height:auto;
+    width:auto; 
+    padding: 15px 15px;
+    font-size:12px;
+    display:block;
+     color:#fff;
+     font-weight: 400;
+   font-family: 'Mont-Bold', sans-serif;  
+    margin-top: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    
+}
+    
+    .header-content span {
+    padding: 0 5px;
+}
+
+        
+.header-content h4{
+   color:#fff;    
+  font-size:20px;
+  font-weight: 700;
+margin: 180px auto 10px auto;
+ font-family: 'Mont-Bold', sans-serif;    
+  margin-bottom:0;
+}
+
+ 
+    
+}
+
+
+@media(max-width:320px) {
+  
+    
+    .header-content h1{
+   color:#ffff;    
+  font-size:30px;
+  font-family: 'Mont-Bold', sans-serif;   
+  margin-bottom:0;
+    margin-top: 5px;    
+} 
+    
+     .header-content span {
+    padding: 0 2px;
+}
+
+.header-content h4{
+   color:#fff;    
+  font-size:18px;
+  font-weight: 700;
+margin: 10px auto 5px auto;
+font-family: 'Mont-Bold', sans-serif;     
+  margin-bottom:0;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.masthead h1 {
+    color:#fff;
+   font-family: 'Mont-Bold', sans-serif;          
+    letter-spacing: 3px;
+   text-align:left;
+   font-size: 60px;
+    margin-top:3px;
+}
+
+
+footer {
+    background: #242424;
+    color:#fff;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Mont-Book', sans-serif; 
+    padding-top: 20px;
+     padding-bottom: 5px;
+}
+
+
+
+
+/*******CONTACT US******/
+.contact-header {
+  background:url(../images/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:auto;    
+  padding:170px 0;  
+   background-size: cover;
+}
+
