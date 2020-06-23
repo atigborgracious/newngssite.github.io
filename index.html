@@ -38,7 +38,7 @@
                     <li class="nav-item"><a href="index.html" class="nav-link ">Home <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a href="about-us.html" class="nav-link ">About Us</a></li>
                     <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Portfolio</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Connect</a></li>
                 </ul>
     
@@ -250,15 +250,15 @@ We offer expertise in design and development, along with comprehensive IT suppor
      </section>
      
      
-       <section class="row home-services">
-          <section class="col-lg-6" data-aos="fade-in" data-aos-duration="1100">
+       <section class="row home-services home-start-trial">
+          <section class="col-lg-6" data-aos="fade-up" data-aos-duration="1000">
          <h3>Start a Trial </h3>
           <p>
-           If you would like to discuss the possibility of having a partnership with our company, we offer the service of creating a Proof of Concept (POC).  This allows you to see that we can accomplish your goal with excellence. If you would like us to begin a POC for your company, please click, “Start a Trial”.
+           If you would like to discuss the possibility of having a partnership with our company, we offer the service of creating a Proof of Concept (POC).  This allows you to see that we can accomplish your goal with excellence. If you would like us to begin a POC for your company, <a href="contact.html"> please click, “Start a Trial”.</a>
                </p>       
          </section>
           
-     <section class="col-lg-5 text-center">
+     <section class="col-lg-5 text-center" data-aos="fade-down" data-aos-duration="1000">
                  <section class="home-services-img"> 
        <img src="images/trial.png" class="img-fluid"/>
          </section>
@@ -326,6 +326,30 @@ We offer expertise in design and development, along with comprehensive IT suppor
     <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script-->
+     
+      
+      
+      <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>    
+      
+    
+     <script type="text/javascript">
+       $(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});
+      </script>
       
       
       

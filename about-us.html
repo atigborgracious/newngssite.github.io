@@ -55,7 +55,7 @@
                     <li class="nav-item"><a href="index.html" class="nav-link ">Home <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item"><a href="about-us.html" class="nav-link ">About Us</a></li>
                     <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Portfolio</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Connect</a></li>
                 </ul>
     
@@ -169,7 +169,7 @@
                 <section class="col-lg-4 mt-3  my-button">
                      <section class="profile-container">
                     <img src="images/sherin.jpg" class="img-fluid"/>
-                     <h4>Ms. Sherin Vinita </h4>
+                     <h4>Ms. Sherin Vineta </h4>
               <h5>Chief Operation Officer / Co-Founder</h5>
                  <button type="button" class="btn" data-toggle="modal" data-target="#sherin">
   know more.
@@ -352,7 +352,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Ms. Sherin Vinita</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Ms. Sherin Vineta</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -472,12 +472,33 @@ Kannan strongly believes in a results-driven approach when building technology s
 </div> 
       
       
+  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>    
       
+    
+     <script type="text/javascript">
+       $(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});
+      </script>
       
-      <!-- font Awsome -->
+        <!-- font Awsome -->
   <script src="js/all.min.js"></script> 
 
-    
+      
+      
          <script type="text/javascript">
            $('#carouselExampleIndicators').carousel({
     interval: 2500
