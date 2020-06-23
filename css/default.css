@@ -374,6 +374,17 @@ font-family: 'Mont-Book', sans-serif;
   padding-top: 100px;
 }
 
+.home-start-trial p a {
+   color:#FEBD11; 
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
 
 @media(max-width:1024px) {
    .tab-content p {
@@ -523,7 +534,7 @@ font-family: 'Mont-Book', sans-serif;
 
 .carousel-item2 {
   height: 100vh;
-  min-height: 350px;
+  min-height: 600px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -895,6 +906,23 @@ background:rgba(255,255,255,0.9);
 
 
 /********PROJECTS SECTION*********/
+
+.coming-wrapper {
+    background:url(../images/projects-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:100vh;
+    min-height: 700px;
+    width:auto;    
+  padding:0px 0 160px 0;        
+}
+
+.coming-soon {
+    padding-top: 250px;
+}
+
 .projects-wrapper {
     background:url(../images/projects-bg.jpg) repeat center top;
    -webkit-background-size:cover;
