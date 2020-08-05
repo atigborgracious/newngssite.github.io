@@ -1,143 +1,297 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>NPKore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	
-	
-    <!-- Bootstrap -->
-	<link href="css/custom.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-<link href="css/aos.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	
-	<!--EaseIn-->
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-
-<script src="js/jquery.min.js"></script>
-<link href='//fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="css/bootstrap.css" >
+      <link rel="stylesheet" type="text/css" href="css/default.css"/>  
+        <link rel="stylesheet" type="text/css" href="css/menu.css"/>  
+       <link  rel="stylesheet"  href="css/aos.css">  
+      <!-- font Awsome -->
+  <link rel="stylesheet" href="css/all.min.css" />
+    <title>OutStandIt</title>
+   
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </head>
   <body >
       
-      <div class="productswrapper" >
-           <div class="agileinfo-dot">
-           <!-- Wrapper for slides -->
-    
-        <!-- Menu -->
-	 <div id="wrapper">
-        <div class="overlay"></div>
-    
-        <!-- Sidebar -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-            <ul class="nav sidebar-nav">
-      
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-                 <li>
-                    <a href="products.html">Products</a>
-                </li>
-                <li>
-                    <a href="projects.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                
-            </ul>
-        </nav>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                <span class="hamb-top"></span>
-    			<span class="hamb-middle"></span>
-				<span class="hamb-bottom"></span>
-            </button>
-      
-        </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-
-          
-   
-    <div class="container">
-          <section class="row"> 
-        <section class="col-sm-12">
-            <img src="img/blog.png" class="img-responsive center-block " style="padding-bottom: 12%;"/>  
-              </section>
-        </section>
-          
-          </div>
-
-   
-      </div>
-      
-      </div>
-	
-	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      
-      <script type="text/javascript">
-          $(document).ready(function () {
-  var trigger = $('.hamburger'),
-      overlay = $('.overlay'),
-     isClosed = false;
-
-    trigger.click(function () {
-      hamburger_cross();      
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {          
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
-        isClosed = false;
-      } else {   
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
-      }
-  }
   
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
-      </script>
-      <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-       <script src="js/classie.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-       <script src='js/aos.js'></script>
-<script src="js/lazyload.js"></script>
-      <script src="js/main.js"></script>
+    <div class="container-fluid">
+  <section class="row main-nav-top">
+  <section class="col-md-12">
+      <img src="img/footer-logo.jpg" class="img-fluid"/>
+  </section>  
+  </section>   
+  </div>   
       
+      
+   <div class="wrapper">
+  <div id="myNav" class="overlay">
+    <div class="overlay-content">
+    <div class="container">
+      <section class="row">
+    <section class="col-md-12">
+        <div class="main-nav-link text-center">   
+    <ul>
+        <li><a href="index.html"><span>Home</span></a></li>
+    <li><a href="about.html"><span>About</span> Me</a></li>
+    <li><a href="solutions.html"><span>Solut</span>ions</a></li>
+    <li><a href="blog.html"><span>Blog</span></a></li>
+    <li><a href="contact.html">Contact</a></li>    
+    </ul>
+     </div>     
+      </section>   
+      </section>
+        
+    <section class="row">
+    <section class="col-md-12">
+        <div class="main-nav-social-media text-center">   
+     <ul>
+         <li><a href="#"><img src="img/linkedin.png" class="img-fluid"/></a></li>
+          <li><a href="#"><img src="img/fb.png" class="img-fluid"/></a></li>
+         <li><a href="#"><img src="img/ig.png" class="img-fluid"/></a></li> 
+          <li><a href="#"><img src="img/twitter.png" class="img-fluid"/></a></li>      
+         </ul>
+     </div>     
+      </section>   
+   </section>  
+        
+     <section class="row">
+    <section class="col-md-12">
+        <div class="main-nav-details text-center">   
+      <p>(+971) 2 444 3901 <span>|</span> info@amira-aesthetic.com</p>
+     </div>     
+      </section>   
+   </section>     
+        
+    </div>    
+    
+    </div>
+  </div>
+  <button class="hamburger hamburger--collapse" type="button">
+    <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+    </span>
+</button>
+</div>     
+      
+
+    
+   
+
+ 
+  
+      
+<div class="blog-wrapper">
+  
+    
+  <div class="container">
+<section class="row">
+    <section class="col-lg-12"  data-aos="zoom-in" data-aos-duration="1100">
+        <h2>My <br/> Blog</h2>
+       </section>
+     </section> 
+        
+</div>    
+</div>      
+
+<div class="container blog-content">
+ <section class="row sub-title">
+  <section class="col-md-12">
+     <h1>Blog</h1>
+  </section>   
+ </section> 
+    
+    
+ <section class="row">
+ <section class="col-md-4 mt-3">
+     <section class="blog-details">    
+      <img src="img/blog-1.png" class="img-fluid"/>
+     <h3>Focused On Making You Look Your Best</h3>
+      <p>
+      The big advantage of boxispring bed is the variability in their arrangement from two single beds (twin bed) to a combined king size bed.
+      </p>
+        <p class="subscribe"><a href="#">Read Article <img src="img/right-arrow2.png" class="img-fluid"/></a></p>
+     </section>      
+  </section> 
      
+<section class="col-md-4 mt-3">
+     <section class="blog-details">    
+      <img src="img/blog-2.png" class="img-fluid"/>
+     <h3>Don't Do These Five Things</h3>
+      <p>
+      The big advantage of boxispring bed is the variability in their arrangement from two single beds (twin bed) to a combined king size bed.
+      </p>
+        <p class="subscribe"><a href="#">Read Article <img src="img/right-arrow2.png" class="img-fluid"/></a></p>
+     </section>      
+  </section>    
+     
+     
+     <section class="col-md-4 mt-3">
+     <section class="blog-details">    
+      <img src="img/blog-3.png" class="img-fluid"/>
+     <h3>Focused On Making You Look Your Best</h3>
+      <p>
+      The big advantage of boxispring bed is the variability in their arrangement from two single beds (twin bed) to a combined king size bed.
+      </p>
+        <p class="subscribe"><a href="#">Read Article <img src="img/right-arrow2.png" class="img-fluid"/></a></p>
+     </section>      
+  </section> 
+     
+ </section>     
+    
+    
+</div>  
+     
+<div class="down-footer">
+ <div class="container">
+     <section class="row">
+         <section class="col-lg-12 text-center">
+            <h2>Deploy A Strategy That Works</h2>
+        <p class="book2 mt-3"><a href="#">Book A Consultation <img src="img/right-arrow.png" class="img-fluid"/></a></p>
+          </section>
+     </section>
+     
+      <section class="row down-footer-content mt-5">
+          <section class="col-md-4 footer-address-icons mt-3">
+        <h3><span>Contact</span></h3>
+        <section class="row mt-4">
+        <section class="col-xl-2">
+        <img src="img/pin.png" class="img-fluid"/>
+        </section>
+        <section class="col-xl-8">
+       <p>Villa 68, Street 3 Khalifa City A, Opposite Gate 23 Al Raha Gardens, Abu Dhabi</p> 
+        </section>
+        <section class="col-xl-2"></section>    
+        </section>
+        <section class="row mt-2">
+        <section class="col-xl-2">
+        <img src="img/phone-call.png" class="img-fluid"/>
+        </section>
+        <section class="col-xl-10">
+         <p>(+971) 2 444 3901</p>
+        </section>
+        </section>
+        <section class="row mt-2">
+        <section class="col-xl-2">
+        <img src="img/email.png" class="img-fluid"/>
+        </section>
+        <section class="col-xl-10">
+        <p>info@amira-aesthetic.com</p>
+        </section>
+        </section>
+              
+        <section class="row mt-2">
+        <section class="col-xl-12">
+        <section class="footer-social">
+               <ul>
+         <li><a href="#"><img src="img/linkedin.png" class="img-fluid"/></a></li>
+          <li><a href="#"><img src="img/fb.png" class="img-fluid"/></a></li>
+         <li><a href="#"><img src="img/ig.png" class="img-fluid"/></a></li> 
+          <li><a href="#"><img src="img/twitter.png" class="img-fluid"/></a></li>      
+         </ul>
+             </section>
+        </section>
+        </section>      
+       </section>
+     
+          
+           <section class="col-md-8 text-center">
+            <section class="row">
+              <section class="col-md-6 mt-3">
+            <h3><span>Digital Strategy</span></h3>
+            <p><a href="#">Digital Marketing Strategy</a><br/>
+            <a href="#">Social Media Strategy</a><br/>
+            <a href="#">Content Planning & Execution</a></p>  
+            </section> 
+             <section class="col-md-6  mt-3">
+                <h3><span>Analysis</span></h3>
+            <p><a href="#">Social Media Analysis & Reporting</a></p>     
+            </section>     
+            </section> 
+               
+            <section class="row">
+              <section class="col-md-6  mt-3">
+            <h3><span>Digital Marketing</span></h3>
+            <p><a href="#">Email Marketing Campaigns</a><br/>
+            <a href="#">PPC</a></p>      
+            </section> 
+                
+            <section class="col-md-6  mt-3">
+            <h3><span>Social Media</span></h3>
+            <p><a href="#">Influencers Management</a><br/>
+            <a href="#">Branding and Business Personas</a><br/>
+            <a href="#">Social Media Plan</a><br/> 
+            <a href="#">Social Media Setup & Management</a><br/>
+            <a href="#">Website Development</a></p>      
+            </section> 
+            </section>    
+               
+           
+               
+            
+          </section>
+          
+       </section>
+     
+     
+     <section class="row copyright text-center"> 
+          <section class="col-lg-12">
+            <p>Outstandit 2020 <span>|</span> Designed & Developed By Pellucid Studios</p>
+          </section>
+     </section>
+     
+     
+     <section class="row footer-logo text-center mt-5"> 
+          <section class="col-lg-12">
+           <img src="img/footer-logo.jpg" class="img-fluid"/>
+          </section>
+     </section>
+     
+     </div>      
+   </div>     
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script-->
+      
+      
+      
+      <!-- font Awsome -->
+  <script src="js/all.min.js"></script> 
+      
+<script type="text/javascript">
+   (function() {
+
+  var hamburger = {
+    navToggle: document.querySelector('.nav-toggle'),
+    nav: document.querySelector('nav'),
+
+    doToggle: function(e) {
+      e.preventDefault();
+      this.navToggle.classList.toggle('expanded');
+      this.nav.classList.toggle('expanded');
+    }
+  };
+
+  hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
+  hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
+
+}());
+       </script>
+    
+      
+   <script src='js/aos.js'></script>
+        <script src="js/lazyload.js"></script>   
+      
+      
   </body>
 </html>
