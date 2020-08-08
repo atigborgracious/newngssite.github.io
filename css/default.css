@@ -35,37 +35,6 @@ body,html{
 } 
 
 
-h1 {
-   font-size:50px; 
-}
-
-h2 {
-   font-size:45px; 
-}
-
-h3 {
-   font-size:35px; 
-}
-
-h4 {
-   font-size:30px; 
-}
-
-h5 {
-   font-size:25px; 
-}
-
-h6 {
-   font-size:20px; 
-}
-
-
-p {
-    font-family: 'Dubai Regular', sans-serif;    
-    letter-spacing:0px;
-     font-size:16px; 
-}
-
 
 /*****HOME SECTION******/
 
@@ -75,7 +44,8 @@ p {
     padding-left: 30px;
 }
 
-.carousel-item2 {
+. {
+  background:url(../img/slide-1.jpg) repeat center top;    
   height: 100vh;
    min-height: 600px!important;
   background: no-repeat center center scroll;
@@ -83,18 +53,31 @@ p {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
 }
 
 .main-text {
-    position: absolute;
-    top: 50%;
-    width: 96.66666666666666%;
-    color: #FFF;
+    background:url(../img/slide-1.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-attachment: fixed;
+    height:100vh;
+    min-height: 700px;
+    width:auto;
+    margin-bottom: 3em;
+    display: flex;
+  justify-content: center;
+  align-items: center;   
 }
+
 
 .main-text h1 {
     font-family: 'Montserrat', sans-serif; 
-    font-size: 390%;
+    font-size:5rem;
     font-weight: 700;
     letter-spacing: 2px;
     line-height: 1em;
@@ -109,7 +92,6 @@ p {
 
 .home-profile h3 {
     font-family: 'Mont-Black', sans-serif;   
-    font-size: 28px;
     letter-spacing: 1px;
     color:#000;
     text-align:left;
@@ -117,7 +99,6 @@ p {
 
 .home-profile h5 {
     font-family: 'Mont-Book', sans-serif;   
-    font-size: 16px;
     color:#000;
     text-align:left;
 }
@@ -125,7 +106,6 @@ p {
 .home-profile h6 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size: 14px;
     color:#000;
     padding-top: 10px;
     text-align: center;
@@ -155,7 +135,6 @@ p {
 .quality-image h6 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size: 14px;
     color:#000;
     text-align:left; 
     padding-top: 18px;
@@ -199,20 +178,21 @@ p {
     -o-background-size:cover;
     background-size:cover;
     background-attachment: fixed;
-    height:32em;
+    height:34em;
     width:auto;
     margin-bottom: 3em;
   padding:10em  0px 0px 0px;        
 }
 
+
 .home-appointment-wrapper h2 {
-    font-family: 'Mont-Bold', sans-serif;   
-     font-weight: 600;
-    font-size: 44px;
-    color:#fff;
-    text-align:left; 
+    font-family: 'Montserrat', sans-serif; 
+    font-size:4.5rem;
+    font-weight: 700;
     letter-spacing: 2px;
-    line-height:1em;
+    line-height: 1em;
+    color:#fff;
+    text-align:left;
 }
 
 .home-treatments {
@@ -224,7 +204,7 @@ p {
 .home-treatments h3 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:30px;
+     font-size: 2rem;
     color:#000;
     text-align:left; 
     letter-spacing: 2px;
@@ -240,8 +220,9 @@ p {
 .home-treatments h4 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:21px;
+     font-size: 1.2rem;
     color:#000;
+    
     text-align:left; 
     letter-spacing: 1px;
     line-height:1em;
@@ -289,7 +270,6 @@ p {
 .home-blog h3 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:30px;
     color:#000;
     text-align:left; 
     letter-spacing: 2px;
@@ -305,7 +285,6 @@ p {
 .home-blog h4 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:22px;
     color:#000;
     text-align:left; 
     letter-spacing: 2px;
@@ -349,20 +328,20 @@ p {
     height:38em;
     width:auto;
     margin: 3em auto;
-  padding:20em  0px 6em 0px;        
+  padding:18em  0px 8em 0px;        
 }
 
 
 .testimonial-wrapper h2 {
-    font-family: 'Mont-Bold', sans-serif;   
-     font-weight: 600;
-    font-size: 44px;
+   font-family: 'Montserrat', sans-serif !important;
+     font-weight: 700;
     color:#fff;
-    text-align:left; 
+    text-align:left;
+     font-size:5rem;
     letter-spacing: 2px;
     line-height:1em;
+    margin-bottom: 1em;
 }
-
 
 .testimonial-card {
     background: rgba(255,255,255,1);
@@ -409,33 +388,6 @@ p {
     margin-bottom:0!important;
 }
 
-.carousel-control-prev, .carousel-control-next {
-	color: #3d3d3d !important;
-	opacity: 1 !important;
-}
-.carousel-control-prev-icon, .carousel-control-next-icon {
-	background-image: none;
-	color: #fff;
-	font-size: 14px;
-	background-color:#39C4EF;
-	height: 75px;
-    padding-left: 20px;
-    padding-right: 20px;
-	line-height: 75px;
-	width:75px;
-}
-.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
-	opacity: 0.85;
-}
-.carousel-control-prev {
-	left: 0%;
-	top: 20%;
-}
-.carousel-control-next {
-	right: 0%;
-	top: 20%;
-   
-}
 
 .home-quote2 img {
    width: 170px;
@@ -458,7 +410,6 @@ p {
 .down-footer h2 {
    font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size: 40px;
     color:#fff;
     text-align:center; 
     letter-spacing: 2px;
@@ -468,7 +419,6 @@ p {
 .down-footer h3 {
    font-family: 'Montserrat', sans-serif;
      font-weight: 600;
-    font-size: 25px;
     color:#fff;
     text-align:left; 
     letter-spacing: 2px;
@@ -541,6 +491,17 @@ p {
     height: auto;
 }
 
+
+
+.large-testimonial-caro {
+    display:block;
+}
+
+.mobile-testimonial-caro {
+    display:none;
+}
+
+
  @media (min-width: 320px) and (max-width: 575px) {
 
 .testimonial-caro {
@@ -608,6 +569,25 @@ p {
 
 
 @media(max-width:1024px) {
+    
+    .main-text {
+    background:url(../img/slide-1.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-attachment:scroll;
+    height:100vh;
+    min-height: 700px;
+    width:auto;
+    margin-bottom: 3em;
+    display: flex;
+  justify-content: center;
+  align-items: center;   
+}
+
+    
+    
     .home-appointment-wrapper {
     background:url(../img/home-appointment-bg.jpg) repeat center top;
    -webkit-background-size:cover;
@@ -615,10 +595,10 @@ p {
     -o-background-size:cover;
     background-size:cover;
     background-attachment:scroll;
-    height:31em;
+    height:auto;
     width:auto;
     margin-bottom: 3em;
-  padding:10em  0px 0px 0px;        
+  padding:12em  0px 6em 0px;        
 }
     
 .home-treatments {
@@ -630,7 +610,6 @@ p {
 .home-treatments h3 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:25px;
     color:#000;
     text-align:left; 
     letter-spacing: 2px;
@@ -646,8 +625,8 @@ p {
 .home-treatments h4 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:20px;
     color:#000;
+     font-size: 1rem;
     text-align:left; 
     letter-spacing: 2px;
     line-height:1em;
@@ -682,7 +661,6 @@ p {
 .home-blog   h3 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:25px;
     color:#000;
     text-align:left; 
     letter-spacing: 2px;
@@ -698,7 +676,6 @@ p {
 .home-blog h4 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:20px;
     color:#000;
     text-align:left; 
     letter-spacing: 2px;
@@ -728,16 +705,16 @@ p {
 }
     
     
-  .main-text h1 {
-    font-family: 'Mont-Bold', sans-serif;   
-    font-size: 40px;
-    letter-spacing: 1px;
+ .main-text h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size:5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1em;
     color:#fff;
     text-align:left;
 }
- 
-    
-    
+
     
     
   .home-about {
@@ -746,8 +723,7 @@ p {
   
  .home-about h3 {
     font-family: 'Mont-Bold', sans-serif;   
-     font-weight: 600;
-    font-size:20px;
+    font-weight: 600;
     color:#253743;
     text-align:center;
     margin-top: 0.3em;
@@ -757,7 +733,6 @@ p {
     
  .home-profile h3 {
     font-family: 'Mont-Bold', sans-serif;   
-    font-size: 26px;
     letter-spacing: 1px;
     color:#000;
     text-align:left;
@@ -765,7 +740,6 @@ p {
 
 .home-profile h5 {
     font-family: 'Mont-Book', sans-serif;   
-    font-size: 16px;
     color:#000;
     text-align:left;
 }
@@ -773,7 +747,6 @@ p {
 .home-profile h6 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size: 14px;
     color:#000;
     padding-top: 10px;
     text-align: center;
@@ -817,7 +790,6 @@ p {
   .home-treatments h3 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:24px;
     color:#000;
     text-align:left; 
     letter-spacing: 1px;
@@ -833,7 +805,6 @@ p {
 .home-treatments h4 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:16px;
     color:#000;
     text-align:left; 
     letter-spacing: 1px;
@@ -844,7 +815,6 @@ p {
 .home-blog  h3 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:24px;
     color:#000;
     text-align:left; 
     letter-spacing: 1px;
@@ -877,13 +847,25 @@ p {
  .home-blog h4 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:16px;
     color:#000;
     text-align:left; 
     letter-spacing: 1px;
     line-height:1em;
     margin-top: 12px;
-}        
+}  
+    
+    
+ .testimonial-wrapper h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size:5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1em;
+    color:#fff;
+    text-align:left;
+}
+
+    
     
 /*.nav p {
   position: absolute;
@@ -903,6 +885,30 @@ font-family: 'Mont-Book', sans-serif;
 
 
 @media(max-width:577px) {
+    
+    
+    .main-text h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size:3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1em;
+    color:#fff;
+    text-align:left;
+}
+    
+  .home-appointment-wrapper h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size:3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1em;
+    color:#fff;
+    text-align:left;
+}    
+    
+
+    
    .home-treatment-card {
     background: rgba(255,255,255,0.9);
      border-radius:5px;
@@ -930,7 +936,6 @@ font-family: 'Mont-Book', sans-serif;
   .home-treatments h3 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:25px;
     color:#000;
     text-align:left; 
     letter-spacing: 1px;
@@ -941,13 +946,23 @@ font-family: 'Mont-Book', sans-serif;
 .home-treatments h3 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:25px;
     color:#000;
     text-align:left; 
     letter-spacing: 1px;
     line-height:1em;
     margin-top: 5px;
-}     
+} 
+    
+.testimonial-wrapper h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size:3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1em;
+    color:#fff;
+    text-align:left;
+}   
+    
     
     
 }
@@ -955,13 +970,37 @@ font-family: 'Mont-Book', sans-serif;
 
 @media(max-width:320px) {
     
-  .main-text h1 {
-    font-family: 'Mont-Bold', sans-serif;   
-    font-size: 30px;
-    letter-spacing: 1px;
+.main-text h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size:2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1em;
     color:#fff;
     text-align:left;
 }
+    
+.home-appointment-wrapper h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size:2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1em;
+    color:#fff;
+    text-align:left;
+} 
+    
+    
+.testimonial-wrapper h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size:2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1em;
+    color:#fff;
+    text-align:left;
+}     
+
     
  }
         
@@ -1001,15 +1040,15 @@ font-family: 'Mont-Book', sans-serif;
 }
 
 .about-content img {
-    width: 70%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
 }
 
 .about-content h3 {
-    font-family: 'Mont-Bold', sans-serif;   
-     font-weight: 600;
-    font-size:60px;
+    font-family: 'Montserrat', sans-serif;  
+     font-weight: 700;
+    font-size: 4rem;
     color:#253743;
     text-align:center;
     margin-top: 0.3em;
@@ -1017,15 +1056,15 @@ font-family: 'Mont-Book', sans-serif;
 }
 
 .about-content h4 {
-    font-family: 'Mont-Bold', sans-serif;   
-     font-weight: 600;
-    font-size:37px;
+   font-family: 'Montserrat', sans-serif; 
+     font-weight: 700;
+    font-size: 3rem;
     color:#253743;
     text-align:left;
-    margin-top:0.6em;
-    margin-bottom: 0.3em;
+    margin-top:0.8em;
+    margin-bottom: 0.6em;
     letter-spacing: 1px; 
-    line-height: 1em;
+    line-height: 0.9em;
 }
 
 .about-content h5 {
@@ -1059,15 +1098,15 @@ font-family: 'Mont-Book', sans-serif;
 } 
 
 .about-content-icon img {
-    width: 50px;
+    width: 60px;
     height: auto;
-    margin: 10px auto;
+    margin: 2rem auto 0.5rem auto;
 }
 
 .about-content-icon p {
    font-family: 'Montserrat', sans-serif;
   font-weight:500; 
-    font-size:12px;
+    font-size:14px;
     padding:1px 0px;
     color:#253743;
     line-height: 1.6em;
@@ -1112,6 +1151,31 @@ font-family: 'Mont-Book', sans-serif;
 
 }
     
+    
+ .about-content h4 {
+   font-family: 'Montserrat', sans-serif; 
+     font-weight: 700;
+    font-size: 3rem;
+    color:#253743;
+    text-align:left;
+    margin-top:0.4em;
+    margin-bottom: 0.6em;
+    letter-spacing: 1px; 
+    line-height: 0.9em;
+}   
+  
+ .about-content-icon img {
+    width: 50px!important;
+    height: auto;
+    margin: 2rem auto 0.5rem auto;
+}
+   
+    
+ .about-content img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}   
     
 .about-content p {
    font-family: 'Montserrat', sans-serif;
@@ -1580,111 +1644,59 @@ padding-top:3px;
 
 
 
-  .testimonial{
-            background: #39C4EF;
-            padding: 30px 32px 30px 90px;
-            margin: 50px 20px 50px 120px;
-            border-radius: 0 100px 100px 0;
-            color: #fff;
-            position: relative;
-            border: 5px solid #69dcff;
-        }
-        .testimonial .pic{
-            width: 210px;
-            height: 210px;
-            line-height: 200px;
-            border-radius: 50%;
-            border: 14px solid #69dcff;
-            position: absolute;
-            top: -15px;
-            left: -120px;
+ .testimonial{
+            border-right: 4px solid #2A3D7D;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px 30px 30px 130px;
+            margin: 0 15px 30px 15px;
             overflow: hidden;
+            position: relative;
         }
+        .testimonial:before{
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: -17px;
+            border-top: 25px solid #29D18B;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            transform: rotate(45deg);
+        }
+        .testimonial:after{
+            content: "";
+            position: absolute;
+            top: -4px;
+            left: -17px;
+            border-top: 25px solid #29D18B;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            transform: rotate(135deg);
+        }
+        
         .testimonial .pic img{
             width: 100%;
-            height: 100%;
+            height: auto;
         }
-        .testimonial .testimonial-info{
-            display: inline-block;
-            width: 35%;
-            float: left;
-            font-size: 20px;
-            font-weight: 700;
-            color: #fff;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            padding: 28px 25px;
-            margin: 0;
-            border-right: 1px solid #69dcff;
-        }
-        .testimonial .testimonial-info small{
-            display: block;
-            font-size: 12px;
-            color: #fff;
-            margin-top: 5px;
-        }
-        .testimonial .description{
-            display: inline-block;
-            width: 65%;
-            font-size: 15px;
-            color: #fff;
-            letter-spacing: 0.5px;
-            margin-bottom: 0;
-            padding: 28px 0 28px 28px;
-            position: relative;
-        }
-        .testimonial .description:before{
-            content: "\f10d";
-            font-family: fontawesome;
-            position: absolute;
-            top: 0;
-            left: 10px;
-            font-size: 20px;
-            color: #69dcff;
-        }
-        .testimonial .description:after{
-            content: "\f10e";
-            font-family: fontawesome;
-            font-size: 20px;
-            color: #69dcff;
-            position: absolute;
-            bottom: 5px;
+       
+        .owl-theme .owl-controls .owl-page span{
+            border: 2px solid #2A3D7D;
+            background: #fff !important;
+          border-radius:0 !important;
+            opacity: 1;
         }
         .owl-theme .owl-controls .owl-page.active span,
-        .owl-theme .owl-controls .owl-page span{
-            width: 25px !important;
-            height: 7px !important;
+        .owl-theme .owl-controls .owl-page:hover span{
             background: #39C4EF !important;
-            box-sizing: content-box;
-        }
-        .owl-theme .owl-controls .owl-page span{
-            border: 4px solid transparent;
-            background: #69dcff !important;
+          border-color:#39C4EF;
         }
         @media only screen and (max-width: 767px){
             .testimonial{
-                border-radius: 40px;
-                margin: 90px 15px 0;
-                padding: 100px 40px 30px 40px;
+                padding: 20px;
+                text-align: center;
             }
             .testimonial .pic{
-                position: absolute;
-                top: -85px;
-                left: 0;
-                right: 0;
-                margin: 0 auto;
+                display: block;
+                position: static;
+                margin: 0 auto 15px;
             }
-            .testimonial .testimonial-info{
-                width: 100%;
-                float: none;
-                border-right: none;
-                text-align: center;
-                border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-            }
-            .testimonial .description{
-                width: 100%;
-            }
-        }
-        @media only screen and (max-width: 480px){
-            .testimonial{ padding: 100px 30px 30px; }
-        }
+        } 
