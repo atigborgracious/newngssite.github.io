@@ -408,9 +408,10 @@ body,html{
 }
 
 .down-footer h2 {
-   font-family: 'Mont-Bold', sans-serif;   
+  font-family: 'Montserrat', sans-serif;
      font-weight: 600;
     color:#fff;
+    font-size: 3rem;
     text-align:center; 
     letter-spacing: 2px;
     line-height:1em;  
@@ -865,6 +866,15 @@ body,html{
     text-align:left;
 }
 
+.down-footer h2 {
+  font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+    color:#fff;
+    font-size: 2.5rem;
+    text-align:center; 
+    letter-spacing: 2px;
+    line-height:1em;  
+}
     
     
 /*.nav p {
@@ -1451,21 +1461,6 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-@media  (max-width:1024px) {
-   .appointment-wrapper {
-     background:url(../img/contact-bg.jpg) repeat center top;
-   -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-   height: 100vh;
-    min-height:900px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-     padding: 3em 1em 7em 1em;
-}
-    }
   
 
 /**********CONTACT WRAPPER*********/
@@ -1660,6 +1655,32 @@ padding-top:3px;
 
 }
     
+    
+  .appointment-wrapper {
+     background:url(../img/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   height: auto;
+    min-height:900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+     padding: 2em 1em 7em 1em;
+}
+    
+.appointment-wrapper h2 {
+    font-family: 'Mont-Bold', sans-serif;   
+     font-weight: 600;
+    font-size:4rem;
+    color:#ffff;
+    text-align:left;
+    margin-top: 2em;
+    letter-spacing: 1px;
+
+}    
+    
 
     
     
@@ -1680,6 +1701,20 @@ padding-top:3px;
 	justify-content: center;
      padding: 3em 1em 7em 1em;
 }
+    
+    
+  .appointment-wrapper {
+     background:url(../img/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   height:auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+     padding: 3em 1em 7em 1em;
+}    
     
     
     .contact-content {
@@ -1721,6 +1756,20 @@ padding-top:3px;
 	justify-content: center;
      padding: 1.5em 1em 5em 1em;
 }
+  
+.appointment-wrapper  {
+     background:url(../img/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   height:auto;
+    min-height:1000px!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+     padding: 1.5em 1em 5em 1em;
+}   
      
      
      .contact-wrapper h2 {
@@ -1733,6 +1782,18 @@ padding-top:3px;
     letter-spacing: 1px;
 
 } 
+     
+.appointment-wrapper  h2 {
+    font-family: 'Montserrat', sans-serif; 
+     font-weight: 600;
+    font-size:3rem;
+    color:#ffff;
+    text-align:left;
+    margin-top: 2em;
+    letter-spacing: 1px;
+
+}    
+     
      
  .contact-wrapper h3 {
     font-family: 'Montserrat', sans-serif;
