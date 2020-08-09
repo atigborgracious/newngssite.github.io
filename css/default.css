@@ -1019,8 +1019,8 @@ font-family: 'Mont-Book', sans-serif;
 }
 
 .about-wrapper h2 {
-    font-family: 'Mont-Bold', sans-serif;   
-     font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+     font-weight: 700;
     font-size:50px;
     color:#ffff;
     text-align:left;
@@ -1058,7 +1058,7 @@ font-family: 'Mont-Book', sans-serif;
 .about-content h4 {
    font-family: 'Montserrat', sans-serif; 
      font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     color:#253743;
     text-align:left;
     margin-top:0.8em;
@@ -1068,8 +1068,8 @@ font-family: 'Mont-Book', sans-serif;
 }
 
 .about-content h5 {
-    font-family: 'Mont-Bold', sans-serif;   
-     font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+     font-weight: 700;
     font-size:16px;
     color:#253743;
     text-align:center;
@@ -1140,7 +1140,7 @@ font-family: 'Mont-Book', sans-serif;
 }
     
 .about-wrapper h2 {
-    font-family: 'Mont-Bold', sans-serif;   
+    font-family: 'Montserrat', sans-serif; 
      font-weight: 600;
     font-size:45px;
     color:#ffff;
@@ -1192,7 +1192,7 @@ font-family: 'Mont-Book', sans-serif;
 @media  (max-width:325px){
         
 .about-wrapper h2 {
-    font-family: 'Mont-Bold', sans-serif;   
+   font-family: 'Montserrat', sans-serif; 
      font-weight: 600;
     font-size:35px;
     color:#ffff;
@@ -1391,16 +1391,16 @@ font-family: 'Montserrat', sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-     padding: 2em 1em 7em 1em;
+     padding: 4em 1em 4em 1em;
 }
 
 .contact-wrapper h2 {
     font-family: 'Mont-Bold', sans-serif;   
      font-weight: 600;
-    font-size:50px;
+    font-size:5rem;
     color:#ffff;
     text-align:left;
-    margin-top: 1em;
+    margin-top: 1.5em;
     letter-spacing: 1px;
 
 } 
@@ -1409,10 +1409,11 @@ font-family: 'Montserrat', sans-serif;
 .contact-wrapper h3 {
     font-family: 'Montserrat', sans-serif;
   font-weight: 600; 
-    font-size:20px;
+    font-size:2.2rem;
     padding: 10px 0px;
     color:#ffff;
-    text-align:left; 
+    text-align:left;
+    line-height: 1em;
     letter-spacing: 1px;
     
 } 
@@ -1428,7 +1429,7 @@ font-family: 'Montserrat', sans-serif;
   color:#fff;  
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;    
-  font-size: 12px; 
+  font-size: 14px; 
  text-align: left;
 padding-top:3px;    
 }
@@ -1543,10 +1544,54 @@ padding-top:3px;
 }
 
 
+@media  (max-width:1024px) {
+   .contact-wrapper {
+     background:url(../img/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   height: 100vh;
+    min-height:900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+     padding: 3em 1em 7em 1em;
+}
+    
+.contact-wrapper h2 {
+    font-family: 'Mont-Bold', sans-serif;   
+     font-weight: 600;
+    font-size:4rem;
+    color:#ffff;
+    text-align:left;
+    margin-top: 2em;
+    letter-spacing: 1px;
 
+}
+    
 
-@media (min-width: 576px) and (max-width: 768px) {
+    
+    
+}
 
+@media (min-width: 576px) and (max-width: 868px) {
+
+    
+     .contact-wrapper {
+     background:url(../img/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   height:auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+     padding: 3em 1em 7em 1em;
+}
+    
+    
     .contact-content {
 	width: 80%;
     margin: 0 auto;
@@ -1579,22 +1624,22 @@ padding-top:3px;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-   height: 100vh;
+   height:auto;
     min-height:1000px!important;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-     padding: 1em 1em 5em 1em;
+     padding: 1.5em 1em 5em 1em;
 }
      
      
      .contact-wrapper h2 {
-    font-family: 'Mont-Bold', sans-serif;   
+    font-family: 'Montserrat', sans-serif; 
      font-weight: 600;
-    font-size:50px;
+    font-size:3rem;
     color:#ffff;
     text-align:left;
-    margin-top: 1em;
+    margin-top: 2em;
     letter-spacing: 1px;
 
 } 
@@ -1602,7 +1647,7 @@ padding-top:3px;
  .contact-wrapper h3 {
     font-family: 'Montserrat', sans-serif;
   font-weight: 600; 
-    font-size:20px;
+    font-size:2rem;
     padding: 0px 0px;
     color:#ffff;
     text-align:left; 
