@@ -18,7 +18,9 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  </head>
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+    </head>
   <body >
       
   
@@ -154,7 +156,7 @@
      <section class="row">
          <section class="col-lg-12 text-center">
             <h2>Deploy A Strategy That Works</h2>
-        <p class="book2 mt-3"><a href="#">Book A Consultation <img src="img/right-arrow.png" class="img-fluid"/></a></p>
+        <p class="book2 mt-3"><a href="appointment.html">Book A Consultation <img src="img/right-arrow.png" class="img-fluid"/></a></p>
           </section>
      </section>
      
@@ -255,7 +257,29 @@
      </section>
      
      </div>      
-   </div>     
+   </div>  
+      
+       <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>    
+      
+    
+     <script type="text/javascript">
+       $(document).ready(function(){
+	$(window).scroll(function () {
+			if ($(this).scrollTop() > 50) {
+				$('#back-to-top').fadeIn();
+			} else {
+				$('#back-to-top').fadeOut();
+			}
+		});
+		// scroll body to 0px on click
+		$('#back-to-top').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 400);
+			return false;
+		});
+});
+      </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
