@@ -1377,6 +1377,96 @@ font-family: 'Montserrat', sans-serif;
 } 
 }
 
+/**********APPOINTMENT WRAPPER*********/
+
+.appointment-wrapper {
+     background:url(../img/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   height:auto;
+    min-height:700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+     padding: 4em 1em 4em 1em;
+}
+
+.appointment-wrapper h2 {
+    font-family: 'Mont-Bold', sans-serif;   
+     font-weight: 600;
+    font-size:5rem;
+    color:#ffff;
+    text-align:left;
+    margin-top: 1.5em;
+    letter-spacing: 1px;
+
+} 
+
+
+
+.consultation-form label {
+  color:#fff!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;    
+    font-size: 12px;   
+}
+
+
+.consultation-form input {
+    border:#39C4EF 1px solid;
+    background-color:rgba(0,0,0,0.5);
+    color:#fff!important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;    
+    font-size: 12px; 
+    padding: 20px 10px;
+}
+
+.box select {
+  background-color:rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 5px;    
+   padding: 11px 10px;
+  width: 100%;
+   border:#39C4EF 1px solid;    
+  font-size: 14px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.btn-send input {
+    background-color:#39C4EF;
+    padding: 11px 10px;
+    border-radius: 5px;
+    color:#1A2B51;
+    width: 100%;
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;    
+    font-size: 14px; 
+}
+
+
+
+@media  (max-width:1024px) {
+   .appointment-wrapper {
+     background:url(../img/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+   height: 100vh;
+    min-height:900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+     padding: 3em 1em 7em 1em;
+}
+    }
+  
 
 /**********CONTACT WRAPPER*********/
 
@@ -1680,7 +1770,12 @@ padding-top:3px;
 
 
 
-
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
 
 
 
