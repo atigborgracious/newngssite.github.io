@@ -37,7 +37,7 @@
   </div>  
       
       
-   <nav class="shadow navbar navbar-expand-md navbar-light navbar-custom p-0" id="mainNav" >
+   <nav class="shadow navbar navbar-expand-md navbar-light navbar-custom px-3" id="mainNav" >
      
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -75,6 +75,10 @@
             </li>
     </ul>
    
+        <form class="form-inline my-2 my-lg-0">
+      <button class="btn btn-danger my-2 my-sm-0" type="button"  data-toggle="modal" data-target="#exampleModal">Book Now!</button>
+    </form>
+      
   </div>
         
 </nav>  
@@ -167,7 +171,184 @@ and disruption,We provide free pickup and delivery, if needed</span><br/>
       </div>
       
       
+    <footer class="mt-5">
+ <div class="container">
+    <section class="row">
+        <section class="col-lg-4 footer-logo">
+        <img src="images/footerlogo.png" class="img-fluid mt-2"/>
+        </section>
+        
+       <section class="col-lg-3">
+        <h6>Services</h6>   
+        <ul>
+           <li> <a href="Washing-Machine.html">Washing Machine</a></li>
+            <li> <a href="Fridge-Freezer.html">Fridge & Freezer</a></li>
+            <li> <a href="Dryer.html">Dryer</a></li>
+            <li> <a href="Cooker.html">Cooker</a></li>
+            <li><a href="Dish-Washer.html">Dish Washer</a></li>
+           </ul>
+        </section>
+         <section class="col-lg-5  footer-contact-icons">
+          <h6>Contact Info</h6>
+         <section class="row">
+           <section class="col-lg-6">
+            <img src="images/telephone%20(1).png" class="img-fluid"/>  
+             <p>
+             +971-582165800, +971-559152541
+             </p>  
+        </section>    
+        <section class="col-lg-6">
+             <img src="images/email%20(2).png" class="img-fluid"/>  
+             <p>
+             info@quickworksuae.com
+             </p>  
+        </section>    
+        </section>   
+             
+         <section class="row">
+           <section class="col-lg-6">
+                 
+           <img src="images/building.png" class="img-fluid"/>  
+          <p>
+             QuickWork Repair,
+4th floor- office 404 BB07 tower,
+Bay Square, Business Bay Sheikh Zayed road,
+Dubai, UAE.
+             </p>
+              
+        </section>    
+        <section class="col-lg-6">
+             
+        </section>    
+        </section>        
+        
+            
+        </section>
+         
+     </section>
+ </div>     
       
+</footer>
+<div class="footer-2">
+  <div class="container">
+    <section class="row text-center">
+      <section class="col-md-12">
+        <p><a href="http://pellucidstudios.com/">Design & Developed By PELLUCID STUDIOS</a></p>
+      </section>
+    </section>
+  </div>    
+</div>           
+   
+      
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+         <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        
+      <div class="modal-body">
+         <section class="form-container">
+                   
+                 <h4>Book Appointment</h4>  
+                   
+               <form  name="htmlform" method="post" action="send_form_emaill.php">
+                    <div class="form-group">
+       <section class="row">
+        <section class="col-xl-6 mt-1">      
+    <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name">        
+           </section>
+            <section class="col-xl-6 mt-1">
+    <label for="Phone">Phone number</label>
+     <input type="text" class="form-control" id="Phone" aria-describedby="emailHelp" name="telephone" placeholder="Enter phone number"> 
+       </section>  
+            </section>
+       
+           </div> 
+                   
+        
+                   
+    <div class="form-group">
+      <section class="row">
+          <section class="col-xl-6 mt-1">
+    <label for="exampleInputEmail1">Email address</label>
+               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Enter email">
+       </section>
+          
+          <section class="col-xl-6 mt-1">
+           <label for="starting">Address</label>
+      <input type="text" class="form-control" id="starting" aria-describedby="emailHelp" placeholder="Address" name="comments">   
+          </section>
+       </section>
+  </div> 
+            
+  
+                   
+                   
+  <div class="form-group mt-1">
+     <section class="row">
+        <section class="col-md-12">
+    <label for="exampleInputEmail1">What service do you want?</label>
+           </section>
+      </section>   
+  
+    <section class="row">
+     <section class="col-xl-5">
+                    <div class="form-check form-check-inline ">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="RequiredService[]" value="Website Design">
+  <label class="form-check-label" for="inlineCheckbox2">Washing Machine</label>
+</div>
+                </section>
+         <section class="col-xl-3">
+            <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="RequiredService[]" value="UI/UX Design">
+  <label class="form-check-label" for="inlineCheckbox1">Dryer</label>
+</div>
+                </section>
+        <section class="col-xl-4">
+            <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="RequiredService[]" value="UI/UX Design">
+  <label class="form-check-label" for="inlineCheckbox1">Cooker</label>
+</div>
+                </section>
+  </section>     
+   
+   <section class="row">
+     <section class="col-xl-5">
+                    <div class="form-check form-check-inline ">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="RequiredService[]" value="Creative Media">
+  <label class="form-check-label " for="inlineCheckbox3">Fridge & Freezer</label>
+</div>
+                </section>
+       <section class="col-xl-5">
+                <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="RequiredService[]" value="UI/UX Design">
+  <label class="form-check-label" for="inlineCheckbox1">Dish Washer</label>
+</div>
+                </section>
+       <section class="col-xl-2">
+                </section>
+       
+  </section>    
+</div>                 
+ 
+                   
+       <section class="row text-center mt-2 mb-3">
+     <section class="col-md-12 mt-2">
+          <input type="submit" value="Submit" class="btn-send" style="">           
+      </section>       
+    </section>             
+                   
+                   </form>
+               </section>
+      </div>
+     
+    </div>
+  </div>
+</div>      
            
 
     <!-- Optional JavaScript -->
