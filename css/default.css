@@ -22,7 +22,7 @@ body,html{
 
 #top-bar {
     background: #08487f;
-    color: #fff;
+    color: #fff!important;
     padding: 15px 0px 2px 0px;
     font-family: 'Montserrat', sans-serif;   
     font-size:14px;
@@ -50,7 +50,7 @@ body,html{
 .navbar-custom .navbar-nav .nav-link {
     color: black;
     padding: 1rem 1rem;
-    text-align: center;
+    text-align:left;
     font-size: 14px;
 } 
 /* change the color of active or hovered links */
@@ -150,6 +150,11 @@ body,html{
 
 .home-wrapper img {
     padding: 50px;
+}
+
+
+.home-form-right {
+    display: block;
 }
 
 
@@ -269,7 +274,7 @@ margin-bottom: 5em;
      font-family: 'Montserrat', sans-serif;   
     font-weight: 700;
     margin-top: 30px;
-    color:#f91a15;
+    color:#08487f;
     font-size: 18px;
     line-height: 1.6em;
     text-align: left;
@@ -402,7 +407,7 @@ margin-bottom: 1em;
      font-family: 'Montserrat', sans-serif;   
     font-weight: 700;
     margin-top: 5px;
-    color:#f91a15;
+    color:#08487f;
     font-size: 18px;
     line-height: 1.6em;
     text-align: left;
@@ -419,6 +424,12 @@ margin-bottom: 1em;
 
 
 @media(max-width:720px) {
+    
+    .home-form-right {
+    display: none;
+}
+
+    
      .why-us-card {
    background:url(../images/gradient-bg.jpg) repeat center top;
     -webkit-background-size:cover;
@@ -431,7 +442,17 @@ margin-bottom: 1em;
     border-radius: 15px;
     margin-bottom: 15px;
     
-}   
+}  
+    
+.why-us-card h3 {
+    font-family: 'Montserrat', sans-serif;   
+    font-size:14px; 
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:#fff;
+    margin-top: 10px;
+}    
+    
     
     .spare-left { 
     background:url(../images/spare-part-bg.jpg) repeat center top;
@@ -456,6 +477,19 @@ margin-bottom: 1em;
 }      
     
 }
+
+
+@media(max-width:320px) {
+ #top-bar {
+    background: #08487f;
+    color: #fff!important;
+    padding: 15px 0px 2px 0px;
+    font-family: 'Montserrat', sans-serif;   
+    font-size:10px;
+}
+   
+}
+
 
 
 /*********ABOUT US*********/
@@ -1389,6 +1423,18 @@ label {
 
 
 @media(max-width:720px) {
+    
+.contact-wrapper {
+    background:url(../images/contact-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    width:auto;    
+  padding:5em 0px;        
+} 
+    
+    
  .contact-details h5 {
    color:#fff;    
   font-size:18px;
@@ -1433,7 +1479,8 @@ footer h6 {
      margin-bottom:15px;
     letter-spacing: 0px;
 font-family: 'Montserrat', sans-serif; 
-    font-weight: 500;  
+    font-weight: 500;
+     text-align: left;
 }
 
 footer p {
@@ -1444,6 +1491,7 @@ font-family: 'Montserrat', sans-serif;
     font-weight: 500; 
     opacity: 0.7;
     line-height: 1.8em;
+    text-align: left;
 }
 
 footer ul{
@@ -1455,12 +1503,14 @@ footer ul li {
     display:block;
        padding-left: 0px!important;
     margin-left: 0px!important;
+     text-align: left;
 }
 
 footer ul li a {
      color:#fff;    
   font-size:10px;
     letter-spacing: 0px;
+     text-align: left;
 font-family: 'Montserrat', sans-serif; 
     font-weight: 500; 
     padding: 5px 10px 1px 0px;
