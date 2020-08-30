@@ -468,10 +468,38 @@ body,html{
     text-align: left;
 }
 
+.footer-social ul li p{
+    display: inline-block;
+    text-align: left;
+    padding-left: 5px;
+    word-wrap: normal;
+    
+}
+
+.footer-details-2 p {
+    padding-left: 0px!important;
+}
+
+.footer-details-2 img {
+     width: 30px;
+    height: auto; 
+    padding:0px 0px 0px 0px;
+   
+}
+
+
+.footer-details-2 p{
+    display: inline-block;
+    text-align: left;
+    padding-left: 5px;
+    word-wrap: normal;
+    
+}
+
 .footer-social img {
      width: 30px;
     height: auto; 
-    padding:5px;
+    padding:0px 5px 5px 5px;
 }
 
 .copyright {
@@ -1472,7 +1500,7 @@ font-family: 'Montserrat', sans-serif;
     -o-background-size:cover;
     background-size:cover;
    height: 100vh;
-    min-height:700px;
+    min-height:800px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
