@@ -410,6 +410,9 @@ font-family: 'Poppins', sans-serif;
     margin-top: 2em;
 }
 
+   .home-foh-image img {
+        margin-top: 0.3em;
+    }   
 
 
 .home-media-card  {
@@ -511,6 +514,20 @@ font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin-top:5px;
 }
+    
+    
+ .home-main-wrapper  {
+    background:url(../images/school-content-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:auto;    
+     padding:0.5em 1em 5em 1em;   
+   
+}   
+    
 
  .home-event-card h4 {
      color :#316bff;
@@ -521,6 +538,11 @@ font-family: 'Poppins', sans-serif;
     margin-top: 0.7em;
 }
 
+    
+    .home-foh-image img {
+        margin-top: 1.5em;
+        width: 100%;
+    }   
 
     
 }
@@ -930,6 +952,15 @@ font-family: 'Poppins', sans-serif;
      padding:0em 1em 13em 1em;   
    
 }
+    
+ .foh-content p {
+   font-family: 'Poppins', sans-serif;
+    font-size: 110%;
+    font-weight: 400;
+    padding-top: 2em;  
+}
+   
+    
 }
 
 
@@ -1003,7 +1034,21 @@ box-shadow:0 3px 15px rgba(112,112,112,0.2);
 }
 
 
+@media(max-width:720px) {
+.school-content-wrapper  {
+    background:url(../images/school-content-bg.jpg) repeat center top;
+   -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    height:auto;
+    width:auto;    
+     padding:1em 1em 5em 1em;   
+   
+}
 
+   
+}
 
 
 /********GROWTH SECTION*********/
@@ -1103,7 +1148,7 @@ box-shadow:0 3px 15px rgba(112,112,112,0.2);
     font-weight: 700;
     line-height: 1em;
     color:#fff;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-align: left;
     margin-top: 2em;
 }
@@ -1119,6 +1164,10 @@ box-shadow:0 3px 15px rgba(112,112,112,0.2);
 }
 
 
+.program-white {
+    background: #ffff;
+    padding: 2em 1em;
+}
 
 .program-white img {
     padding: 4em;
@@ -1130,7 +1179,7 @@ box-shadow:0 3px 15px rgba(112,112,112,0.2);
     font-weight: 700;
     line-height: 1em;
     color:#316bff;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-align: left;
     margin-top: 2em;
 }
@@ -1158,6 +1207,54 @@ box-shadow:0 3px 15px rgba(112,112,112,0.2);
     width:auto;    
   padding:0em 1em 10em 1em;        
 }
+}
+
+
+
+@media(max-width:720px) {
+    
+   .program-white {
+    background: #ffff;
+    padding: 5em 0.5em 1.5em 0.5em;
+} 
+    
+    
+  .program-blue {
+    background: #316bff;
+    padding: 5em 0.5em 2.5em 0.5em;
+}  
+    
+  .program-blue img {
+    padding: 0.5em;
+}
+
+.program-blue h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 240%;
+    font-weight: 700;
+    line-height: 1em;
+    color:#fff;
+    letter-spacing:1px;
+    text-align: left;
+    margin-top: 0.5em;
+}
+    
+.program-white img {
+    padding: 0.5em;
+}
+
+.program-white h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 240%;
+    font-weight: 700;
+    line-height: 1em;
+    color:#316bff;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 0.5em;
+}
+    
+    
 }
 
 /*****CONTACT SECTION******/
@@ -1241,6 +1338,7 @@ box-shadow:0 3px 15px rgba(112,112,112,0.2);
     line-height: 1em;
     color:#ffff;
     letter-spacing:2px;
+    text-align: center;
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
