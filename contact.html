@@ -12,7 +12,7 @@
        <link  rel="stylesheet"  href="css/aos.css">  
       <!-- font Awsome -->
   <link rel="stylesheet" href="css/all.min.css" />
-    <title>GTSA AGENCY</title>
+    <title>HR EXTRAORDINAIRE</title>
    
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -22,7 +22,7 @@
   <body >
      
       <nav class="navbar navbar-expand-lg navbar-light bg-light my-nav fixed-top py-3">
-  <a class="navbar-brand" href="index.html">GTSA AGENCY</a>
+  <a class="navbar-brand" href="index.html">HR-E</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -72,27 +72,27 @@
                  
                </section>
                 <section class="col-xl-8">
-                <form>
+                <form name="htmlform" method="post" action="send-form-email.php">
   <div class="row">
     <div class="col-lg-6 mt-3">
-      <input type="text" class="form-control" placeholder="Surname">
+      <input type="text" class="form-control" name="first_name" placeholder="First Name">
     </div>
     <div class="col-lg-6 mt-3">
-      <input type="text" class="form-control" placeholder="Other Name(s)">
+      <input type="text" class="form-control" name="last_name"  placeholder="Last Name">
     </div>
   </div>
    <div class="row">
     <div class="col-lg-6 mt-3">
-      <input type="text" class="form-control" placeholder="Mobile Number">
+      <input type="text" class="form-control" name="telephone" placeholder="Mobile Number">
     </div>
     <div class="col-lg-6 mt-3">
-      <input type="email" class="form-control" placeholder="Email">
+      <input type="email" class="form-control" name="email" placeholder="Email">
     </div>
   </div>   
     <div class="row">
     <div class="col-lg-12 mt-3">
        <div class="form-group">
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="comments" placeholder="Message" rows="3"></textarea>
   </div>
     </div>
   </div> 
@@ -116,7 +116,7 @@
    <div class="container-fluid">
        <section class="row text-center ">
                 <section class="col-md-12 footer-logo">
-                 <p> Copyright © 2020 GTSA AGENCY </p>
+                 <p> Copyright © 2020 HR EXTRAORDINAIRE </p>
                </section>
       </section>
     </div>

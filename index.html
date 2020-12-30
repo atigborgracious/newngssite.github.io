@@ -12,7 +12,7 @@
        <link  rel="stylesheet"  href="css/aos.css">  
       <!-- font Awsome -->
   <link rel="stylesheet" href="css/all.min.css" />
-    <title>GTSA AGENCY</title>
+    <title>HR EXTRAORDINAIRE</title>
    
       
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -26,7 +26,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light my-nav fixed-top py-3 px-5">
         
           
-  <a class="navbar-brand" href="index.html">GTSA AGENCY</a>
+  <a class="navbar-brand" href="index.html">HR-E</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -47,7 +47,7 @@
       <div class="col-md-12 text-center">
        
           <h5>Welcome To</h5>
-        <h1>S&G AGENCY</h1>
+        <h1>HR <br/>EXTRAORDINAIRE</h1>
              <h6>We Are Currently Recruiting Professional Nurses, <br/> Sign Up To Join Now!</h6> 
                
        
@@ -73,25 +73,23 @@
         
         <div class="col-md-12 ">
           
-            <form class="nurse-form">
+            <form class="nurse-form" name="htmlform" method="post" action="application.php">
          <div class="form-row">
     <div class="form-group col-lg-5  mt-4">
       <label for="surname">Surname</label>
-      <input type="text" class="form-control" id="surname" placeholder="Surname" required>
+      <input type="text" class="form-control" id="surname" name="first_name" placeholder="Surname" required>
     </div>
+             
     <div class="form-group col-lg-7 mt-4">
       <label for="othername">Other Name(s)</label>
-      <input type="text" class="form-control" id="othername" placeholder="Other Name(s)" required>
+      <input type="text" class="form-control" id="othername" name="other_names" placeholder="Other Name(s)" required>
     </div>
-    <!--div class="form-group col-md-2  mt-3">
-     <label for="mobile">Mobile Number</label>
-      <input type="text" class="form-control" id="mobile" placeholder="Mobile Number" required>
-    </div-->         
+                    
   </div>   
                 
   <div class="form-row">
     
-    <div class="form-group col-lg-4 mt-4">
+    <div class="form-group col-lg-3 mt-4">
      <label for="inputState">Gender</label>
       <select id="inputState" class="form-control">
         <option selected>Choose...</option>
@@ -101,12 +99,17 @@
     </div>
     <div class="form-group col-lg-2 mt-4">
       <label for="age">Age</label>
-      <input type="text" class="form-control" id="age" placeholder="Age" required>
+      <input type="text" class="form-control" id="age" name="first_name" placeholder="Age" required>
     </div>
       
-      <div class="form-group col-lg-6  mt-4">
+      <div class="form-group col-lg-3  mt-4">
       <label for="phone-number">Phone Number</label>
-      <input type="text" class="form-control" id="phone-number" placeholder="Phone Number" required>
+      <input type="text" class="form-control" id="phone-number" name="telephone" placeholder="Phone Number" required>
+    </div>
+      
+       <div class="form-group col-lg-4  mt-4">
+      <label for="mail">Email</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
     </div>
       
   </div>  
@@ -115,13 +118,13 @@
     
         <div class="form-group col-lg-6  mt-4">
       <label for="nationality">Nationality</label>
-      <input type="text" class="form-control" id="nationality" placeholder="Nationality" required>
+      <input type="text" class="form-control" id="nationality" name="comments" placeholder="Nationality" required>
     </div>
        
     
     <div class="form-group col-lg-6 mt-4">
       <label for="idnumber">National or Voter's ID Number</label>
-      <input type="text" class="form-control" id="idnumber" placeholder="ID Number" required>
+      <input type="text" class="form-control" id="idnumber" name="idnumber" placeholder="ID Number" required>
     </div>
     
   </div> 
@@ -139,7 +142,7 @@
     </div>
     <div class="form-group col-lg-8 mt-4">
       <label for="ppexpirydate">If yes, please provide us with Passport Expiry Date</label>
-      <input type="text" class="form-control" id="ppexpirydate" placeholder="Passport Expiry Date" required>
+      <input type="text" class="form-control" id="ppexpirydate" name="passportexpiry" placeholder="Passport Expiry Date" required>
     </div>
     
   </div>              
@@ -150,7 +153,7 @@
     
         <div class="form-group col-lg-7  mt-4">
       <label for="licenseexpirydate">Professional License Expiry Date </label>
-      <input type="text" class="form-control" id="licenseexpirydate" placeholder="Professional License Expiry Date" required>
+      <input type="text" class="form-control" id="licenseexpirydate" name="licenseexpirydate" placeholder="Professional License Expiry Date" required>
     </div>
        
     <div class="form-group col-lg-5 mt-4">
@@ -219,7 +222,7 @@
    <div class="container-fluid">
        <section class="row text-center ">
                 <section class="col-md-12 footer-logo">
-                 <p> Copyright © 2020 GTSA AGENCY </p>
+                 <p> Copyright © 2020 HR EXTRAORDINAIRE </p>
                </section>
       </section>
     </div>
